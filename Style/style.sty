@@ -1,0 +1,287 @@
+\ProvidesPackage{style}
+
+\mode<presentation> {%
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+\usetheme{boxes}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+\usecolortheme{spruce}
+}
+
+\setbeamertemplate{section in toc}[sections numbered]
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+\setbeamertemplate{footline}[frame number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+\setbeamertemplate{blocks}[rounded][shadow=False]
+
+\usepackage[]{xcolor}
+\usepackage[english]{babel}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{remreset}% tiny package containing just the \@removefromreset command
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{algorithm, caption}
+\usepackage{algpseudocode}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{mathabx}
+\usepackage{nicefrac}
+\usepackage{BeamerColor}
+\usepackage{animate}
+%\usepackage{movie15}
+\usepackage{xmpmulti}
+
+
+% Tikz settings
+\tikzstyle{block} = [rectangle, draw, 
+    text width=8em, text centered, rounded corners, minimum height=4em]
+	    
+\tikzstyle{line} = [draw, -latex]
+\everymath{\displaystyle}
+\tikzstyle{every picture}+=[remember picture]
+
+\definecolor{Blue}{RGB}{24,71,118} %{0,63,106}
+\definecolor{LightBlue}{RGB}{225,248,250}
+\definecolor{SteelBlue}{RGB}{70,130,180}
+\definecolor{LightSkyBlue}{RGB}{135,206,250}
+\definecolor{LightSteelBlue}{RGB}{176,196,222}
+\definecolor{WhiteSmoke}{RGB}{245,245,245}
+\definecolor{Gainsboro}{RGB}{220,220,220}
+\definecolor{LightGray}{RGB}{211,211,211}
+\definecolor{DimGray}{RGB}{105,105,105}
+\definecolor{DarkGray}{RGB}{64,64,64}
+\definecolor{GloriousGreen}{RGB}{0,145,106}
+\definecolor{RealRed}{RGB}{215,48,39}
+\definecolor{IndianRed}{RGB}{178,34,34}
+\definecolor{LightCoral}{RGB}{250,160,122}
+\definecolor{MistyRose}{RGB}{255,245,238}
+\definecolor{MyLightGreen}{RGB}{179,200,188}
+\definecolor{MyOrange}{RGB}{240,128,31}
+
+\setbeamercolor{section in toc}{fg=title.fg}
+%\setbeamercolor{subsection in toc}{fg=DimGray}
+\setbeamercolor{normal text}{fg=DarkGray}
+%\setbeamercolor{title}{bg=Gainsboro,fg=SteelBlue}
+%\setbeamercolor{frametitle}{bg=Gainsboro,fg=SteelBlue}
+\setbeamercolor{block title}{bg=MyLightGreen,fg=title.fg}
+\setbeamercolor{block body}{bg=WhiteSmoke, fg=DarkGray}
+%\setbeamercolor{block title alerted}{bg=Blue,fg=WhiteSmoke}
+%\setbeamercolor{block body alerted}{bg=WhiteSmoke, fg=DarkGray}
+\setbeamercolor{alerted text}{fg=MyOrange}
+\setbeamercolor{enumerate item}{fg=DarkGray}
+\setbeamercolor{enumerate subitem}{fg=DarkGray}
+\setbeamercolor{itemize item}{fg=DarkGray}
+%\setbeamercolor{bibliography entry author}{fg=SteelBlue}
+%\setbeamercolor{bibliography entry title}{fg=DarkGray} 
+%\setbeamercolor{bibliography entry location}{fg=DimGray} 
+
+
+%------------------------------------------------------------------------------
+% Show toc before any section
+%------------------------------------------------------------------------------
+
+\AtBeginSection[]
+{%
+ \begin{frame}<beamer>
+ \frametitle{Plan}
+ \tableofcontents[currentsection]
+ \end{frame}
+}
+
+%------------------------------------------------------------------------------
+% Define commands for backup slides
+%------------------------------------------------------------------------------
+
+\newcommand{\backupbegin}{%
+   \newcounter{finalframe}
+   \setcounter{finalframe}{\value{framenumber}}
+}
+
+\newcommand{\backupend}{%
+   \setcounter{framenumber}{\value{finalframe}}
+}
+
+\makeatletter
+\@removefromreset{subsection}{section}
+\makeatother
+\setcounter{subsection}{1}
+
+%------------------------------------------------------------------------------
+% Bibliography style
+%------------------------------------------------------------------------------
+
+% Bibliography
+\bibliographystyle{apalike}
+
+%-----------------------
+% User-defined commands 
+%-------------------------
+
+% User-defined commands
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\triu}{triu}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argsup}{arg\,sup}
+\DeclareMathOperator*{\arginf}{arg\,inf}
+\DeclareMathOperator*{\Sh}{Sh}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\ind}[1]{\mathbbm{1}_{#1}}
+\newcommand{\R}{\mathbb{R}}
+\renewcommand{\S}{\mathbb{S}}
+\newcommand{\calS}{\mathcal{S}}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\calA}{\mathcal{A}}
+\renewcommand{\H}{\mathbb{H}}
+\newcommand{\calH}{\mathcal{H}}
+\newcommand{\calP}{\mathcal{P}}
+\newcommand{\calR}{\mathcal{R}}
+\newcommand{\calM}{\mathcal{M}}
+\newcommand{\calN}{\mathcal{N}}
+\newcommand{\calK}{\mathcal{K}}
+\newcommand{\E}[2][]{\mathbb{E}_{#1}\left[ #2 \right]}
+\renewcommand{\P}[2][]{\mathbb{P}_{#1}\left( #2 \right)}
+
+\newcommand{\pardev}[2]{\frac{\partial #1}{\partial #2}}
+
+% Algorithmic - rename require/ensure to input/output
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  keepspaces=true,
+}
+
+
+% User-defined commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Utils
+\newcommand{\todol}[1]{\todo[inline]{#1}}
+
+%Text
+\RequirePackage{xspace}
+\DeclareRobustCommand{\eg}{e.g.,\@\xspace}
+\DeclareRobustCommand{\ie}{i.e.,\@\xspace}
+\DeclareRobustCommand{\wrt}{w.r.t.\@\xspace}
+\DeclareRobustCommand{\iid}{i.i.d.\@\xspace}
+\DeclareRobustCommand{\wlg}{w.l.o.g.\@\xspace}
+\DeclareRobustCommand{\cf}{cf.\@\xspace}
+
+%Decoration
+\newcommand{\wh}[1]{\widehat{#1}}
+\newcommand{\wc}[1]{\widecheck{#1}}
+\newcommand{\wt}[1]{\widetilde{#1}}
+\newcommand{\vtheta}{\boldsymbol{\theta}}
+\newcommand{\vxi}{\boldsymbol{\xi}}
+\newcommand{\vphi}{\boldsymbol{\phi}}
+\newcommand{\vu}{\boldsymbol{u}}
+\newcommand{\vx}{\boldsymbol{x}}
+\newcommand{\vomega}{\boldsymbol{\omega}}
+\newcommand{\vmu}{\boldsymbol{\mu}}
+\newcommand{\sigmai}{\sigma_{i}}
+\newcommand{\thetai}{\theta_{i}}
+\newcommand{\mui}{\mu_{i}}
+
+%Math
+\newcommand{\Reals}{\mathbb{R}}
+\newcommand{\Naturals}{\mathbb{N}}
+\newcommand{\de}{\mathrm{d}}
+\newcommand{\Xspace}{\mathcal{X}}
+\newcommand{\Tau}{\mathcal{T}}
+\newcommand{\Renyi}{R\'{e}nyi }
+\newcommand{\simiid}{\stackrel{\text{iid}}{\sim}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\Exp}{\mathop{\mathbb{E}}}
+\newcommand{\Var}{\mathop{\mathbb{V}\mathrm{ar}}}
+\newcommand{\Expu}[1]{\underset{#1}{\mathbb{E}}}
+\newcommand{\Varu}[1]{\underset{#1}{\mathbb{V}\mathrm{ar}}}
+\newcommand{\norm}[2][]{\left\|#2\right\|_{#1}}
+\newcommand{\myExp}[1]{\mathop{\mathbb{E}\left[{#1}\right]}}
+\newcommand{\myExpu}[2]{\underset{#1}{\mathbb{E}}\left[{#2}\right]}
+\newcommand{\Cov}{\boldsymbol{\Sigma}}
+
+
+%RL
+\newcommand{\Sspace}{\mathcal{S}}
+\newcommand{\Aspace}{\mathcal{A}}
+\newcommand{\Tran}{\mathcal{P}}
+\newcommand{\Rew}{\mathcal{R}}
+\newcommand{\Rmax}{R_{\max}}
+\newcommand{\init}{\mu}
+\newcommand{\Task}{\mathcal{M}}
+\newcommand{\policyT}{\pi_{\boldsymbol{\theta}'}}
+\newcommand{\policyB}[1]{\pi_{\boldsymbol{\theta}_{#1}}}
+\newcommand{\params}[2]{\boldsymbol{\theta}_{#1}^{#2}}
+
+%Bandit
+\newcommand{\Reg}{\textit{Regret}}
+
+%Specific macros
+\newcommand{\muo}{\hat{\mu}_{\omega}}
+\newcommand{\mua}{\hat{\mu}_{\alpha}}
+\newcommand{\muab}{\hat{\mu}_{\alpha,\beta}}
+\newcommand{\muabopt}{\hat{\mu}_{\alpha,\beta^{opt}}}
+\DeclareRobustCommand{\algoname}{OPTIMIST\@\xspace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Paragraph and line spacing
+%\setlength\parindent{0pt}
+%\setlength{\parskip}{0.6em}
+%\renewcommand{\baselinestretch}{1.2}
+%\allowdisplaybreaks[4]
+%\sloppy

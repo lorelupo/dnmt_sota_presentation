@@ -1,0 +1,97 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[11.5pt, aspectratio=169]{beamer} %handout
+
+\usepackage{Style/style}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+% The short title appears at the bottom of every slide, the full title is only on the title page
+\title[]{-SOTA-\\Document-level Neural Machine Translation} 
+
+\author[L.\,Lupo]
+{%
+  \texorpdfstring{
+    \begin{columns}%[onlytextwidth]
+      \column{1\linewidth}
+      \centering
+      by Lorenzo Lupo\\
+%      Supervisors: Laurent Besacier, Marco Dinarelli\\
+    \end{columns}
+  }
+  {Lorenzo Lupo}
+}
+		 
+%\institute[Polimi] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{%
+%Politecnico di Milano%\\ % Your institution for the title page
+%\medskip
+%\textit{john@smith.com} % Your email address
+}
+\date{April 2020}
+
+
+
+\begin{document}
+
+\begin{frame}[plain]
+%	\begin{figure}[htpb]
+%		\centering
+%		\includegraphics[width=0.3\linewidth]{Images/polimi}
+%	\end{figure}
+	\titlepage
+\end{frame}
+
+%------------------------------------------------------------------------------
+% Introduzione 
+%------------------------------------------------------------------------------
+
+%\input{Sections/0_introduction}
+
+%------------------------------------------------------------------------------
+% Indice 
+%------------------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{Plan} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%------------------------------------------------------------------------------
+% Corpo della presentazione 
+%------------------------------------------------------------------------------
+
+\input{Sections/1_modern_nmt}
+\input{Sections/2_evaluation}
+%\input{Sections/3_models}
+%\input{Sections/4_conclusions}
+
+
+\begin{frame}[c]{}
+  \begin{center}
+	  \Huge Thank you for your attention!
+  \end{center} 
+\end{frame}
+
+%------------------------------------------------------------------------------
+% Appendice
+%------------------------------------------------------------------------------
+
+\appendix
+\backupbegin
+
+\begin{frame}[allowframebreaks]
+\frametitle{\refname}
+\nocite{*}
+\bibliography{Bibliography/AAA,Bibliography/evaluation, Bibliography/architectures, Bibliography/bibliography}
+\end{frame}
+
+\input{Sections/appendix}
+
+\backupend
+
+\end{document}
