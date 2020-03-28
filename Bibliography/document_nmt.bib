@@ -1,0 +1,1705 @@
+
+@article{voita_context-aware_2019,
+	title = {Context-{Aware} {Monolingual} {Repair} for {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1909.01383},
+	abstract = {Modern sentence-level NMT systems often produce plausible translations of isolated sentences. However, when put in context, these translations may end up being inconsistent with each other. We propose a monolingual DocRepair model to correct inconsistencies between sentence-level translations. DocRepair performs automatic post-editing on a sequence of sentence-level translations, refining translations of sentences in context of each other. For training, the DocRepair model requires only monolingual document-level data in the target language. It is trained as a monolingual sequence-to-sequence model that maps inconsistent groups of sentences into consistent ones. The consistent groups come from the original training data; the inconsistent groups are obtained by sampling round-trip translations for each isolated sentence. We show that this approach successfully imitates inconsistencies we aim to fix: using contrastive evaluation, we show large improvements in the translation of several contextual phenomena in an English-Russian translation task, as well as improvements in the BLEU score. We also conduct a human evaluation and show a strong preference of the annotators to corrected translations over the baseline ones. Moreover, we analyze which discourse phenomena are hard to capture using monolingual data only.},
+	urldate = {2020-01-13},
+	journal = {arXiv:1909.01383 [cs]},
+	author = {Voita, Elena and Sennrich, Rico and Titov, Ivan},
+	month = oct,
+	year = {2019},
+	note = {00003 
+arXiv: 1909.01383},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/43RKRASU/1909.html:text/html}
+}
+
+@article{kim_when_2019,
+	title = {When and {Why} is {Document}-level {Context} {Useful} in {Neural} {Machine} {Translation}?},
+	url = {http://arxiv.org/abs/1910.00294},
+	abstract = {Document-level context has received lots of attention for compensating neural machine translation (NMT) of isolated sentences. However, recent advances in document-level NMT focus on sophisticated integration of the context, explaining its improvement with only a few selected examples or targeted test sets. We extensively quantify the causes of improvements by a document-level model in general test sets, clarifying the limit of the usefulness of document-level context in NMT. We show that most of the improvements are not interpretable as utilizing the context. We also show that a minimal encoding is sufficient for the context modeling and very long context is not helpful for NMT.},
+	urldate = {2020-01-13},
+	journal = {arXiv:1910.00294 [cs]},
+	author = {Kim, Yunsu and Tran, Duc Thanh and Ney, Hermann},
+	month = oct,
+	year = {2019},
+	note = {00001 
+arXiv: 1910.00294},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/AXHMMGK3/1910.html:text/html}
+}
+
+@inproceedings{tan_hierarchical_2019,
+	address = {Hong Kong, China},
+	title = {Hierarchical {Modeling} of {Global} {Context} for {Document}-{Level} {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/D19-1168},
+	doi = {10.18653/v1/D19-1168},
+	abstract = {Document-level machine translation (MT) remains challenging due to the difficulty in efficiently using document context for translation. In this paper, we propose a hierarchical model to learn the global context for document-level neural machine translation (NMT). This is done through a sentence encoder to capture intra-sentence dependencies and a document encoder to model document-level inter-sentence consistency and coherence. With this hierarchical architecture, we feedback the extracted global document context to each word in a top-down fashion to distinguish different translations of a word according to its specific surrounding context. In addition, since large-scale in-domain document-level parallel corpora are usually unavailable, we use a two-step training strategy to take advantage of a large-scale corpus with out-of-domain parallel sentence pairs and a small-scale corpus with in-domain parallel document pairs to achieve the domain adaptability. Experimental results on several benchmark corpora show that our proposed model can significantly improve document-level translation performance over several strong NMT baselines.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the 2019 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing} and the 9th {International} {Joint} {Conference} on {Natural} {Language} {Processing} ({EMNLP}-{IJCNLP})},
+	publisher = {Association for Computational Linguistics},
+	author = {Tan, Xin and Zhang, Longyin and Xiong, Deyi and Zhou, Guodong},
+	month = nov,
+	year = {2019},
+	note = {00002},
+	keywords = {read},
+	pages = {1576--1585}
+}
+
+@misc{noauthor_httpsmemadeu20190806document-level-machine-translation_nodate,
+	title = {https://memad.eu/2019/08/06/document-level-machine-translation/},
+	url = {https://memad.eu/2019/08/06/document-level-machine-translation/},
+	abstract = {blog post on document NMT},
+	note = {00000}
+}
+
+@article{joty_discotk_2019,
+	title = {{DiscoTK}: {Using} {Discourse} {Structure} for {Machine} {Translation} {Evaluation}},
+	shorttitle = {{DiscoTK}},
+	url = {http://arxiv.org/abs/1911.12547},
+	abstract = {We present novel automatic metrics for machine translation evaluation that use discourse structure and convolution kernels to compare the discourse tree of an automatic translation with that of the human reference. We experiment with five transformations and augmentations of a base discourse tree representation based on the rhetorical structure theory, and we combine the kernel scores for each of them into a single score. Finally, we add other metrics from the ASIYA MT evaluation toolkit, and we tune the weights of the combination on actual human judgments. Experiments on the WMT12 and WMT13 metrics shared task datasets show correlation with human judgments that outperforms what the best systems that participated in these years achieved, both at the segment and at the system level.},
+	urldate = {2020-01-13},
+	journal = {arXiv:1911.12547 [cs]},
+	author = {Joty, Shafiq and Guzman, Francisco and Marquez, Lluis and Nakov, Preslav},
+	month = nov,
+	year = {2019},
+	note = {00021 
+arXiv: 1911.12547},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence, I.2.7, 68T50},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/YMGLA8EC/1911.html:text/html}
+}
+
+@article{yang_enhancing_2019,
+	title = {Enhancing {Context} {Modeling} with a {Query}-{Guided} {Capsule} {Network} for {Document}-level {Translation}},
+	url = {http://arxiv.org/abs/1909.00564},
+	doi = {10.18653/v1/D19-1164},
+	abstract = {Context modeling is essential to generate coherent and consistent translation for Document-level Neural Machine Translations. The widely used method for document-level translation usually compresses the context information into a representation via hierarchical attention networks. However, this method neither considers the relationship between context words nor distinguishes the roles of context words. To address this problem, we propose a query-guided capsule networks to cluster context information into different perspectives from which the target translation may concern. Experiment results show that our method can significantly outperform strong baselines on multiple data sets of different domains.},
+	urldate = {2020-01-13},
+	journal = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+	author = {Yang, Zhengxin and Zhang, Jinchao and Meng, Fandong and Gu, Shuhao and Feng, Yang and Zhou, Jie},
+	year = {2019},
+	note = {00000 
+arXiv: 1909.00564},
+	keywords = {Computer Science - Computation and Language},
+	pages = {1527--1537},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/JZDV9MMY/1909.html:text/html}
+}
+
+@article{yu_putting_2019,
+	title = {Putting {Machine} {Translation} in {Context} with the {Noisy} {Channel} {Model}},
+	url = {http://arxiv.org/abs/1910.00553},
+	abstract = {We show that Bayes' rule provides a compelling mechanism for controlling unconditional document language models, using the long-standing challenge of effectively leveraging document context in machine translation. In our formulation, we estimate the probability of a candidate translation as the product of the unconditional probability of the candidate output document and the ``reverse translation probability'' of translating the candidate output back into the input source language document---the so-called ``noisy channel'' decomposition. A particular advantage of our model is that it requires only parallel sentences to train, rather than parallel documents, which are not always available. Using a new beam search reranking approximation to solve the decoding problem, we find that document language models outperform language models that assume independence between sentences, and that using either a document or sentence language model outperforms comparable models that directly estimate the translation probability. We obtain the best-published results on the NIST Chinese--English translation task, a standard task for evaluating document translation. Our model also outperforms the benchmark Transformer model by approximately 2.5 BLEU on the WMT19 Chinese--English translation task.},
+	urldate = {2020-01-13},
+	journal = {arXiv:1910.00553 [cs]},
+	author = {Yu, Lei and Sartran, Laurent and Stokowiec, Wojciech and Ling, Wang and Kong, Lingpeng and Blunsom, Phil and Dyer, Chris},
+	month = oct,
+	year = {2019},
+	note = {00000 
+arXiv: 1910.00553},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/GQ49QYF4/1910.html:text/html}
+}
+
+@article{li_pretrained_2019,
+	title = {Pretrained {Language} {Models} for {Document}-{Level} {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1911.03110},
+	abstract = {Previous work on document-level NMT usually focuses on limited contexts because of degraded performance on larger contexts. In this paper, we investigate on using large contexts with three main contributions: (1) Different from previous work which pertrained models on large-scale sentence-level parallel corpora, we use pretrained language models, specifically BERT, which are trained on monolingual documents; (2) We propose context manipulation methods to control the influence of large contexts, which lead to comparable results on systems using small and large contexts; (3) We introduce a multi-task training for regularization to avoid models overfitting our training corpora, which further improves our systems together with a deeper encoder. Experiments are conducted on the widely used IWSLT data sets with three language pairs, i.e., Chinese--English, French--English and Spanish--English. Results show that our systems are significantly better than three previously reported document-level systems.},
+	urldate = {2020-01-13},
+	journal = {arXiv:1911.03110 [cs]},
+	author = {Li, Liangyou and Jiang, Xin and Liu, Qun},
+	month = nov,
+	year = {2019},
+	note = {00001 
+arXiv: 1911.03110},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/J6XRZ8AN/1911.html:text/html}
+}
+
+@article{dobreva_document_2019,
+	title = {Document {Sub}-structure in {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1912.06598},
+	abstract = {Current approaches to machine translation (MT) either translate sentences in isolation, disregarding the context they appear in, or model context on the level of the full document, without a notion of any internal structure the document may have. In this work we consider the fact that documents are rarely homogeneous blocks of text, but rather consist of parts covering different topics. Some documents, e.g. biographies and encyclopedia entries have highly predictable, regular structures in which sections are characterised by different topics. We draw inspiration from Louis and Webber (2014) who use this information to improve MT and transfer their proposal into the framework of neural MT. We compare two different methods of including information about the topic of the section within which each sentence is found: one using side constraints and the other using a cache-based model. We create and release the data on which we run our experiments -- parallel corpora for three language pairs (Chinese-English, French-English, Bulgarian-English) from Wikipedia biographies, preserving the boundaries of sections within the articles.},
+	urldate = {2020-01-13},
+	journal = {arXiv:1912.06598 [cs]},
+	author = {Dobreva, Radina and Zhou, Jie and Bawden, Rachel},
+	month = dec,
+	year = {2019},
+	note = {00000 
+arXiv: 1912.06598},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/86G89QL7/1912.html:text/html}
+}
+
+@article{maruf_survey_2019,
+	title = {A {Survey} on {Document}-level {Machine} {Translation}: {Methods} and {Evaluation}},
+	shorttitle = {A {Survey} on {Document}-level {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1912.08494},
+	abstract = {Machine translation (MT) is an important task in natural language processing (NLP) as it automates the translation process and reduces the reliance on human translators. With the advent of neural networks, the translation quality surpasses that of the translations obtained using statistical techniques. Up until three years ago, all neural translation models translated sentences independently, without incorporating any extra-sentential information. The aim of this paper is to highlight the major works that have been undertaken in the space of document-level machine translation before and after the neural revolution so that researchers can recognise where we started from and which direction we are heading in. When talking about the literature in statistical machine translation (SMT), we focus on works which have tried to improve the translation of specific discourse phenomena, while in neural machine translation (NMT), we focus on works which use the wider context explicitly. In addition to this, we also cover the evaluation strategies that have been introduced to account for the improvements in this domain.},
+	urldate = {2020-01-13},
+	journal = {arXiv:1912.08494 [cs]},
+	author = {Maruf, Sameen and Saleh, Fahimeh and Haffari, Gholamreza},
+	month = dec,
+	year = {2019},
+	note = {00000 
+arXiv: 1912.08494},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/5C9VD4HE/1912.html:text/html;Maruf et al. - 2019 - A Survey on Document-level Machine Translation Me.pdf:/home/lupol/Zotero/storage/DTVQM8DI/Maruf et al. - 2019 - A Survey on Document-level Machine Translation Me.pdf:application/pdf}
+}
+
+@inproceedings{lapshinova-koltunski_analysing_2019,
+	address = {Hong Kong, China},
+	title = {Analysing {Coreference} in {Transformer} {Outputs}},
+	url = {https://www.aclweb.org/anthology/D19-6501},
+	doi = {10.18653/v1/D19-6501},
+	abstract = {We analyse coreference phenomena in three neural machine translation systems trained with different data settings with or without access to explicit intra- and cross-sentential anaphoric information. We compare system performance on two different genres: news and TED talks. To do this, we manually annotate (the possibly incorrect) coreference chains in the MT outputs and evaluate the coreference chain translations. We define an error typology that aims to go further than pronoun translation adequacy and includes types such as incorrect word selection or missing words. The features of coreference chains in automatic translations are also compared to those of the source texts and human translations. The analysis shows stronger potential translationese effects in machine translated outputs than in human translations.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the {Fourth} {Workshop} on {Discourse} in {Machine} {Translation} ({DiscoMT} 2019)},
+	publisher = {Association for Computational Linguistics},
+	author = {Lapshinova-Koltunski, Ekaterina and España-Bonet, Cristina and van Genabith, Josef},
+	month = nov,
+	year = {2019},
+	note = {00000},
+	pages = {1--12}
+}
+
+@inproceedings{martinez_garcia_context-aware_2019,
+	address = {Hong Kong, China},
+	title = {Context-{Aware} {Neural} {Machine} {Translation} {Decoding}},
+	url = {https://www.aclweb.org/anthology/D19-6502},
+	doi = {10.18653/v1/D19-6502},
+	abstract = {This work presents a decoding architecture that fuses the information from a neural translation model and the context semantics enclosed in a semantic space language model based on word embeddings. The method extends the beam search decoding process and therefore can be applied to any neural machine translation framework. With this, we sidestep two drawbacks of current document-level systems: (i) we do not modify the training process so there is no increment in training time, and (ii) we do not require document-level an-notated data. We analyze the impact of the fusion system approach and its parameters on the final translation quality for English–Spanish. We obtain consistent and statistically significant improvements in terms of BLEU and METEOR and we observe how the fused systems are able to handle synonyms to propose more adequate translations as well as help the system to disambiguate among several translation candidates for a word.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the {Fourth} {Workshop} on {Discourse} in {Machine} {Translation} ({DiscoMT} 2019)},
+	publisher = {Association for Computational Linguistics},
+	author = {Martínez Garcia, Eva and Creus, Carles and España-Bonet, Cristina},
+	month = nov,
+	year = {2019},
+	note = {00000},
+	keywords = {read},
+	pages = {13--23}
+}
+
+@inproceedings{sugiyama_data_2019,
+	address = {Hong Kong, China},
+	title = {Data augmentation using back-translation for context-aware neural machine translation},
+	url = {https://www.aclweb.org/anthology/D19-6504},
+	doi = {10.18653/v1/D19-6504},
+	abstract = {A single sentence does not always convey information that is enough to translate it into other languages. Some target languages need to add or specialize words that are omitted or ambiguous in the source languages (e.g, zero pronouns in translating Japanese to English or epicene pronouns in translating English to French). To translate such ambiguous sentences, we need contexts beyond a single sentence, and have so far explored context-aware neural machine translation (NMT). However, a large amount of parallel corpora is not easily available to train accurate context-aware NMT models. In this study, we first obtain large-scale pseudo parallel corpora by back-translating monolingual data, and then investigate its impact on the translation accuracy of context-aware NMT models. We evaluated context-aware NMT models trained with small parallel corpora and the large-scale pseudo parallel corpora on English-Japanese and English-French datasets to demonstrate the large impact of the data augmentation for context-aware NMT models.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the {Fourth} {Workshop} on {Discourse} in {Machine} {Translation} ({DiscoMT} 2019)},
+	publisher = {Association for Computational Linguistics},
+	author = {Sugiyama, Amane and Yoshinaga, Naoki},
+	month = nov,
+	year = {2019},
+	note = {00000},
+	keywords = {read},
+	pages = {35--44}
+}
+
+@inproceedings{ohtani_context-aware_2019,
+	address = {Hong Kong, China},
+	title = {Context-aware {Neural} {Machine} {Translation} with {Coreference} {Information}},
+	url = {https://www.aclweb.org/anthology/D19-6505},
+	doi = {10.18653/v1/D19-6505},
+	abstract = {We present neural machine translation models for translating a sentence in a text by using a graph-based encoder which can consider coreference relations provided within the text explicitly. The graph-based encoder can dynamically encode the source text without attending to all tokens in the text. In experiments, our proposed models provide statistically significant improvement to the previous approach of at most 0.9 points in the BLEU score on the OpenSubtitle2018 English-to-Japanese data set. Experimental results also show that the graph-based encoder can handle a longer text well, compared with the previous approach.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the {Fourth} {Workshop} on {Discourse} in {Machine} {Translation} ({DiscoMT} 2019)},
+	publisher = {Association for Computational Linguistics},
+	author = {Ohtani, Takumi and Kamigaito, Hidetaka and Nagata, Masaaki and Okumura, Manabu},
+	month = nov,
+	year = {2019},
+	note = {00000},
+	keywords = {read},
+	pages = {45--50}
+}
+
+@inproceedings{scherrer_analysing_2019,
+	address = {Hong Kong, China},
+	title = {Analysing concatenation approaches to document-level {NMT} in two different domains},
+	url = {https://www.aclweb.org/anthology/D19-6506},
+	doi = {10.18653/v1/D19-6506},
+	abstract = {In this paper, we investigate how different aspects of discourse context affect the performance of recent neural MT systems. We describe two popular datasets covering news and movie subtitles and we provide a thorough analysis of the distribution of various document-level features in their domains. Furthermore, we train a set of context-aware MT models on both datasets and propose a comparative evaluation scheme that contrasts coherent context with artificially scrambled documents and absent context, arguing that the impact of discourse-aware MT models will become visible in this way. Our results show that the models are indeed affected by the manipulation of the test data, providing a different view on document-level translation quality than absolute sentence-level scores.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the {Fourth} {Workshop} on {Discourse} in {Machine} {Translation} ({DiscoMT} 2019)},
+	publisher = {Association for Computational Linguistics},
+	author = {Scherrer, Yves and Tiedemann, Jörg and Loáiciga, Sharid},
+	month = nov,
+	year = {2019},
+	note = {00000},
+	keywords = {read},
+	pages = {51--61}
+}
+
+@inproceedings{voita_when_2019,
+	address = {Florence, Italy},
+	title = {When a {Good} {Translation} is {Wrong} in {Context}: {Context}-{Aware} {Machine} {Translation} {Improves} on {Deixis}, {Ellipsis}, and {Lexical} {Cohesion}},
+	shorttitle = {When a {Good} {Translation} is {Wrong} in {Context}},
+	url = {https://www.aclweb.org/anthology/P19-1116},
+	doi = {10.18653/v1/P19-1116},
+	abstract = {Though machine translation errors caused by the lack of context beyond one sentence have long been acknowledged, the development of context-aware NMT systems is hampered by several problems. Firstly, standard metrics are not sensitive to improvements in consistency in document-level translations. Secondly, previous work on context-aware NMT assumed that the sentence-aligned parallel data consisted of complete documents while in most practical scenarios such document-level data constitutes only a fraction of the available parallel data. To address the first issue, we perform a human study on an English-Russian subtitles dataset and identify deixis, ellipsis and lexical cohesion as three main sources of inconsistency. We then create test sets targeting these phenomena. To address the second shortcoming, we consider a set-up in which a much larger amount of sentence-level data is available compared to that aligned at the document level. We introduce a model that is suitable for this scenario and demonstrate major gains over a context-agnostic baseline on our new benchmarks without sacrificing performance as measured with BLEU.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Voita, Elena and Sennrich, Rico and Titov, Ivan},
+	month = jul,
+	year = {2019},
+	note = {00007},
+	keywords = {read},
+	pages = {1198--1212}
+}
+
+@inproceedings{voita_analyzing_2019,
+	address = {Florence, Italy},
+	title = {Analyzing {Multi}-{Head} {Self}-{Attention}: {Specialized} {Heads} {Do} the {Heavy} {Lifting}, the {Rest} {Can} {Be} {Pruned}},
+	shorttitle = {Analyzing {Multi}-{Head} {Self}-{Attention}},
+	url = {https://www.aclweb.org/anthology/P19-1580},
+	doi = {10.18653/v1/P19-1580},
+	abstract = {Multi-head self-attention is a key component of the Transformer, a state-of-the-art architecture for neural machine translation. In this work we evaluate the contribution made by individual attention heads to the overall performance of the model and analyze the roles played by them in the encoder. We find that the most important and confident heads play consistent and often linguistically-interpretable roles. When pruning heads using a method based on stochastic gates and a differentiable relaxation of the L0 penalty, we observe that specialized heads are last to be pruned. Our novel pruning method removes the vast majority of heads without seriously affecting performance. For example, on the English-Russian WMT dataset, pruning 38 out of 48 encoder heads results in a drop of only 0.15 BLEU.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Voita, Elena and Talbot, David and Moiseev, Fedor and Sennrich, Rico and Titov, Ivan},
+	month = jul,
+	year = {2019},
+	note = {00033},
+	pages = {5797--5808}
+}
+
+@inproceedings{voita_bottom-up_2019,
+	address = {Hong Kong, China},
+	title = {The {Bottom}-up {Evolution} of {Representations} in the {Transformer}: {A} {Study} with {Machine} {Translation} and {Language} {Modeling} {Objectives}},
+	shorttitle = {The {Bottom}-up {Evolution} of {Representations} in the {Transformer}},
+	url = {https://www.aclweb.org/anthology/D19-1448},
+	doi = {10.18653/v1/D19-1448},
+	abstract = {We seek to understand how the representations of individual tokens and the structure of the learned feature space evolve between layers in deep neural networks under different learning objectives. We chose the Transformers for our analysis as they have been shown effective with various tasks, including machine translation (MT), standard left-to-right language models (LM) and masked language modeling (MLM). Previous work used black-box probing tasks to show that the representations learned by the Transformer differ significantly depending on the objective. In this work, we use canonical correlation analysis and mutual information estimators to study how information flows across Transformer layers and observe that the choice of the objective determines this process. For example, as you go from bottom to top layers, information about the past in left-to-right language models gets vanished and predictions about the future get formed. In contrast, for MLM, representations initially acquire information about the context around the token, partially forgetting the token identity and producing a more generalized token representation. The token identity then gets recreated at the top MLM layers.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the 2019 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing} and the 9th {International} {Joint} {Conference} on {Natural} {Language} {Processing} ({EMNLP}-{IJCNLP})},
+	publisher = {Association for Computational Linguistics},
+	author = {Voita, Elena and Sennrich, Rico and Titov, Ivan},
+	month = nov,
+	year = {2019},
+	note = {00000},
+	pages = {4395--4405}
+}
+
+@inproceedings{muller_large-scale_2018,
+	address = {Brussels, Belgium},
+	title = {A {Large}-{Scale} {Test} {Set} for the {Evaluation} of {Context}-{Aware} {Pronoun} {Translation} in {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/W18-6307},
+	doi = {10.18653/v1/W18-6307},
+	abstract = {The translation of pronouns presents a special challenge to machine translation to this day, since it often requires context outside the current sentence. Recent work on models that have access to information across sentence boundaries has seen only moderate improvements in terms of automatic evaluation metrics such as BLEU. However, metrics that quantify the overall translation quality are ill-equipped to measure gains from additional context. We argue that a different kind of evaluation is needed to assess how well models translate inter-sentential phenomena such as pronouns. This paper therefore presents a test suite of contrastive translations focused specifically on the translation of pronouns. Furthermore, we perform experiments with several context-aware models. We show that, while gains in BLEU are moderate for those systems, they outperform baselines by a large margin in terms of accuracy on our contrastive test set. Our experiments also show the effectiveness of parameter tying for multi-encoder architectures.},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the {Third} {Conference} on {Machine} {Translation}: {Research} {Papers}},
+	publisher = {Association for Computational Linguistics},
+	author = {Müller, Mathias and Rios, Annette and Voita, Elena and Sennrich, Rico},
+	month = oct,
+	year = {2018},
+	note = {00010},
+	pages = {61--72}
+}
+
+@inproceedings{voita_context-aware_2018,
+	address = {Melbourne, Australia},
+	title = {Context-{Aware} {Neural} {Machine} {Translation} {Learns} {Anaphora} {Resolution}},
+	url = {https://www.aclweb.org/anthology/P18-1117},
+	doi = {10.18653/v1/P18-1117},
+	abstract = {Standard machine translation systems process sentences in isolation and hence ignore extra-sentential information, even though extended context can both prevent mistakes in ambiguous cases and improve translation coherence. We introduce a context-aware neural machine translation model designed in such way that the flow of information from the extended context to the translation model can be controlled and analyzed. We experiment with an English-Russian subtitles dataset, and observe that much of what is captured by our model deals with improving pronoun translation. We measure correspondences between induced attention distributions and coreference relations and observe that the model implicitly captures anaphora. It is consistent with gains for sentences where pronouns need to be gendered in translation. Beside improvements in anaphoric cases, the model also improves in overall BLEU, both over its context-agnostic version (+0.7) and over simple concatenation of the context and source sentences (+0.6).},
+	urldate = {2020-01-13},
+	booktitle = {Proceedings of the 56th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics} ({Volume} 1: {Long} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Voita, Elena and Serdyukov, Pavel and Sennrich, Rico and Titov, Ivan},
+	month = jul,
+	year = {2018},
+	note = {00047},
+	keywords = {read},
+	pages = {1264--1274}
+}
+
+@article{nikita_kitaev_reformer_nodate,
+	title = {{REFORMER}: {THE} {EFFICIENT} {TRANSFORMER}},
+	url = {https://arxiv.org/pdf/2001.04451.pdf},
+	abstract = {Large Transformer models routinely achieve state-of-the-art results on a number of tasks but training these models can be prohibitively costly, especially on long sequences. We introduce two techniques to improve the efficiency of Transform- ers. For one, we replace dot-product attention by one that uses locality-sensitive hashing, changing its complexity from O(L2 ) to O(L log L), where L is the length of the sequence. Furthermore, we use reversible residual layers instead of the standard residuals, which allows storing activations only once in the training pro- cess instead of N times, where N is the number of layers. The resulting model, the Reformer, performs on par with Transformer models while being much more memory-efficient and much faster on long sequences.},
+	author = {Nikita Kitaev, Łukasz Kaiser and Anselm Levskaya},
+	note = {00002 
+This paper propose an efficient model (memory efficient and fast) on very long sequences ={\textgreater} since document level NMT is also a matter of handling longer sequences, i find it relevant for Lorenzo's PhD},
+	keywords = {read}
+}
+
+@article{bahdanau_neural_2016,
+	title = {Neural {Machine} {Translation} by {Jointly} {Learning} to {Align} and {Translate}},
+	url = {http://arxiv.org/abs/1409.0473},
+	abstract = {Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.},
+	urldate = {2020-01-14},
+	journal = {arXiv:1409.0473 [cs, stat]},
+	author = {Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua},
+	month = may,
+	year = {2016},
+	note = {10171 
+arXiv: 1409.0473},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computation and Language, Computer Science - Neural and Evolutionary Computing},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/PD5B65U8/1409.html:text/html}
+}
+
+@article{vaswani_attention_2017,
+	title = {Attention {Is} {All} {You} {Need}},
+	url = {http://arxiv.org/abs/1706.03762},
+	abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.},
+	urldate = {2020-01-14},
+	journal = {arXiv:1706.03762 [cs]},
+	author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+	month = dec,
+	year = {2017},
+	note = {05728 
+arXiv: 1706.03762},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/RKCWKDXJ/1706.html:text/html}
+}
+
+@inproceedings{melamed_precision_2003,
+	title = {Precision and {Recall} of {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/N03-2021},
+	urldate = {2020-01-14},
+	booktitle = {Companion {Volume} of the {Proceedings} of {HLT}-{NAACL} 2003 - {Short} {Papers}},
+	author = {Melamed, I. Dan and Green, Ryan and Turian, Joseph P.},
+	year = {2003},
+	note = {00000},
+	keywords = {read},
+	pages = {61--63}
+}
+
+@inproceedings{banerjee_meteor_2005,
+	address = {Ann Arbor, Michigan},
+	title = {{METEOR}: {An} {Automatic} {Metric} for {MT} {Evaluation} with {Improved} {Correlation} with {Human} {Judgments}},
+	shorttitle = {{METEOR}},
+	url = {https://www.aclweb.org/anthology/W05-0909},
+	urldate = {2020-01-16},
+	booktitle = {Proceedings of the {ACL} {Workshop} on {Intrinsic} and {Extrinsic} {Evaluation} {Measures} for {Machine} {Translation} and/or {Summarization}},
+	publisher = {Association for Computational Linguistics},
+	author = {Banerjee, Satanjeev and Lavie, Alon},
+	month = jun,
+	year = {2005},
+	note = {00000},
+	pages = {65--72}
+}
+
+@inproceedings{koehn_statistical_2004,
+	address = {Barcelona, Spain},
+	title = {Statistical {Significance} {Tests} for {Machine} {Translation} {Evaluation}},
+	url = {https://www.aclweb.org/anthology/W04-3250},
+	urldate = {2020-01-16},
+	booktitle = {Proceedings of the 2004 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Koehn, Philipp},
+	month = jul,
+	year = {2004},
+	note = {00000},
+	pages = {388--395}
+}
+
+@inproceedings{miculicich_werlen_validation_2017,
+	address = {Copenhagen, Denmark},
+	title = {Validation of an {Automatic} {Metric} for the {Accuracy} of {Pronoun} {Translation} ({APT})},
+	url = {https://www.aclweb.org/anthology/W17-4802},
+	doi = {10.18653/v1/W17-4802},
+	abstract = {In this paper, we define and assess a reference-based metric to evaluate the accuracy of pronoun translation (APT). The metric automatically aligns a candidate and a reference translation using GIZA++ augmented with specific heuristics, and then counts the number of identical or different pronouns, with provision for legitimate variations and omitted pronouns. All counts are then combined into one score. The metric is applied to the results of seven systems (including the baseline) that participated in the DiscoMT 2015 shared task on pronoun translation from English to French. The APT metric reaches around 0.993-0.999 Pearson correlation with human judges (depending on the parameters of APT), while other automatic metrics such as BLEU, METEOR, or those specific to pronouns used at DiscoMT 2015 reach only 0.972-0.986 Pearson correlation.},
+	urldate = {2020-01-16},
+	booktitle = {Proceedings of the {Third} {Workshop} on {Discourse} in {Machine} {Translation}},
+	publisher = {Association for Computational Linguistics},
+	author = {Miculicich Werlen, Lesly and Popescu-Belis, Andrei},
+	month = sep,
+	year = {2017},
+	note = {00000},
+	keywords = {read},
+	pages = {17--25}
+}
+
+@article{garcia_common_2020,
+	title = {A {Common} {Semantic} {Space} for {Monolingual} and {Cross}-{Lingual} {Meta}-{Embeddings}},
+	url = {https://arxiv.org/abs/2001.06381v1},
+	abstract = {This paper presents a new technique for creating monolingual and
+cross-lingual meta-embeddings. Our method integrates multiple word embeddings
+created from complementary techniques, textual sources, knowledge bases and
+languages. Existing word vectors are projected to a common semantic space using
+linear transformations and averaging. With our method the resulting
+meta-embeddings maintain the dimensionality of the original embeddings without
+losing information while dealing with the out-of-vocabulary problem. An
+extensive empirical evaluation demonstrates the effectiveness of our technique
+with respect to previous work on various intrinsic and extrinsic multilingual
+evaluations, obtaining competitive results for Semantic Textual Similarity and
+state-of-the-art performance for word similarity and POS tagging (English and
+Spanish). The resulting cross-lingual meta-embeddings also exhibit excellent
+cross-lingual transfer learning capabilities. In other words, we can leverage
+pre-trained source embeddings from a resource-rich language in order to improve
+the word representations for under-resourced languages.},
+	language = {en},
+	urldate = {2020-01-20},
+	author = {García, Iker and Agerri, Rodrigo and Rigau, German},
+	month = jan,
+	year = {2020},
+	note = {00000}
+}
+
+@misc{phd_bert_2019,
+	title = {{BERT}, {RoBERTa}, {DistilBERT}, {XLNet} — which one to use?},
+	url = {https://towardsdatascience.com/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8},
+	abstract = {Google’s BERT and recent transformer-based methods have taken the NLP landscape by a storm, outperforming the state-of-the-art on several…},
+	language = {en},
+	urldate = {2020-01-20},
+	journal = {Medium},
+	author = {Ph.D, Suleiman Khan},
+	month = oct,
+	year = {2019},
+	note = {00000},
+	file = {Snapshot:/home/lupol/Zotero/storage/4CTGKY4C/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8.html:text/html}
+}
+
+@article{miculicich_document-level_2018,
+	title = {Document-{Level} {Neural} {Machine} {Translation} with {Hierarchical} {Attention} {Networks}},
+	url = {http://arxiv.org/abs/1809.01576},
+	abstract = {Neural Machine Translation (NMT) can be improved by including document-level contextual information. For this purpose, we propose a hierarchical attention model to capture the context in a structured and dynamic manner. The model is integrated in the original NMT architecture as another level of abstraction, conditioning on the NMT model's own previous hidden states. Experiments show that hierarchical attention significantly improves the BLEU score over a strong NMT baseline with the state-of-the-art in context-aware methods, and that both the encoder and decoder benefit from context in complementary ways.},
+	urldate = {2020-01-20},
+	journal = {arXiv:1809.01576 [cs]},
+	author = {Miculicich, Lesly and Ram, Dhananjay and Pappas, Nikolaos and Henderson, James},
+	month = oct,
+	year = {2018},
+	note = {00024 
+arXiv: 1809.01576},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/JLC9BK82/1809.html:text/html}
+}
+
+@article{maruf_selective_2019,
+	title = {Selective {Attention} for {Context}-aware {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1903.08788},
+	abstract = {Despite the progress made in sentence-level NMT, current systems still fall short at achieving fluent, good quality translation for a full document. Recent works in context-aware NMT consider only a few previous sentences as context and may not scale to entire documents. To this end, we propose a novel and scalable top-down approach to hierarchical attention for context-aware NMT which uses sparse attention to selectively focus on relevant sentences in the document context and then attends to key words in those sentences. We also propose single-level attention approaches based on sentence or word-level information in the context. The document-level context representation, produced from these attention modules, is integrated into the encoder or decoder of the Transformer model depending on whether we use monolingual or bilingual context. Our experiments and evaluation on English-German datasets in different document MT settings show that our selective attention approach not only significantly outperforms context-agnostic baselines but also surpasses context-aware baselines in most cases.},
+	urldate = {2020-01-20},
+	journal = {arXiv:1903.08788 [cs]},
+	author = {Maruf, Sameen and Martins, André F. T. and Haffari, Gholamreza},
+	month = may,
+	year = {2019},
+	note = {00012},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/JG76XJZW/1903.html:text/html}
+}
+
+@article{yang_context-aware_2019,
+	title = {Context-{Aware} {Self}-{Attention} {Networks}},
+	url = {http://arxiv.org/abs/1902.05766},
+	abstract = {Self-attention model have shown its flexibility in parallel computation and the effectiveness on modeling both long- and short-term dependencies. However, it calculates the dependencies between representations without considering the contextual information, which have proven useful for modeling dependencies among neural representations in various natural language tasks. In this work, we focus on improving self-attention networks through capturing the richness of context. To maintain the simplicity and flexibility of the self-attention networks, we propose to contextualize the transformations of the query and key layers, which are used to calculates the relevance between elements. Specifically, we leverage the internal representations that embed both global and deep contexts, thus avoid relying on external resources. Experimental results on WMT14 English-German and WMT17 Chinese-English translation tasks demonstrate the effectiveness and universality of the proposed methods. Furthermore, we conducted extensive analyses to quantity how the context vectors participate in the self-attention model.},
+	urldate = {2020-01-20},
+	journal = {arXiv:1902.05766 [cs]},
+	author = {Yang, Baosong and Li, Jian and Wong, Derek and Chao, Lidia S. and Wang, Xing and Tu, Zhaopeng},
+	month = feb,
+	year = {2019},
+	note = {00000 
+arXiv: 1902.05766},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/C6UE48MG/1902.html:text/html}
+}
+
+@article{popescu-belis_context_2019,
+	title = {Context in {Neural} {Machine} {Translation}: {A} {Review} of {Models} and {Evaluations}},
+	shorttitle = {Context in {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1901.09115},
+	abstract = {This review paper discusses how context has been used in neural machine translation (NMT) in the past two years (2017-2018). Starting with a brief retrospect on the rapid evolution of NMT models, the paper then reviews studies that evaluate NMT output from various perspectives, with emphasis on those analyzing limitations of the translation of contextual phenomena. In a subsequent version, the paper will then present the main methods that were proposed to leverage context for improving translation quality, and distinguishes methods that aim to improve the translation of specific phenomena from those that consider a wider unstructured context.},
+	urldate = {2020-01-20},
+	journal = {arXiv:1901.09115 [cs]},
+	author = {Popescu-Belis, Andrei},
+	month = jan,
+	year = {2019},
+	note = {00007 
+arXiv: 1901.09115},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/YGWF8BFE/1901.html:text/html}
+}
+
+@misc{noauthor_how_2019,
+	title = {How the {Transformers} broke {NLP} leaderboards},
+	url = {https://hackingsemantics.xyz/2019/leaderboards/},
+	abstract = {With the huge Transformer-based models such as BERT, GPT-2, and XLNet, are we losing track of how the state-of-the-art performance is achieved?},
+	language = {en},
+	urldate = {2020-01-21},
+	journal = {Hacking semantics},
+	month = jun,
+	year = {2019},
+	note = {00000},
+	file = {Snapshot:/home/lupol/Zotero/storage/QICQKAB9/leaderboards.html:text/html}
+}
+
+@article{zhang_nested-wasserstein_2020,
+	title = {Nested-{Wasserstein} {Self}-{Imitation} {Learning} for {Sequence} {Generation}},
+	url = {http://arxiv.org/abs/2001.06944},
+	abstract = {Reinforcement learning (RL) has been widely studied for improving sequence-generation models. However, the conventional rewards used for RL training typically cannot capture sufficient semantic information and therefore render model bias. Further, the sparse and delayed rewards make RL exploration inefficient. To alleviate these issues, we propose the concept of nested-Wasserstein distance for distributional semantic matching. To further exploit it, a novel nested-Wasserstein self-imitation learning framework is developed, encouraging the model to exploit historical high-rewarded sequences for enhanced exploration and better semantic matching. Our solution can be understood as approximately executing proximal policy optimization with Wasserstein trust-regions. Experiments on a variety of unconditional and conditional sequence-generation tasks demonstrate the proposed approach consistently leads to improved performance.},
+	urldate = {2020-01-22},
+	journal = {arXiv:2001.06944 [cs]},
+	author = {Zhang, Ruiyi and Chen, Changyou and Gan, Zhe and Wen, Zheng and Wang, Wenlin and Carin, Lawrence},
+	month = jan,
+	year = {2020},
+	note = {00000 
+arXiv: 2001.06944},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/FJ6H697W/2001.html:text/html}
+}
+
+@article{belfield_activism_2020,
+	title = {Activism by the {AI} {Community}: {Analysing} {Recent} {Achievements} and {Future} {Prospects}},
+	shorttitle = {Activism by the {AI} {Community}},
+	url = {http://arxiv.org/abs/2001.06528},
+	abstract = {The artificial intelligence community (AI) has recently engaged in activism in relation to their employers, other members of the community, and their governments in order to shape the societal and ethical implications of AI. It has achieved some notable successes, but prospects for further political organising and activism are uncertain. We survey activism by the AI community over the last six years; apply two analytical frameworks drawing upon the literature on epistemic communities, and worker organising and bargaining; and explore what they imply for the future prospects of the AI community. Success thus far has hinged on a coherent shared culture, and high bargaining power due to the high demand for a limited supply of AI talent. Both are crucial to the future of AI activism and worthy of sustained attention.},
+	urldate = {2020-01-22},
+	journal = {arXiv:2001.06528 [cs]},
+	author = {Belfield, Haydn},
+	month = jan,
+	year = {2020},
+	note = {00000 
+arXiv: 2001.06528},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computers and Society, I.2, K.4, K.7},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/WN5PGTA2/2001.html:text/html}
+}
+
+@misc{noauthor_cs_nodate,
+	title = {{CS} 11-747: {Neural} {Networks} for {NLP}},
+	url = {http://phontron.com/class/nn4nlp2019/schedule/attention.html},
+	urldate = {2020-01-23},
+	note = {00000},
+	keywords = {read},
+	file = {CS 11-747\: Neural Networks for NLP:/home/lupol/Zotero/storage/T67RU8GK/attention.html:text/html}
+}
+
+@article{srivastava_highway_2015,
+	title = {Highway {Networks}},
+	url = {http://arxiv.org/abs/1505.00387},
+	abstract = {There is plenty of theoretical and empirical evidence that depth of neural networks is a crucial ingredient for their success. However, network training becomes more difficult with increasing depth and training of very deep networks remains an open problem. In this extended abstract, we introduce a new architecture designed to ease gradient-based training of very deep networks. We refer to networks with this architecture as highway networks, since they allow unimpeded information flow across several layers on "information highways". The architecture is characterized by the use of gating units which learn to regulate the flow of information through a network. Highway networks with hundreds of layers can be trained directly using stochastic gradient descent and with a variety of activation functions, opening up the possibility of studying extremely deep and efficient architectures.},
+	urldate = {2020-01-23},
+	journal = {arXiv:1505.00387 [cs]},
+	author = {Srivastava, Rupesh Kumar and Greff, Klaus and Schmidhuber, Jürgen},
+	month = nov,
+	year = {2015},
+	note = {00000 
+arXiv: 1505.00387},
+	keywords = {Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, I.2.6, 68T01, G.1.6},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/T2RCDF3L/1505.html:text/html}
+}
+
+@misc{noauthor_human_nodate,
+	title = {Human {Compatible}: {AI} and the probem of control.},
+	url = {https://humancompatible.ai/news/2019/10/08/StuartBook.html},
+	urldate = {2020-01-26},
+	note = {00000},
+	file = {Center for Human-Compatible AI:/home/lupol/Zotero/storage/8XDD5VVV/StuartBook.html:text/html}
+}
+
+@phdthesis{mandran_thedre_2017,
+	type = {Theses},
+	title = {{THEDRE} : {Traceable} {Human} {Experiment} {Design} {Research}},
+	shorttitle = {{THEDRE}},
+	url = {https://hal.archives-ouvertes.fr/tel-01538599},
+	urldate = {2020-01-26},
+	school = {Université Grenoble Alpes},
+	author = {Mandran, Nadine},
+	month = mar,
+	year = {2017},
+	note = {00002},
+	keywords = {Analyse de données, conduite de la recherche, data analysis, data production, démarche centrée utilisateur, démarche qualité, epistemological paradigm, expérimentation, human and social sciences, human-centered computing, informatique centrée humain, modélisation de processus, paradigme épistémologique, process modeling, production des données, quality approach, research management, sciences humaines et sociales, tracabilité, tracability, traceability, user centric approach}
+}
+
+@article{joshi_bert_2019,
+	title = {{BERT} for {Coreference} {Resolution}: {Baselines} and {Analysis}},
+	shorttitle = {{BERT} for {Coreference} {Resolution}},
+	url = {http://arxiv.org/abs/1908.09091},
+	abstract = {We apply BERT to coreference resolution, achieving strong improvements on the OntoNotes (+3.9 F1) and GAP (+11.5 F1) benchmarks. A qualitative analysis of model predictions indicates that, compared to ELMo and BERT-base, BERT-large is particularly better at distinguishing between related but distinct entities (e.g., President and CEO). However, there is still room for improvement in modeling document-level context, conversations, and mention paraphrasing. Our code and models are publicly available.},
+	urldate = {2020-01-27},
+	journal = {arXiv:1908.09091 [cs]},
+	author = {Joshi, Mandar and Levy, Omer and Weld, Daniel S. and Zettlemoyer, Luke},
+	month = dec,
+	year = {2019},
+	note = {00002 
+arXiv: 1908.09091},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/5EW7IU55/1908.html:text/html}
+}
+
+@inproceedings{kantor_coreference_2019,
+	address = {Florence, Italy},
+	title = {Coreference {Resolution} with {Entity} {Equalization}},
+	url = {https://www.aclweb.org/anthology/P19-1066},
+	doi = {10.18653/v1/P19-1066},
+	abstract = {A key challenge in coreference resolution is to capture properties of entity clusters, and use those in the resolution process. Here we provide a simple and effective approach for achieving this, via an “Entity Equalization” mechanism. The Equalization approach represents each mention in a cluster via an approximation of the sum of all mentions in the cluster. We show how this can be done in a fully differentiable end-to-end manner, thus enabling high-order inferences in the resolution process. Our approach, which also employs BERT embeddings, results in new state-of-the-art results on the CoNLL-2012 coreference resolution task, improving average F1 by 3.6\%.},
+	urldate = {2020-01-27},
+	booktitle = {Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Kantor, Ben and Globerson, Amir},
+	month = jul,
+	year = {2019},
+	note = {00001},
+	pages = {673--677}
+}
+
+@inproceedings{fei_end--end_2019,
+	address = {Florence, Italy},
+	title = {End-to-end {Deep} {Reinforcement} {Learning} {Based} {Coreference} {Resolution}},
+	url = {https://www.aclweb.org/anthology/P19-1064},
+	doi = {10.18653/v1/P19-1064},
+	abstract = {Recent neural network models have significantly advanced the task of coreference resolution. However, current neural coreference models are usually trained with heuristic loss functions that are computed over a sequence of local decisions. In this paper, we introduce an end-to-end reinforcement learning based coreference resolution model to directly optimize coreference evaluation metrics. Specifically, we modify the state-of-the-art higher-order mention ranking approach in Lee et al. (2018) to a reinforced policy gradient model by incorporating the reward associated with a sequence of coreference linking actions. Furthermore, we introduce maximum entropy regularization for adequate exploration to prevent the model from prematurely converging to a bad local optimum. Our proposed model achieves new state-of-the-art performance on the English OntoNotes v5.0 benchmark.},
+	urldate = {2020-01-27},
+	booktitle = {Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Fei, Hongliang and Li, Xu and Li, Dingcheng and Li, Ping},
+	month = jul,
+	year = {2019},
+	note = {00002},
+	pages = {660--665}
+}
+
+@misc{noauthor_neulabnn4nlp-concepts_2020,
+	title = {neulab/nn4nlp-concepts},
+	copyright = {BSD-3-Clause},
+	url = {https://github.com/neulab/nn4nlp-concepts},
+	abstract = {A repository of concepts related to neural networks for NLP},
+	urldate = {2020-01-27},
+	publisher = {NeuLab},
+	month = jan,
+	year = {2020},
+	note = {00000 
+original-date: 2020-01-02T23:14:36Z}
+}
+
+@misc{ruder_sebastianrudernlp-progress_2020,
+	title = {sebastianruder/{NLP}-progress},
+	copyright = {MIT},
+	url = {https://github.com/sebastianruder/NLP-progress},
+	abstract = {Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.},
+	urldate = {2020-01-27},
+	author = {Ruder, Sebastian},
+	month = jan,
+	year = {2020},
+	note = {00000 
+original-date: 2018-06-22T17:43:55Z},
+	keywords = {dialogue, machine-learning, machine-translation, named-entity-recognition, natural-language-processing, nlp-tasks}
+}
+
+@misc{noauthor_huggingfacetokenizers_2020,
+	title = {huggingface/tokenizers},
+	copyright = {Apache-2.0},
+	url = {https://github.com/huggingface/tokenizers},
+	abstract = {💥Fast State-of-the-Art Tokenizers optimized for Research and Production},
+	urldate = {2020-01-27},
+	publisher = {Hugging Face},
+	month = jan,
+	year = {2020},
+	note = {00000 
+original-date: 2019-11-01T17:52:20Z},
+	keywords = {natural-language-processing, bert, gpt, language-model, natural-language-understanding, nlp, transformers}
+}
+
+@inproceedings{kovaleva_revealing_2019,
+	title = {Revealing the {Dark} {Secrets} of {BERT}},
+	url = {https://www.aclweb.org/anthology/D19-1445},
+	doi = {10.18653/v1/D19-1445},
+	abstract = {Olga Kovaleva, Alexey Romanov, Anna Rogers, Anna Rumshisky. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 2019.},
+	language = {en-us},
+	urldate = {2020-01-27},
+	author = {Kovaleva, Olga and Romanov, Alexey and Rogers, Anna and Rumshisky, Anna},
+	month = nov,
+	year = {2019},
+	note = {00004},
+	pages = {4365--4374},
+	file = {Snapshot:/home/lupol/Zotero/storage/3ME5P3PF/D19-1445.html:text/html}
+}
+
+@article{he_deep_2015,
+	title = {Deep {Residual} {Learning} for {Image} {Recognition}},
+	url = {http://arxiv.org/abs/1512.03385},
+	abstract = {Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57\% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28\% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC \& COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.},
+	urldate = {2020-01-27},
+	journal = {arXiv:1512.03385 [cs]},
+	author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+	month = dec,
+	year = {2015},
+	note = {38089 
+arXiv: 1512.03385},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/HCNUIPW2/1512.html:text/html}
+}
+
+@misc{shorten_introduction_2019,
+	title = {Introduction to {ResNets}},
+	url = {https://towardsdatascience.com/introduction-to-resnets-c0a830a288a4},
+	abstract = {This Article is Based on Deep Residual Learning for Image Recognition from He et al. [2] (Microsoft Research)…},
+	language = {en},
+	urldate = {2020-01-27},
+	journal = {Medium},
+	author = {Shorten, Connor},
+	month = may,
+	year = {2019},
+	note = {00000},
+	file = {Snapshot:/home/lupol/Zotero/storage/JI5C639M/introduction-to-resnets-c0a830a288a4.html:text/html}
+}
+
+@article{ba_layer_2016,
+	title = {Layer {Normalization}},
+	url = {http://arxiv.org/abs/1607.06450},
+	abstract = {Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.},
+	urldate = {2020-01-28},
+	journal = {arXiv:1607.06450 [cs, stat]},
+	author = {Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E.},
+	month = jul,
+	year = {2016},
+	note = {01363 
+arXiv: 1607.06450},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/CFIGM2VI/1607.html:text/html}
+}
+
+@article{gehring_convolutional_2017,
+	title = {Convolutional {Sequence} to {Sequence} {Learning}},
+	url = {http://arxiv.org/abs/1705.03122},
+	abstract = {The prevalent approach to sequence to sequence learning maps an input sequence to a variable length output sequence via recurrent neural networks. We introduce an architecture based entirely on convolutional neural networks. Compared to recurrent models, computations over all elements can be fully parallelized during training and optimization is easier since the number of non-linearities is fixed and independent of the input length. Our use of gated linear units eases gradient propagation and we equip each decoder layer with a separate attention module. We outperform the accuracy of the deep LSTM setup of Wu et al. (2016) on both WMT'14 English-German and WMT'14 English-French translation at an order of magnitude faster speed, both on GPU and CPU.},
+	urldate = {2020-02-04},
+	journal = {arXiv:1705.03122 [cs]},
+	author = {Gehring, Jonas and Auli, Michael and Grangier, David and Yarats, Denis and Dauphin, Yann N.},
+	month = jul,
+	year = {2017},
+	note = {01149 
+arXiv: 1705.03122},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/EDRM5IER/1705.html:text/html}
+}
+
+@inproceedings{sennrich_neural_2016,
+	address = {Berlin, Germany},
+	title = {Neural {Machine} {Translation} of {Rare} {Words} with {Subword} {Units}},
+	url = {https://www.aclweb.org/anthology/P16-1162},
+	doi = {10.18653/v1/P16-1162},
+	urldate = {2020-02-10},
+	booktitle = {Proceedings of the 54th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics} ({Volume} 1: {Long} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Sennrich, Rico and Haddow, Barry and Birch, Alexandra},
+	month = aug,
+	year = {2016},
+	note = {01661},
+	pages = {1715--1725}
+}
+
+@article{schwenk_ccmatrix_2019,
+	title = {{CCMatrix}: {Mining} {Billions} of {High}-{Quality} {Parallel} {Sentences} on the {WEB}},
+	shorttitle = {{CCMatrix}},
+	url = {http://arxiv.org/abs/1911.04944},
+	abstract = {We show that margin-based bitext mining in a multilingual sentence space can be applied to monolingual corpora of billions of sentences. We are using ten snapshots of a curated common crawl corpus (Wenzek et al., 2019) totaling 32.7 billion unique sentences. Using one unified approach for 38 languages, we were able to mine 3.5 billions parallel sentences, out of which 661 million are aligned with English. 17 language pairs have more then 30 million parallel sentences, 82 more then 10 million, and most more than one million, including direct alignments between many European or Asian languages. To evaluate the quality of the mined bitexts, we train NMT systems for most of the language pairs and evaluate them on TED, WMT and WAT test sets. Using our mined bitexts only and no human translated parallel data, we achieve a new state-of-the-art for a single system on the WMT'19 test set for translation between English and German, Russian and Chinese, as well as German/French. In particular, our English/German system outperforms the best single one by close to 4 BLEU points and is almost on pair with best WMT'19 evaluation system which uses system combination and back-translation. We also achieve excellent results for distant languages pairs like Russian/Japanese, outperforming the best submission at the 2019 workshop on Asian Translation (WAT).},
+	urldate = {2020-02-10},
+	journal = {arXiv:1911.04944 [cs]},
+	author = {Schwenk, Holger and Wenzek, Guillaume and Edunov, Sergey and Grave, Edouard and Joulin, Armand},
+	month = nov,
+	year = {2019},
+	note = {00000 
+arXiv: 1911.04944},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/FPTYL63T/1911.html:text/html}
+}
+
+@inproceedings{bawden_evaluating_2018,
+	address = {New Orleans, Louisiana},
+	title = {Evaluating {Discourse} {Phenomena} in {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/N18-1118},
+	doi = {10.18653/v1/N18-1118},
+	abstract = {For machine translation to tackle discourse phenomena, models must have access to extra-sentential linguistic context. There has been recent interest in modelling context in neural machine translation (NMT), but models have been principally evaluated with standard automatic metrics, poorly adapted to evaluating discourse phenomena. In this article, we present hand-crafted, discourse test sets, designed to test the models' ability to exploit previous source and target sentences. We investigate the performance of recently proposed multi-encoder NMT models trained on subtitles for English to French. We also explore a novel way of exploiting context from the previous sentence. Despite gains using BLEU, multi-encoder models give limited improvement in the handling of discourse phenomena: 50\% accuracy on our coreference test set and 53.5\% for coherence/cohesion (compared to a non-contextual baseline of 50\%). A simple strategy of decoding the concatenation of the previous and current sentence leads to good performance, and our novel strategy of multi-encoding and decoding of two sentences leads to the best performance (72.5\% for coreference and 57\% for coherence/cohesion), highlighting the importance of target-side context.},
+	urldate = {2020-02-12},
+	booktitle = {Proceedings of the 2018 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}, {Volume} 1 ({Long} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Bawden, Rachel and Sennrich, Rico and Birch, Alexandra and Haddow, Barry},
+	month = jun,
+	year = {2018},
+	note = {00055},
+	keywords = {read},
+	pages = {1304--1313}
+}
+
+@article{jean_does_2017,
+	title = {Does {Neural} {Machine} {Translation} {Benefit} from {Larger} {Context}?},
+	url = {http://arxiv.org/abs/1704.05135},
+	abstract = {We propose a neural machine translation architecture that models the surrounding text in addition to the source sentence. These models lead to better performance, both in terms of general translation quality and pronoun prediction, when trained on small corpora, although this improvement largely disappears when trained with a larger corpus. We also discover that attention-based neural machine translation is well suited for pronoun prediction and compares favorably with other approaches that were specifically designed for this task.},
+	urldate = {2020-02-12},
+	journal = {arXiv:1704.05135 [cs, stat]},
+	author = {Jean, Sebastien and Lauly, Stanislas and Firat, Orhan and Cho, Kyunghyun},
+	month = apr,
+	year = {2017},
+	note = {00038 
+arXiv: 1704.05135},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/DGYHUQGJ/1704.html:text/html}
+}
+
+@inproceedings{wang_exploiting_2017,
+	address = {Copenhagen, Denmark},
+	title = {Exploiting {Cross}-{Sentence} {Context} for {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/D17-1301},
+	doi = {10.18653/v1/D17-1301},
+	abstract = {In translation, considering the document as a whole can help to resolve ambiguities and inconsistencies. In this paper, we propose a cross-sentence context-aware approach and investigate the influence of historical contextual information on the performance of neural machine translation (NMT). First, this history is summarized in a hierarchical way. We then integrate the historical representation into NMT in two strategies: 1) a warm-start of encoder and decoder states, and 2) an auxiliary context source for updating decoder states. Experimental results on a large Chinese-English translation task show that our approach significantly improves upon a strong attention-based NMT system by up to +2.1 BLEU points.},
+	urldate = {2020-02-12},
+	booktitle = {Proceedings of the 2017 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Wang, Longyue and Tu, Zhaopeng and Way, Andy and Liu, Qun},
+	month = sep,
+	year = {2017},
+	note = {00045},
+	keywords = {read},
+	pages = {2826--2831}
+}
+
+@inproceedings{tiedemann_neural_2017,
+	address = {Copenhagen, Denmark},
+	title = {Neural {Machine} {Translation} with {Extended} {Context}},
+	url = {https://www.aclweb.org/anthology/W17-4811},
+	doi = {10.18653/v1/W17-4811},
+	abstract = {We investigate the use of extended context in attention-based neural machine translation. We base our experiments on translated movie subtitles and discuss the effect of increasing the segments beyond single translation units. We study the use of extended source language context as well as bilingual context extensions. The models learn to distinguish between information from different segments and are surprisingly robust with respect to translation quality. In this pilot study, we observe interesting cross-sentential attention patterns that improve textual coherence in translation at least in some selected cases.},
+	urldate = {2020-02-12},
+	booktitle = {Proceedings of the {Third} {Workshop} on {Discourse} in {Machine} {Translation}},
+	publisher = {Association for Computational Linguistics},
+	author = {Tiedemann, Jörg and Scherrer, Yves},
+	month = sep,
+	year = {2017},
+	note = {00038},
+	keywords = {read},
+	pages = {82--92}
+}
+
+@article{zoph_multi-source_2016,
+	title = {Multi-{Source} {Neural} {Translation}},
+	url = {http://arxiv.org/abs/1601.00710},
+	abstract = {We build a multi-source machine translation model and train it to maximize the probability of a target English string given French and German sources. Using the neural encoder-decoder framework, we explore several combination methods and report up to +4.8 Bleu increases on top of a very strong attention-based neural translation model.},
+	urldate = {2020-02-18},
+	journal = {arXiv:1601.00710 [cs]},
+	author = {Zoph, Barret and Knight, Kevin},
+	month = jan,
+	year = {2016},
+	note = {00144 
+arXiv: 1601.00710},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/UBF286UD/1601.html:text/html}
+}
+
+@article{libovicky_attention_2017,
+	title = {Attention {Strategies} for {Multi}-{Source} {Sequence}-to-{Sequence} {Learning}},
+	url = {http://arxiv.org/abs/1704.06567},
+	abstract = {Modeling attention in neural multi-source sequence-to-sequence learning remains a relatively unexplored area, despite its usefulness in tasks that incorporate multiple source languages or modalities. We propose two novel approaches to combine the outputs of attention mechanisms over each source sequence, flat and hierarchical. We compare the proposed methods with existing techniques and present results of systematic evaluation of those methods on the WMT16 Multimodal Translation and Automatic Post-editing tasks. We show that the proposed methods achieve competitive results on both tasks.},
+	urldate = {2020-02-18},
+	journal = {arXiv:1704.06567 [cs]},
+	author = {Libovický, Jindřich and Helcl, Jindřich},
+	month = apr,
+	year = {2017},
+	note = {00052 
+arXiv: 1704.06567},
+	keywords = {Computer Science - Computation and Language, Computer Science - Neural and Evolutionary Computing, I.2.7, 68T50},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/6TLQU3MB/1704.html:text/html}
+}
+
+@article{tu_learning_2017,
+	title = {Learning to {Remember} {Translation} {History} with a {Continuous} {Cache}},
+	url = {http://arxiv.org/abs/1711.09367},
+	abstract = {Existing neural machine translation (NMT) models generally translate sentences in isolation, missing the opportunity to take advantage of document-level information. In this work, we propose to augment NMT models with a very light-weight cache-like memory network, which stores recent hidden representations as translation history. The probability distribution over generated words is updated online depending on the translation history retrieved from the memory, endowing NMT models with the capability to dynamically adapt over time. Experiments on multiple domains with different topics and styles show the effectiveness of the proposed approach with negligible impact on the computational cost.},
+	urldate = {2020-02-19},
+	journal = {arXiv:1711.09367 [cs]},
+	author = {Tu, Zhaopeng and Liu, Yang and Shi, Shuming and Zhang, Tong},
+	month = nov,
+	year = {2017},
+	note = {00037 
+arXiv: 1711.09367},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/NS4NTXHL/1711.html:text/html}
+}
+
+@inproceedings{kuang_modeling_2018,
+	address = {Santa Fe, New Mexico, USA},
+	title = {Modeling {Coherence} for {Neural} {Machine} {Translation} with {Dynamic} and {Topic} {Caches}},
+	url = {https://www.aclweb.org/anthology/C18-1050},
+	abstract = {Sentences in a well-formed text are connected to each other via various links to form the cohesive structure of the text. Current neural machine translation (NMT) systems translate a text in a conventional sentence-by-sentence fashion, ignoring such cross-sentence links and dependencies. This may lead to generate an incoherent target text for a coherent source text. In order to handle this issue, we propose a cache-based approach to modeling coherence for neural machine translation by capturing contextual information either from recently translated sentences or the entire document. Particularly, we explore two types of caches: a dynamic cache, which stores words from the best translation hypotheses of preceding sentences, and a topic cache, which maintains a set of target-side topical words that are semantically related to the document to be translated. On this basis, we build a new layer to score target words in these two caches with a cache-based neural model. Here the estimated probabilities from the cache-based neural model are combined with NMT probabilities into the final word prediction probabilities via a gating mechanism. Finally, the proposed cache-based neural model is trained jointly with NMT system in an end-to-end manner. Experiments and analysis presented in this paper demonstrate that the proposed cache-based model achieves substantial improvements over several state-of-the-art SMT and NMT baselines.},
+	urldate = {2020-02-20},
+	booktitle = {Proceedings of the 27th {International} {Conference} on {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Kuang, Shaohui and Xiong, Deyi and Luo, Weihua and Zhou, Guodong},
+	month = aug,
+	year = {2018},
+	note = {00012},
+	keywords = {read},
+	pages = {596--606}
+}
+
+@article{kim_when_2019-1,
+	title = {When and {Why} is {Document}-level {Context} {Useful} in {Neural} {Machine} {Translation}?},
+	url = {http://arxiv.org/abs/1910.00294},
+	abstract = {Document-level context has received lots of attention for compensating neural machine translation (NMT) of isolated sentences. However, recent advances in document-level NMT focus on sophisticated integration of the context, explaining its improvement with only a few selected examples or targeted test sets. We extensively quantify the causes of improvements by a document-level model in general test sets, clarifying the limit of the usefulness of document-level context in NMT. We show that most of the improvements are not interpretable as utilizing the context. We also show that a minimal encoding is sufficient for the context modeling and very long context is not helpful for NMT.},
+	urldate = {2020-02-20},
+	journal = {arXiv:1910.00294 [cs]},
+	author = {Kim, Yunsu and Tran, Duc Thanh and Ney, Hermann},
+	month = oct,
+	year = {2019},
+	note = {00001 
+arXiv: 1910.00294},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/HX232T7Y/1910.html:text/html}
+}
+
+@inproceedings{muller_large-scale_2018-1,
+	address = {Brussels, Belgium},
+	title = {A {Large}-{Scale} {Test} {Set} for the {Evaluation} of {Context}-{Aware} {Pronoun} {Translation} in {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/W18-6307},
+	doi = {10.18653/v1/W18-6307},
+	abstract = {The translation of pronouns presents a special challenge to machine translation to this day, since it often requires context outside the current sentence. Recent work on models that have access to information across sentence boundaries has seen only moderate improvements in terms of automatic evaluation metrics such as BLEU. However, metrics that quantify the overall translation quality are ill-equipped to measure gains from additional context. We argue that a different kind of evaluation is needed to assess how well models translate inter-sentential phenomena such as pronouns. This paper therefore presents a test suite of contrastive translations focused specifically on the translation of pronouns. Furthermore, we perform experiments with several context-aware models. We show that, while gains in BLEU are moderate for those systems, they outperform baselines by a large margin in terms of accuracy on our contrastive test set. Our experiments also show the effectiveness of parameter tying for multi-encoder architectures.},
+	urldate = {2020-02-25},
+	booktitle = {Proceedings of the {Third} {Conference} on {Machine} {Translation}: {Research} {Papers}},
+	publisher = {Association for Computational Linguistics},
+	author = {Müller, Mathias and Rios, Annette and Voita, Elena and Sennrich, Rico},
+	month = oct,
+	year = {2018},
+	note = {00013},
+	keywords = {read},
+	pages = {61--72}
+}
+
+@misc{noauthor_annotated_2020,
+	title = {The {Annotated} {GPT}-2},
+	url = {https://amaarora.github.io/2020/02/18/annotatedGPT2.html},
+	abstract = {Introduction Prerequisites Language Models are Unsupervised Multitask Learners Abstract Model Architecture (GPT-2) Model Specifications (GPT) Imports Transformer Decoder inside GPT-2 CONV1D Layer Explained FEEDFORWARD Layer Explained ATTENTION Layer Explained Scaled Dot-Product Attention Multi-Head Attention GPT-2 Model Architecture in Code Transformer Decoder Block Explained The GPT-2 Architecture Explained Language Modeling or Classification Sample text generation using Hugging Face Pretrained Weights Extras Credits Feedback Introduction Welcome to “The Annotated GPT-2”. One of the most brilliant and well-explained articles I have ever read is The Annotated Transformer. It introduced Attention like no other post ever written. The simple idea was to present an “annotated” version of the paper Attention is all you need along with code. Something I have come to realize with my little experience in Machine Learning, when you write things in code, the implementation and the secrets become clearer. It is not magic anymore. There is nothing magic about magic. The magician merely understands something simple which doesn’t appear to be simple or natural to the untrained audience. Once you learn how to hold a card while making your hand look empty, you only need practice before you, too, can “do magic.” – Jeffrey Friedl in the book Mastering Regular Expressions The GPT-2 might seem like magic at first with all it’s glitter and beauty too, but hopefully I would have uncovered that magic for you and revealed all the tricks by the time you finish reading this post. That is my goal. To make it as simple as possible for the keen to understand how the GPT-2 model works underneath. Note: Pretty much the entirety of the code has been copied, inspired and referenced from Hugging Face’s implementation of the GPT-2, keeping merely the essentials for simplicity. If you want to train the GPT-2 model on parallel GPUs, save checkpoints while fine-tuning, run inference tasks on multiple CPUs and much more, I would recommend using the Hugging Face API. A simple tutorial on how to do so was recently released by Hugging Face and can be found here. In this post, I am not trying to reinvent the wheel, but merely bringing together a list of prexisting excellent resources to make it easier for the reader to grasp GPT-2. I leave it up to the reader to further build upon these foundations in any area they choose. You can’t build a great building on a weak foundation. You must have a solid foundation if you’re going to have a strong superstructure. – Gordon B. Hinckley Prerequisites This post assumes that the reader has a solid understanding of Attention and Transformers. The GPT-2 utilizes a 12-layer Decoder Only Transformer architecture. If you want a refresher or understand Attention and Transformers, here is an excellent list of resources to aid your understanding regarding: The illustrated Transformer by Jay Alammar The Annotated Transformer by Harvard NLP Introduction to the Transformer by Rachel Thomas and Jeremy Howard If you’re just beginning your journey into NLP or you’re an expert, I would definitely recommend the fast.ai NLP course taught by Rachel Thomas and Jeremy Howard. The course starts with the basics including Sentiment Classification using Naive Bayes and Logistic Regression, moves on to RNNs and also talks about Transfer Learning, ULMFiT, Seq2Seq translation and Transformers amongst other things. It is an excellent resource put together by the fast.ai team free of cost. Another amazing resource on GPT-2 itself, is The Illustrated GPT-2 by Jay Alammar. This post starts with a basic introduction to Language Models and explains the GPT-2 model step-by-step in a very easy to understand manner. I would highly recommend the reader to give this post a read. The Annotated Transformer by Harvard NLP implements the complete Transformer architecture using PyTorch and is great way to understand Attention in depth. Let’s then build upon these excellent existing resources and implement GPT-2 in code. Language Models are Unsupervised Multitask Learners Abstract Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on taskspecific datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still underfits WebText. Samples from the model reflect these improvements and contain coherent paragraphs of text. These findings suggest a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations. A Zero-shot setting is one where you do not finetune the language model and directly run inference on the target dataset. For example, pretrain a LM on WebText and directly try and predict the next words of Amazon Movie reviews dataset. Model Architecture (GPT-2) We use a Transformer (Vaswani et al., 2017) based architecture for our LMs. The model largely follows the details of the OpenAI GPT model (Radford et al., 2018) with a few modifications. Layer normalization (Ba et al., 2016) was moved to the input of each sub-block, similar to a pre-activation residual network (He et al., 2016) and an additional layer normalization was added after the final self-attention block. We scale the weights of residual layers at initialization by a factor of 1/√N where N is the number of residual layers. The vocabulary is expanded to 50,257 words. We also increase the context size from 512 to 1024 tokens and a larger batchsize of 512 is used. This is the entirety of model explanation inside the GPT-2 research paper. This warrants a need for us to look at the architecture inside the GPT model. Model Specifications (GPT) Our model largely follows the original transformer work. We trained a 12-layer decoder-only transformer with masked self-attention heads (768 dimensional states and 12 attention heads). For the position-wise feed-forward networks, we used 3072 dimensional inner states. We used the Adam optimization scheme with a max learning rate of 2.5e-4. The learning rate was increased linearly from zero over the first 2000 updates and annealed to 0 using a cosine schedule. We train for 100 epochs on minibatches of 64 randomly sampled, contiguous sequences of 512 tokens. Since layernorm is used extensively throughout the model, a simple weight initialization of N(0, 0.02) was sufficient. We used a bytepair encoding (BPE) vocabulary with 40,000 merges and residual, embedding, and attention dropouts with a rate of 0.1 for regularization. We also employed a modified version of L2 regularization proposed in, with w = 0.01 on all non bias or gain weights. For the activation function, we used the Gaussian Error Linear Unit (GELU). As can be seen from the GPT Architecture, to implement it, we will first need to implement Masked Self Attention and Feed Forward layer. Imports import torch import copy import torch.nn as nn import torch.nn.functional as F from torch.nn.modules import ModuleList from torch.nn.modules.normalization import LayerNorm import numpy as np import os from tqdm import tqdm\_notebook, trange import logging logging.basicConfig(level = logging.INFO) logger = logging.getLogger() Transformer Decoder inside GPT-2 To re-use the terminology used to describe the Transformer, the attention is a function of a query (Q) and set of key (K) and value (V) pairs. To handle longer sequences, we modify the multi-head self-attention of the Transformer to reduce memory usage by limiting the dot products between Q and K in: class Conv1D(nn.Module): def \_\_init\_\_(self, nx, nf): super().\_\_init\_\_() self.nf = nf w = torch.empty(nx, nf) nn.init.normal\_(w, std=0.02) self.weight = nn.Parameter(w) self.bias = nn.Parameter(torch.zeros(nf)) def forward(self, x): size\_out = x.size()[:-1] + (self.nf,) x = torch.addmm(self.bias, x.view(-1, x.size(-1)), self.weight) x = x.view(*size\_out) return x CONV1D Layer Explained The CONV1D layer can be thought of as a LINEAR layer itself. Essentially, it is casting an initial tensor x (having the final dimension of x.size(-1)) being passed to it to have a final dimension of size self.nf. Here’s an example output of the same: d\_model = 768 conv1d = Conv1D(d\_model, d\_model*3) x = torch.rand(1,4,d\_model) \#represents a sequence of batch\_size=1, seq\_len=4 and embedding\_sz=768, something like "Hello how are you" x = conv1d(x) x.shape {\textgreater}{\textgreater} torch.Size([1, 4, 2304]) As can be seen in the example above, the final dimension of tensor returned by CONV1D is 3 times the initial size. We do this to be able to cast the input to query, key and value matrices. It is possible then to retrieve the query, key and value matrices like so: query, key, value = x.split(d\_model, dim=-1) query.shape, key.shape, value.shape {\textgreater}{\textgreater} (torch.Size([1, 4, 768]), torch.Size([1, 4, 768]), torch.Size([1, 4, 768])) Another way to cast the input to Q, K and V matrices would have to been to have separate Wq, Wk and Wv matrices. I have explained this under the EXTRA section of this post at the bottom. I find this other approach more intuitive and relatable, but we use the CONV1D layer in this post, because we reuse the CONV1D pretrained weights from Hugging Face. FEEDFORWARD Layer Explained class FeedForward(nn.Module): def \_\_init\_\_(self, dropout, d\_model=768, nx=768*4): super().\_\_init\_\_() self.c\_fc = Conv1D(d\_model, nx) self.c\_proj = Conv1D(nx, d\_model) self.act = F.gelu self.dropout = nn.Dropout(dropout) def forward(self, x): return self.dropout(self.c\_proj(self.act(self.c\_fc(x)))) Something, that’s just so well explained in Jay Alammar’s post - also referenced above, is how the inputs are passed through ATTENTION layer first and then on to FEEDFORWARD layer. The Feedforward network, is a normal nueral network that accepts the outputs from the ATTENTION layer (768), casts them to nx (768*4) dimension, adds an activation function self.act (GELU), casts them back to d\_model (768) and adds dropout (0.1). This is also mentioned in the GPT research paper referenced below. For the position-wise feed-forward networks, we used 3072 dimensional inner states ATTENTION Layer Explained The below extract is from the paper Attention is all you need. Scaled Dot-Product Attention We call our particular attention “Scaled Dot-Product Attention”. The input consists of queries and keys of dimension dk, and values of dimension dv. We compute the dot products of the query with all keys, divide each by √dk, and apply a softmax function to obtain the weights on the values. In practice, we compute the attention function on a set of queries simultaneously, packed together into a matrix Q. The keys and values are also packed together into matrices K and V . We compute the matrix of outputs as: The two most commonly used attention functions are additive attention, and dot-product (multiplicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor of 1/√dk. Additive attention computes the compatibility function using a feed-forward network with a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is much faster and more space-efficient in practice, since it can be implemented using highly optimized matrix multiplication code. While for small values of dk the two mechanisms perform similarly, additive attention outperforms dot product attention without scaling for larger values of dk. We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by 1/√dk. To implement the The Attention layer in code, we first utilize the CONV1D layer and get the q, k and v matrices as explained before. Once we have the q, k and v matrices, we can perform attention using the function \_attn. This function replicates the formula mentioned above inside Attention Dot Product. class Attention(nn.Module): def \_\_init\_\_(self, d\_model=768, n\_head=12, n\_ctx=1024, d\_head=64, bias=True, scale=False): super().\_\_init\_\_() self.n\_head = n\_head self.d\_model = d\_model self.c\_attn = Conv1D(d\_model, d\_model*3) self.scale = scale self.softmax = nn.Softmax(dim=-1) self.register\_buffer("bias", torch.tril(torch.ones(n\_ctx, n\_ctx)).view(1, 1, n\_ctx, n\_ctx)) self.dropout = nn.Dropout(0.1) self.c\_proj = Conv1D(d\_model, d\_model) def split\_heads(self, x): "return shape [`batch`, `head`, `sequence`, `features`]" new\_shape = x.size()[:-1] + (self.n\_head, x.size(-1)//self.n\_head) x = x.view(*new\_shape) return x.permute(0, 2, 1, 3) def \_attn(self, q, k, v, attn\_mask=None): scores = torch.matmul(q, k.transpose(-2, -1)) if self.scale: scores = scores/math.sqrt(v.size(-1)) nd, ns = scores.size(-2), scores.size(-1) if attn\_mask is not None: scores = scores + attn\_mask scores = self.softmax(scores) scores = self.dropout(scores) outputs = torch.matmul(scores, v) return outputs def merge\_heads(self, x): x = x.permute(0, 2, 1, 3).contiguous() new\_shape = x.size()[:-2] + (x.size(-2)*x.size(-1),) return x.view(*new\_shape) def forward(self, x): x = self.c\_attn(x) \#new `x` shape - `[1,3,2304]` q, k, v = x.split(self.d\_model, dim=2) q, k, v = self.split\_heads(q), self.split\_heads(k), self.split\_heads(v) out = self.\_attn(q, k, v) out = self.merge\_heads(out) out = self.c\_proj(out) return out Another way to implement Attention is explained in the Extras section at the bottom of this blog. I find it to be more intuitive and easy to compare with the research paper. It utilizes Linear layers instead of CONV1D to cast inputs to Q, K and V matrices. The reason why we haven’t used it is because we use the pretrained weights for CONV1D layer from Hugging Face. Multi-Head Attention The below extract is from the paper Attention is all you need. Instead of performing a single attention function with dmodel-dimensional keys, values and queries, we found it beneficial to linearly project the queries, keys and values h times with different, learned linear projections to dk, dk and dv dimensions, respectively. On each of these projected versions of queries, keys and values we then perform the attention function in parallel, yielding dv-dimensional output values. These are concatenated and once again projected, resulting in the final values, as depicted in Figure below. Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions. With a single attention head, averaging inhibits this. In this work we employ h = 8 parallel attention layers, or heads. For each of these we use dk = dv = dmodel/h = 64. Due to the reduced dimension of each head, the total computational cost is similar to that of single-head attention with full dimensionality. Not to be confused by this, in essence all that’s being done is to add another dimension to the Q, K and V matrices. That is, if the matrices were before of size [1, 4, 768] which represents [bs, seq\_len, d\_model], these matrices are projected to dimension [1, 12, 4, 64] which represents [bs, n\_head, seq\_len, d\_model//n\_head]. GPT-2 utizes 12 parallel heads. We split the Q, K, V matrices inside split\_heads function. Finally, once we get an output from applying parallel attentions we concatenate it inside merge\_heads back to matrices of dimension [bs, seq\_len, d\_model]. GPT-2 Model Architecture in Code So far, we have implemented Multi Head Attention and FeedForward layers. The two layers form the building blocks of the Transformer Decoder block, shown in the picture above. The GPT-2 consists of 12 of these Transformer Blocks. This has been shown in Jay Alammar’s post like so: Transformer Decoder Block Explained class TransformerBlock(nn.Module): def \_\_init\_\_(self, d\_model=768, n\_head=12, dropout=0.1): super(TransformerBlock, self).\_\_init\_\_() self.attn = Attention(d\_model=768, n\_head=12, d\_head=64, n\_ctx=1024, bias=True, scale=False) self.feedforward = FeedForward(dropout=0.1, d\_model=768, nx=768*4) self.ln\_1 = LayerNorm(d\_model) self.ln\_2 = LayerNorm(d\_model) def forward(self, x): x = x + self.attn(self.ln\_1(x)) x = x + self.feedforward(self.ln\_2(x)) return x The Transformer Block consists of Attention and FeedForward Layers. As referenced from the GPT-2 Architecture Model Specification, Layer normalization (Ba et al., 2016) was moved to the input of each sub-block Here are the sub-blocks are Attention and FeedForward. Thus, inside a Transformer Decoder Block, essentially we first pass the inputs to a LayerNorm followed by the first sub-block Attention. Next, we pass the outputs of this sub-block to LayerNorm again and finally to FeedForward layer. The GPT-2 Architecture Explained As referenced from the GPT paper, We trained a 12-layer decoder-only transformer with masked self-attention heads (768 dimensional states and 12 attention heads). Thus, the complete GPT-2 architecture is the TransformerBlock copied over 12 times. def \_get\_clones(module, n): return ModuleList([copy.deepcopy(module) for i in range(n)]) class GPT2(nn.Module): def \_\_init\_\_(self, nlayers=12, n\_ctx=1024, d\_model=768, vcb\_sz=50257): super(GPT2, self).\_\_init\_\_() self.nlayers = nlayers block = TransformerBlock(d\_model=768, n\_head=12, dropout=0.1) self.h = \_get\_clones(block, 12) self.wte = nn.Embedding(vcb\_sz, d\_model) self.wpe = nn.Embedding(n\_ctx, d\_model) self.drop = nn.Dropout(0.1) self.ln\_f = LayerNorm(d\_model) self.out = nn.Linear(d\_model, vcb\_sz, bias=False) self.loss\_fn = nn.CrossEntropyLoss() self.init\_weights() def init\_weights(self): self.out.weight = self.wte.weight self.apply(self.\_init\_weights) def \_init\_weights(self, module): if isinstance(module, (nn.Linear, nn.Embedding, Conv1D)): module.weight.data.normal\_(mean=0.0, std=0.02) if isinstance(module, (nn.Linear, Conv1D)) and module.bias is not None: module.bias.data.zero\_() elif isinstance(module, nn.LayerNorm): module.bias.data.zero\_() module.weight.data.fill\_(1.0) def forward(self, src, labels=None, pos\_ids=None): if pos\_ids is None: pos\_ids = torch.arange(0, src.size(-1)).unsqueeze(0) inp = self.drop((self.wte(src)+self.wpe(pos\_ids))) for i in range(self.nlayers): inp = self.h[i](inp) inp = self.ln\_f(inp) logits = self.out(inp) outputs = (logits,) + (inp,) if labels is not None: shift\_logits = logits[..., :-1, :].contiguous() shift\_labels = labels[..., 1:].contiguous() loss = self.loss\_fn(shift\_logits.view(-1, shift\_logits.size(-1)), shift\_labels.view(-1)) outputs = (loss,) + outputs return outputs return logits Something I have not mentioned yet is Positional Encoding and Token Embeddings. Since, we cannot pass words such as “hey” or “hello” directly to the model, we first Tokenize our inputs. Next, we use Embeddings to represent the tokens as numbers. This post by Jay Alammar again explains Embeddings very well. Also, since unlike the RNNs where the input words are passed sequentially, Transformers take input matrices in parallel thus losing the sense of position for the words being input. To make up for the loss, before handling the Token Embeddings to the model, we add Positional Encoding - a signal that indicates the order of the words in the sequence. Since, as mentioned before, the context size of GPT-2 is 1024, the positional encodings are of dimensions [1024, 768]. Thus, the inputs to the GPT-2 architecture is the sum of Token Embeddings and Positional Encodings passed through a Dropout, to add regularization. Once, we have the input matrix, we pass this through each of the 12 Layers of the GPT-2 architecure, where each layer is a Transformer Decoder Block that consists of two sublayers - Attention and FeedForward Network. Language Modeling or Classification When using GPT-2 as a language model, we pass the inputs to a final LayerNorm and through a Linear layer with a final dimension of size [768, vocab\_sz] (50257) and get an output of size [1, 4, 50257]. This output represents the next word logits and we can very easily now pass this through a Softmax layer and take argmax to get the positional of the word inside the vocabulary with the highest probability. For classification task, we can pass the outputs received from the GPT-2 architecture through a Linear layer with a dimension of size [768, n] to get probabilities for each category (where n represents number of categories), pass it through a softmax, get the highest predicted category and use CrossEntropyLoss to train the architecture to do classification. And that’s really all the magic behind GPT-2. It’s a Decoder only Transformer Based architecture that takes inputs parallely with Positional Encodings unlike RNNs, passes them through each of it’s 12 Transformer Decoder layers (which consist of Multi head Attention and FeedForward Network) to return the final output. Let’s see this model in action in a language model task. Sample text generation using Hugging Face Pretrained Weights First, let’s initialize the model with the Pretrained Weights already provided by Hugging Face. model = GPT2() \# load pretrained\_weights from hugging face \# download file https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch\_model.bin to `.` model\_dict = model.state\_dict() \#currently with random initialization state\_dict = torch.load("./gpt2-pytorch\_model.bin") \#pretrained weights old\_keys = [] new\_keys = [] for key in state\_dict.keys(): if "mlp" in key: \#The hugging face state dict references the feedforward network as mlp, need to replace to `feedforward` be able to reuse these weights new\_key = key.replace("mlp", "feedforward") new\_keys.append(new\_key) old\_keys.append(key) for old\_key, new\_key in zip(old\_keys, new\_keys): state\_dict[new\_key]=state\_dict.pop(old\_key) pretrained\_dict = \{k: v for k, v in state\_dict.items() if k in model\_dict\} model\_dict.update(pretrained\_dict) model.load\_state\_dict(model\_dict) model.eval() \#model in inference mode as it's now initialized with pretrained weights Let’s now generate text. We will utilize Hugging Face’s pretrained Tokenizer to convert words to input embeddings. from transformers import GPT2Tokenizer tokenizer = GPT2Tokenizer.from\_pretrained("gpt2") context = torch.tensor([tokenizer.encode("The planet earth")]) def generate(context, ntok=20): for \_ in range(ntok): out = model(context) logits = out[:, -1, :] indices\_to\_remove = logits {\textless} torch.topk(logits, 10)[0][..., -1, None] logits[indices\_to\_remove] = np.NINF next\_tok = torch.multinomial(F.softmax(logits, dim=-1), num\_samples=1).squeeze(1) context = torch.cat([context, next\_tok.unsqueeze(-1)], dim=-1) return context out = generate(context, ntok=20) tokenizer.decode(out[0]) {\textgreater}{\textgreater} 'The planet earth is the source of all of all the light," says the study that the government will' Extras Another way to implement Attention as shown in the NLP Course by fast.ai referenced from here, that I find to be more intuitive is as below: class Attention\_FASTAI(nn.Module): def \_\_init\_\_(self, d\_model=768, n\_head=12, d\_head=64, n\_ctx=1024, bias=True, scale=False): super().\_\_init\_\_() self.n\_head = n\_head self.d\_head = d\_head self.softmax = nn.Softmax(dim=-1) self.scale = scale self.atn\_drop = nn.Dropout(0.1) self.wq, self.wk, self.wv = [nn.Linear(d\_model, n\_head*d\_head, bias=bias) for o in range(3)] def split\_heads(self, x, layer, bs): x = layer(x) return x.view(bs, x.size(1), self.n\_head, self.d\_head).permute(0,2,1,3) def \_attn(self, q, k, v, attn\_mask=None): scores = torch.matmul(q, k.transpose(-2, -1)) if self.scale: scores = scores/math.sqrt(v.size(-1)) if attn\_mask is not None: scores = scores.float().masked\_fill(attn\_mask, -float('inf')).type\_as(scores) attn\_prob = self.atn\_drop(self.softmax(scores)) attn\_vec = attn\_prob @ v return attn\_vec def merge\_heads(self, x, bs, seq\_len): x = x.permute(0, 2, 1, 3).contiguous() return x.view(bs, seq\_len, -1) def forward(self, q, k, v, mask=None): bs, seq\_len = q.size(0), q.size(1) wq, wk, wv = map(lambda o:self.split\_heads(*o, bs), zip((q,k,v), (self.wq, self.wk, self.wv))) attn\_vec = self.\_attn(wq, wk, wv) attn\_vec = self.merge\_heads(attn\_vec, bs, seq\_len) return attn\_vec The key difference between the implementation above and the one we have used is that this implementation does not use CONV1D. Instead, we first pass the input x to self.wq, self.wk and self.wv Linear Layers to get wq, wk and wv matrices and then perform attention as before. Credits I just want to take the time to thank Rachel Thomas and Jeremy Howard for a great NLP course and the fast.ai course in general, which has helped me bolster my understanding of RNNs, GRUs, AWD-LSTM and Transformers. Also, a special thanks to Hugging Face for creating an open source NLP library and providing a number of Pretrained Models to use. As mentioned the code in this blog post comes directly from the Hugging Face library. And, Jay Alammar for the excellent work that he has been doing to Visualise machine learning concepts. The Illustrated GPT-2 is one of the most comprehensive blog posts on GPT-2. Finally, to Harvard NLP, for The Annotated Transformer, a beautiful and easy to follow implementation of Transformers in PyTorch. Feedback Comments or feedback? Please tweet me at @amaarora This is a really wonderful resource, and draws together many very nice pieces of work. https://t.co/CM16ByNrbt— Jeremy Howard (@jeremyphoward) February 19, 2020 Great work pairing GPT2 concepts with the key excerpts from the code. https://t.co/IkFlAf3Ua8— Jay Alammar جهاد العمار (@jalammar) February 20, 2020 "The Annotated GPT-2" blogpost seems to start out a a simple question of asking why use conv-1d vs linear. An awesome read!! https://t.co/GCju0z3Wri \#nlproc \#nlposs \#distiller https://t.co/cvSdEah8gT— Liling Tan (@alvations) February 20, 2020 A must-read blog about GPT-2. https://t.co/EuDil5Dm07— Xinhao Li (@XinhaoLi1) February 20, 2020 One of the best NLP Blogposts I've read: A definitive and complete writeup. 🍵This is a blog, I wish I had when I was tinkering with the GPT-2. Must read for everyone: https://t.co/yLRFywYgm6— Sanyam Bhutani (@bhutanisanyam1) February 20, 2020 Neat! https://t.co/eLt3o180Qr— Antônio Horta Ribeiro (@ahortaribeiro) February 20, 2020 Fantastic work!! Looking forward to learning what is it behind the scenes of this language model! https://t.co/Ml1DY22NxQ— Data Enigma (@EnigmaData) February 19, 2020 The Annotated GPT-2 - Understand how the GPT-2 model works underneath with explanations and source codeBlogpost https://t.co/anLqVhZQPN@amaarora𝐬𝐩𝐫𝐞𝐚𝐝 𝐭𝐡𝐞 𝐰𝐨𝐫𝐝 𝐨𝐟 \#𝐍𝐋𝐏 💜\#datascience \#pytorch \#deeplearning \#machinelearning pic.twitter.com/n5QIQBAIfH— Philip Vollet (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ (@philipvollet) February 20, 2020 This is fantastic @amaarora, thanks 👍— Manpreet Singh (@ms\_ghotratweet) February 20, 2020 This is brilliant stuff!!!— Arron Hovingham (@AnalystiaArron) February 20, 2020},
+	language = {en},
+	urldate = {2020-02-25},
+	journal = {Making commits each day, towards a better future},
+	month = feb,
+	year = {2020},
+	note = {00000},
+	file = {Snapshot:/home/lupol/Zotero/storage/E7KPNU45/annotatedGPT2.html:text/html}
+}
+
+@misc{dirafzoon_illustrating_2020,
+	title = {💡{Illustrating} the {Reformer}},
+	url = {https://towardsdatascience.com/illustrating-the-reformer-393575ac6ba0},
+	abstract = {🚊 ️ The efficient Transformer},
+	language = {en},
+	urldate = {2020-02-25},
+	journal = {Medium},
+	author = {Dirafzoon, Alireza},
+	month = feb,
+	year = {2020},
+	note = {00000},
+	file = {Snapshot:/home/lupol/Zotero/storage/224SE43S/illustrating-the-reformer-393575ac6ba0.html:text/html}
+}
+
+@misc{ethayarajh_bert_2020,
+	title = {{BERT}, {ELMo}, \& {GPT}-2: {How} contextual are contextualized word representations?},
+	shorttitle = {{BERT}, {ELMo}, \& {GPT}-2},
+	url = {https://kawine.github.io/blog/nlp/2020/02/03/contextual.html},
+	abstract = {Incorporating context into word embeddings - as exemplified by BERT, ELMo, and GPT-2 - has proven to be a watershed idea in NLP. Replacing static vectors (e.g., word2vec) with contextualized word representations has led to significant improvements on virtually every NLP task.},
+	language = {en},
+	urldate = {2020-02-25},
+	journal = {Kawin Ethayarajh},
+	author = {Ethayarajh, Kawin},
+	month = feb,
+	year = {2020},
+	note = {00000},
+	file = {Snapshot:/home/lupol/Zotero/storage/VVVUWERW/contextual.html:text/html}
+}
+
+@article{devlin_bert_2019,
+	title = {{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}},
+	shorttitle = {{BERT}},
+	url = {http://arxiv.org/abs/1810.04805},
+	abstract = {We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).},
+	urldate = {2020-02-25},
+	journal = {arXiv:1810.04805 [cs]},
+	author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+	month = may,
+	year = {2019},
+	note = {03826 
+arXiv: 1810.04805},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/6VZS6E56/1810.html:text/html}
+}
+
+@article{zheng_toward_2020,
+	title = {Toward {Making} the {Most} of {Context} in {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/2002.07982},
+	abstract = {Document-level machine translation manages to outperform sentence level models by a small margin, but have failed to be widely adopted. We argue that previous research did not make a clear use of the global context, and propose a new document-level NMT framework that deliberately models the local context of each sentence with the awareness of the global context of the document in both source and target languages. We specifically design the model to be able to deal with documents containing any number of sentences, including single sentences. This unified approach allows our model to be trained elegantly on standard datasets without needing to train on sentence and document level data separately. Experimental results demonstrate that our model outperforms Transformer baselines and previous document-level NMT models with substantial margins of up to 2.1 BLEU on state-of-the-art baselines. We also provide analyses which show the benefit of context far beyond the neighboring two or three sentences, which previous studies have typically incorporated.},
+	urldate = {2020-02-26},
+	journal = {arXiv:2002.07982 [cs]},
+	author = {Zheng, Zaixiang and Yue, Xiang and Huang, Shujian and Chen, Jiajun and Birch, Alexandra},
+	month = feb,
+	year = {2020},
+	note = {00000 
+arXiv: 2002.07982},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/RKFHUT89/2002.html:text/html}
+}
+
+@inproceedings{agrawal_contextual_2018,
+	title = {Contextual {Handling} in {Neural} {Machine} {Translation}: {Look} {Behind}, {Ahead} and on {Both} {Sides}},
+	isbn = {978-84-09-01901-4},
+	shorttitle = {Contextual {Handling} in {Neural} {Machine} {Translation}},
+	url = {https://cris.fbk.eu/handle/11582/314425#.XlZ3xeF7mkA},
+	abstract = {open},
+	language = {eng},
+	urldate = {2020-02-26},
+	author = {Agrawal, Ruchit Rajeshkumar and Turchi, Marco and Negri, Matteo},
+	year = {2018},
+	note = {00007 
+Accepted: 2018-08-08T15:15:28Z},
+	keywords = {read},
+	pages = {11--20},
+	file = {Snapshot:/home/lupol/Zotero/storage/7UILJH35/314425.html:text/html}
+}
+
+@inproceedings{maruf_document_2018,
+	address = {Melbourne, Australia},
+	title = {Document {Context} {Neural} {Machine} {Translation} with {Memory} {Networks}},
+	url = {https://www.aclweb.org/anthology/P18-1118},
+	doi = {10.18653/v1/P18-1118},
+	abstract = {We present a document-level neural machine translation model which takes both source and target document context into account using memory networks. We model the problem as a structured prediction problem with interdependencies among the observed and hidden variables, i.e., the source sentences and their unobserved target translations in the document. The resulting structured prediction problem is tackled with a neural translation model equipped with two memory components, one each for the source and target side, to capture the documental interdependencies. We train the model end-to-end, and propose an iterative decoding algorithm based on block coordinate descent. Experimental results of English translations from French, German, and Estonian documents show that our model is effective in exploiting both source and target document context, and statistically significantly outperforms the previous work in terms of BLEU and METEOR.},
+	urldate = {2020-02-26},
+	booktitle = {Proceedings of the 56th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics} ({Volume} 1: {Long} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Maruf, Sameen and Haffari, Gholamreza},
+	month = jul,
+	year = {2018},
+	note = {00032},
+	keywords = {read},
+	pages = {1275--1284}
+}
+
+@inproceedings{guillou_automatic_2018,
+	address = {Brussels, Belgium},
+	title = {Automatic {Reference}-{Based} {Evaluation} of {Pronoun} {Translation} {Misses} the {Point}},
+	url = {https://www.aclweb.org/anthology/D18-1513},
+	doi = {10.18653/v1/D18-1513},
+	abstract = {We compare the performance of the APT and AutoPRF metrics for pronoun translation against a manually annotated dataset comprising human judgements as to the correctness of translations of the PROTEST test suite. Although there is some correlation with the human judgements, a range of issues limit the performance of the automated metrics. Instead, we recommend the use of semi-automatic metrics and test suites in place of fully automatic metrics.},
+	urldate = {2020-02-26},
+	booktitle = {Proceedings of the 2018 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Guillou, Liane and Hardmeier, Christian},
+	month = oct,
+	year = {2018},
+	note = {00008},
+	keywords = {read},
+	pages = {4797--4802}
+}
+
+@article{post_call_2018,
+	title = {A {Call} for {Clarity} in {Reporting} {BLEU} {Scores}},
+	url = {http://arxiv.org/abs/1804.08771},
+	abstract = {The field of machine translation faces an under-recognized problem because of inconsistency in the reporting of scores from its dominant metric. Although people refer to "the" BLEU score, BLEU is in fact a parameterized metric whose values can vary wildly with changes to these parameters. These parameters are often not reported or are hard to find, and consequently, BLEU scores between papers cannot be directly compared. I quantify this variation, finding differences as high as 1.8 between commonly used configurations. The main culprit is different tokenization and normalization schemes applied to the reference. Pointing to the success of the parsing community, I suggest machine translation researchers settle upon the BLEU scheme used by the annual Conference on Machine Translation (WMT), which does not allow for user-supplied reference processing, and provide a new tool, SacreBLEU, to facilitate this.},
+	urldate = {2020-02-26},
+	journal = {arXiv:1804.08771 [cs]},
+	author = {Post, Matt},
+	month = sep,
+	year = {2018},
+	note = {00100 
+arXiv: 1804.08771},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/QT8X659E/1804.html:text/html}
+}
+
+@inproceedings{zhang_improving_2018,
+	address = {Brussels, Belgium},
+	title = {Improving the {Transformer} {Translation} {Model} with {Document}-{Level} {Context}},
+	url = {https://www.aclweb.org/anthology/D18-1049},
+	doi = {10.18653/v1/D18-1049},
+	abstract = {Although the Transformer translation model (Vaswani et al., 2017) has achieved state-of-the-art performance in a variety of translation tasks, how to use document-level context to deal with discourse phenomena problematic for Transformer still remains a challenge. In this work, we extend the Transformer model with a new context encoder to represent document-level context, which is then incorporated into the original encoder and decoder. As large-scale document-level parallel corpora are usually not available, we introduce a two-step training method to take full advantage of abundant sentence-level parallel corpora and limited document-level parallel corpora. Experiments on the NIST Chinese-English datasets and the IWSLT French-English datasets show that our approach improves over Transformer significantly.},
+	urldate = {2020-02-27},
+	booktitle = {Proceedings of the 2018 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Zhang, Jiacheng and Luan, Huanbo and Sun, Maosong and Zhai, Feifei and Xu, Jingfang and Zhang, Min and Liu, Yang},
+	month = oct,
+	year = {2018},
+	note = {00028},
+	keywords = {read},
+	pages = {533--542}
+}
+
+@article{jean_fill_2019,
+	title = {Fill in the {Blanks}: {Imputing} {Missing} {Sentences} for {Larger}-{Context} {Neural} {Machine} {Translation}},
+	shorttitle = {Fill in the {Blanks}},
+	url = {http://arxiv.org/abs/1910.14075},
+	abstract = {Most neural machine translation systems still translate sentences in isolation. To make further progress, a promising line of research additionally considers the surrounding context in order to provide the model potentially missing source-side information, as well as to maintain a coherent output. One difficulty in training such larger-context (i.e. document-level) machine translation systems is that context may be missing from many parallel examples. To circumvent this issue, two-stage approaches, in which sentence-level translations are post-edited in context, have recently been proposed. In this paper, we instead consider the viability of filling in the missing context. In particular, we consider three distinct approaches to generate the missing context: using random contexts, applying a copy heuristic or generating it with a language model. In particular, the copy heuristic significantly helps with lexical coherence, while using completely random contexts hurts performance on many long-distance linguistic phenomena. We also validate the usefulness of tagged back-translation. In addition to improving BLEU scores as expected, using back-translated data helps larger-context machine translation systems to better capture long-range phenomena.},
+	urldate = {2020-02-27},
+	journal = {arXiv:1910.14075 [cs]},
+	author = {Jean, Sébastien and Bapna, Ankur and Firat, Orhan},
+	month = oct,
+	year = {2019},
+	note = {00000 
+arXiv: 1910.14075},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/UX4FWLQC/1910.html:text/html}
+}
+
+@inproceedings{fu_reference_2019,
+	address = {Florence, Italy},
+	title = {Reference {Network} for {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/P19-1287},
+	doi = {10.18653/v1/P19-1287},
+	abstract = {Neural Machine Translation (NMT) has achieved notable success in recent years. Such a framework usually generates translations in isolation. In contrast, human translators often refer to reference data, either rephrasing the intricate sentence fragments with common terms in source language, or just accessing to the golden translation directly. In this paper, we propose a Reference Network to incorporate referring process into translation decoding of NMT. To construct a reference book, an intuitive way is to store the detailed translation history with extra memory, which is computationally expensive. Instead, we employ Local Coordinates Coding (LCC) to obtain global context vectors containing monolingual and bilingual contextual information for NMT decoding. Experimental results on Chinese-English and English-German tasks demonstrate that our proposed model is effective in improving the translation quality with lightweight computation cost.},
+	urldate = {2020-02-27},
+	booktitle = {Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Fu, Han and Liu, Chenghao and Sun, Jianling},
+	month = jul,
+	year = {2019},
+	note = {00000},
+	keywords = {read},
+	pages = {3002--3012}
+}
+
+@article{chen_best_2018,
+	title = {The {Best} of {Both} {Worlds}: {Combining} {Recent} {Advances} in {Neural} {Machine} {Translation}},
+	shorttitle = {The {Best} of {Both} {Worlds}},
+	url = {http://arxiv.org/abs/1804.09849},
+	abstract = {The past year has witnessed rapid advances in sequence-to-sequence (seq2seq) modeling for Machine Translation (MT). The classic RNN-based approaches to MT were first out-performed by the convolutional seq2seq model, which was then out-performed by the more recent Transformer model. Each of these new approaches consists of a fundamental architecture accompanied by a set of modeling and training techniques that are in principle applicable to other seq2seq architectures. In this paper, we tease apart the new architectures and their accompanying techniques in two ways. First, we identify several key modeling and training techniques, and apply them to the RNN architecture, yielding a new RNMT+ model that outperforms all of the three fundamental architectures on the benchmark WMT'14 English to French and English to German tasks. Second, we analyze the properties of each fundamental seq2seq architecture and devise new hybrid architectures intended to combine their strengths. Our hybrid models obtain further improvements, outperforming the RNMT+ model on both benchmark datasets.},
+	urldate = {2020-02-28},
+	journal = {arXiv:1804.09849 [cs]},
+	author = {Chen, Mia Xu and Firat, Orhan and Bapna, Ankur and Johnson, Melvin and Macherey, Wolfgang and Foster, George and Jones, Llion and Parmar, Niki and Schuster, Mike and Chen, Zhifeng and Wu, Yonghui and Hughes, Macduff},
+	month = apr,
+	year = {2018},
+	note = {00130 
+arXiv: 1804.09849},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/EGN6HB5K/1804.html:text/html}
+}
+
+@book{yu_nonlinear_nodate,
+	title = {Nonlinear {Learning} using {Local} {Coordinate} {Coding}},
+	abstract = {This paper introduces a new method for semi-supervised learning on high dimensional nonlinear manifolds, which includes a phase of unsupervised basis learning and a phase of supervised function learning. The learned bases provide a set of anchor points to form a local coordinate system, such that each data point x on the manifold can be locally approximated by a linear combination of its nearby anchor points, and the linear weights become its local coordinate coding. We show that a high dimensional nonlinear function can be approximated by a global linear function with respect to this coding scheme, and the approximation quality is ensured by the locality of such coding. The method turns a difficult nonlinear learning problem into a simple global linear learning problem, which overcomes some drawbacks of traditional local learning methods. 1},
+	author = {Yu, Kai and Zhang, Tong and Gong, Yihong},
+	file = {Citeseer - Snapshot:/home/lupol/Zotero/storage/5GBQEF9C/summary.html:text/html}
+}
+
+@book{xiong_modeling_2018,
+	title = {Modeling {Coherence} for {Discourse} {Neural} {Machine} {Translation}},
+	abstract = {Discourse coherence plays an important role in the translation of one text. However, the previous reported models most focus on improving performance over individual sentence while ignoring cross-sentence links and dependencies, which affects the coherence of the text. In this paper, we propose to use discourse context and reward to refine the translation quality from the discourse perspective. In particular, we generate the translation of individual sentences at first. Next, we deliberate the preliminary produced translations, and train the model to learn the policy that produces discourse coherent text by a reward teacher. Practical results on multiple discourse test datasets indicate that our model significantly improves the translation quality over the state-of-the-art baseline system by +1.23 BLEU score. Moreover, our model generates more discourse coherent text and obtains +2.2 BLEU improvements when evaluated by discourse metrics.},
+	author = {Xiong, Hao and He, Zhongjun and Wu, Hua and Wang, Haifeng},
+	month = nov,
+	year = {2018},
+	note = {00011}
+}
+
+@inproceedings{stojanovski_coreference_2018,
+	address = {Brussels, Belgium},
+	title = {Coreference and {Coherence} in {Neural} {Machine} {Translation}: {A} {Study} {Using} {Oracle} {Experiments}},
+	shorttitle = {Coreference and {Coherence} in {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/W18-6306},
+	doi = {10.18653/v1/W18-6306},
+	abstract = {Cross-sentence context can provide valuable information in Machine Translation and is critical for translation of anaphoric pronouns and for providing consistent translations. In this paper, we devise simple oracle experiments targeting coreference and coherence. Oracles are an easy way to evaluate the effect of different discourse-level phenomena in NMT using BLEU and eliminate the necessity to manually define challenge sets for this purpose. We propose two context-aware NMT models and compare them against models working on a concatenation of consecutive sentences. Concatenation models perform better, but are computationally expensive. We show that NMT models taking advantage of context oracle signals can achieve considerable gains in BLEU, of up to 7.02 BLEU for coreference and 1.89 BLEU for coherence on subtitles translation. Access to strong signals allows us to make clear comparisons between context-aware models.},
+	urldate = {2020-03-04},
+	booktitle = {Proceedings of the {Third} {Conference} on {Machine} {Translation}: {Research} {Papers}},
+	publisher = {Association for Computational Linguistics},
+	author = {Stojanovski, Dario and Fraser, Alexander},
+	month = oct,
+	year = {2018},
+	note = {00003},
+	pages = {49--60}
+}
+
+@article{kim_when_2019-2,
+	title = {When and {Why} is {Document}-level {Context} {Useful} in {Neural} {Machine} {Translation}?},
+	url = {http://arxiv.org/abs/1910.00294},
+	abstract = {Document-level context has received lots of attention for compensating neural machine translation (NMT) of isolated sentences. However, recent advances in document-level NMT focus on sophisticated integration of the context, explaining its improvement with only a few selected examples or targeted test sets. We extensively quantify the causes of improvements by a document-level model in general test sets, clarifying the limit of the usefulness of document-level context in NMT. We show that most of the improvements are not interpretable as utilizing the context. We also show that a minimal encoding is sufficient for the context modeling and very long context is not helpful for NMT.},
+	urldate = {2020-03-04},
+	journal = {arXiv:1910.00294 [cs]},
+	author = {Kim, Yunsu and Tran, Duc Thanh and Ney, Hermann},
+	month = oct,
+	year = {2019},
+	note = {00001 
+arXiv: 1910.00294},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/MXINDS99/1910.html:text/html}
+}
+
+@inproceedings{sukhbaatar_adaptive_2019,
+	address = {Florence, Italy},
+	title = {Adaptive {Attention} {Span} in {Transformers}},
+	url = {https://www.aclweb.org/anthology/P19-1032},
+	doi = {10.18653/v1/P19-1032},
+	abstract = {We propose a novel self-attention mechanism that can learn its optimal attention span. This allows us to extend significantly the maximum context size used in Transformer, while maintaining control over their memory footprint and computational time. We show the effectiveness of our approach on the task of character level language modeling, where we achieve state-of-the-art performances on text8 and enwiki8 by using a maximum context of 8k characters.},
+	urldate = {2020-03-04},
+	booktitle = {Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Sukhbaatar, Sainbayar and Grave, Edouard and Bojanowski, Piotr and Joulin, Armand},
+	month = jul,
+	year = {2019},
+	note = {00012},
+	pages = {331--335}
+}
+
+@inproceedings{cao_encoding_2018,
+	address = {Brussels, Belgium},
+	title = {Encoding {Gated} {Translation} {Memory} into {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/D18-1340},
+	doi = {10.18653/v1/D18-1340},
+	abstract = {Translation memories (TM) facilitate human translators to reuse existing repetitive translation fragments. In this paper, we propose a novel method to combine the strengths of both TM and neural machine translation (NMT) for high-quality translation. We treat the target translation of a TM match as an additional reference input and encode it into NMT with an extra encoder. A gating mechanism is further used to balance the impact of the TM match on the NMT decoder. Experiment results on the UN corpus demonstrate that when fuzzy matches are higher than 50\%, the quality of NMT translation can be significantly improved by over 10 BLEU points.},
+	urldate = {2020-03-04},
+	booktitle = {Proceedings of the 2018 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Cao, Qian and Xiong, Deyi},
+	month = oct,
+	year = {2018},
+	note = {00005},
+	pages = {3042--3047}
+}
+
+@article{jean_context-aware_2019,
+	title = {Context-{Aware} {Learning} for {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1903.04715},
+	abstract = {Interest in larger-context neural machine translation, including document-level and multi-modal translation, has been growing. Multiple works have proposed new network architectures or evaluation schemes, but potentially helpful context is still sometimes ignored by larger-context translation models. In this paper, we propose a novel learning algorithm that explicitly encourages a neural translation model to take into account additional context using a multilevel pair-wise ranking loss. We evaluate the proposed learning algorithm with a transformer-based larger-context translation system on document-level translation. By comparing performance using actual and random contexts, we show that a model trained with the proposed algorithm is more sensitive to the additional context.},
+	urldate = {2020-03-10},
+	journal = {arXiv:1903.04715 [cs]},
+	author = {Jean, Sébastien and Cho, Kyunghyun},
+	month = mar,
+	year = {2019},
+	note = {00003 
+arXiv: 1903.04715},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/JB8PXLP7/1903.html:text/html}
+}
+
+@inproceedings{junczys-dowmunt_microsoft_2019,
+	address = {Florence, Italy},
+	title = {Microsoft {Translator} at {WMT} 2019: {Towards} {Large}-{Scale} {Document}-{Level} {Neural} {Machine} {Translation}},
+	shorttitle = {Microsoft {Translator} at {WMT} 2019},
+	url = {https://www.aclweb.org/anthology/W19-5321},
+	doi = {10.18653/v1/W19-5321},
+	abstract = {This paper describes the Microsoft Translator submissions to the WMT19 news translation shared task for English-German. Our main focus is document-level neural machine translation with deep transformer models. We start with strong sentence-level baselines, trained on large-scale data created via data-filtering and noisy back-translation and find that back-translation seems to mainly help with translationese input. We explore fine-tuning techniques, deeper models and different ensembling strategies to counter these effects. Using document boundaries present in the authentic and synthetic parallel data, we create sequences of up to 1000 subword segments and train transformer translation models. We experiment with data augmentation techniques for the smaller authentic data with document-boundaries and for larger authentic data without boundaries. We further explore multi-task training for the incorporation of document-level source language monolingual data via the BERT-objective on the encoder and two-pass decoding for combinations of sentence-level and document-level systems. Based on preliminary human evaluation results, evaluators strongly prefer the document-level systems over our comparable sentence-level system. The document-level systems also seem to score higher than the human references in source-based direct assessment.},
+	urldate = {2020-03-11},
+	booktitle = {Proceedings of the {Fourth} {Conference} on {Machine} {Translation} ({Volume} 2: {Shared} {Task} {Papers}, {Day} 1)},
+	publisher = {Association for Computational Linguistics},
+	author = {Junczys-Dowmunt, Marcin},
+	month = aug,
+	year = {2019},
+	note = {00000},
+	pages = {225--233}
+}
+
+@inproceedings{barrault_findings_2019,
+	address = {Florence, Italy},
+	title = {Findings of the 2019 {Conference} on {Machine} {Translation} ({WMT19})},
+	url = {https://www.aclweb.org/anthology/W19-5301},
+	doi = {10.18653/v1/W19-5301},
+	abstract = {This paper presents the results of the premier shared task organized alongside the Conference on Machine Translation (WMT) 2019. Participants were asked to build machine translation systems for any of 18 language pairs, to be evaluated on a test set of news stories. The main metric for this task is human judgment of translation quality. The task was also opened up to additional test suites to probe specific aspects of translation.},
+	urldate = {2020-03-11},
+	booktitle = {Proceedings of the {Fourth} {Conference} on {Machine} {Translation} ({Volume} 2: {Shared} {Task} {Papers}, {Day} 1)},
+	publisher = {Association for Computational Linguistics},
+	author = {Barrault, Loïc and Bojar, Ondřej and Costa-jussà, Marta R. and Federmann, Christian and Fishel, Mark and Graham, Yvette and Haddow, Barry and Huck, Matthias and Koehn, Philipp and Malmasi, Shervin and Monz, Christof and Müller, Mathias and Pal, Santanu and Post, Matt and Zampieri, Marcos},
+	month = aug,
+	year = {2019},
+	note = {00000},
+	pages = {1--61}
+}
+
+@article{dai_transformer-xl_2019,
+	title = {Transformer-{XL}: {Attentive} {Language} {Models} {Beyond} a {Fixed}-{Length} {Context}},
+	shorttitle = {Transformer-{XL}},
+	url = {http://arxiv.org/abs/1901.02860},
+	abstract = {Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency beyond a fixed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a novel positional encoding scheme. Our method not only enables capturing longer-term dependency, but also resolves the context fragmentation problem. As a result, Transformer-XL learns dependency that is 80\% longer than RNNs and 450\% longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation. Notably, we improve the state-of-the-art results of bpc/perplexity to 0.99 on enwiki8, 1.08 on text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn Treebank (without finetuning). When trained only on WikiText-103, Transformer-XL manages to generate reasonably coherent, novel text articles with thousands of tokens. Our code, pretrained models, and hyperparameters are available in both Tensorflow and PyTorch.},
+	urldate = {2020-03-12},
+	journal = {arXiv:1901.02860 [cs, stat]},
+	author = {Dai, Zihang and Yang, Zhilin and Yang, Yiming and Carbonell, Jaime and Le, Quoc V. and Salakhutdinov, Ruslan},
+	month = jun,
+	year = {2019},
+	note = {00238 
+arXiv: 1901.02860},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/M3QRCJWR/1901.html:text/html}
+}
+
+@inproceedings{joty_discotk_2014,
+	address = {Baltimore, Maryland, USA},
+	title = {{DiscoTK}: {Using} {Discourse} {Structure} for {Machine} {Translation} {Evaluation}},
+	shorttitle = {{DiscoTK}},
+	url = {https://www.aclweb.org/anthology/W14-3352},
+	doi = {10.3115/v1/W14-3352},
+	urldate = {2020-03-12},
+	booktitle = {Proceedings of the {Ninth} {Workshop} on {Statistical} {Machine} {Translation}},
+	publisher = {Association for Computational Linguistics},
+	author = {Joty, Shafiq and Guzmán, Francisco and Màrquez, Lluís and Nakov, Preslav},
+	month = jun,
+	year = {2014},
+	note = {00000},
+	pages = {402--408}
+}
+
+@article{laubli_has_2018,
+	title = {Has {Machine} {Translation} {Achieved} {Human} {Parity}? {A} {Case} for {Document}-level {Evaluation}},
+	shorttitle = {Has {Machine} {Translation} {Achieved} {Human} {Parity}?},
+	url = {http://arxiv.org/abs/1808.07048},
+	abstract = {Recent research suggests that neural machine translation achieves parity with professional human translation on the WMT Chinese--English news translation task. We empirically test this claim with alternative evaluation protocols, contrasting the evaluation of single sentences and entire documents. In a pairwise ranking experiment, human raters assessing adequacy and fluency show a stronger preference for human over machine translation when evaluating documents as compared to isolated sentences. Our findings emphasise the need to shift towards document-level evaluation as machine translation improves to the degree that errors which are hard or impossible to spot at the sentence-level become decisive in discriminating quality of different translation outputs.},
+	urldate = {2020-03-13},
+	journal = {arXiv:1808.07048 [cs]},
+	author = {Läubli, Samuel and Sennrich, Rico and Volk, Martin},
+	month = aug,
+	year = {2018},
+	note = {00035 
+arXiv: 1808.07048},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/XPVL5NVB/1808.html:text/html}
+}
+
+@inproceedings{shaw_self-attention_2018,
+	address = {New Orleans, Louisiana},
+	title = {Self-{Attention} with {Relative} {Position} {Representations}},
+	url = {https://www.aclweb.org/anthology/N18-2074},
+	doi = {10.18653/v1/N18-2074},
+	abstract = {Relying entirely on an attention mechanism, the Transformer introduced by Vaswani et al. (2017) achieves state-of-the-art results for machine translation. In contrast to recurrent and convolutional neural networks, it does not explicitly model relative or absolute position information in its structure. Instead, it requires adding representations of absolute positions to its inputs. In this work we present an alternative approach, extending the self-attention mechanism to efficiently consider representations of the relative positions, or distances between sequence elements. On the WMT 2014 English-to-German and English-to-French translation tasks, this approach yields improvements of 1.3 BLEU and 0.3 BLEU over absolute position representations, respectively. Notably, we observe that combining relative and absolute position representations yields no further improvement in translation quality. We describe an efficient implementation of our method and cast it as an instance of relation-aware self-attention mechanisms that can generalize to arbitrary graph-labeled inputs.},
+	urldate = {2020-03-13},
+	booktitle = {Proceedings of the 2018 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}, {Volume} 2 ({Short} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Shaw, Peter and Uszkoreit, Jakob and Vaswani, Ashish},
+	month = jun,
+	year = {2018},
+	note = {00168},
+	keywords = {read},
+	pages = {464--468}
+}
+
+@article{ott_scaling_2018,
+	title = {Scaling {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1806.00187},
+	abstract = {Sequence to sequence learning models still require several days to reach state of the art performance on large benchmark datasets using a single machine. This paper shows that reduced precision and large batch training can speedup training by nearly 5x on a single 8-GPU machine with careful tuning and implementation. On WMT'14 English-German translation, we match the accuracy of Vaswani et al. (2017) in under 5 hours when training on 8 GPUs and we obtain a new state of the art of 29.3 BLEU after training for 85 minutes on 128 GPUs. We further improve these results to 29.8 BLEU by training on the much larger Paracrawl dataset. On the WMT'14 English-French task, we obtain a state-of-the-art BLEU of 43.2 in 8.5 hours on 128 GPUs.},
+	urldate = {2020-03-13},
+	journal = {arXiv:1806.00187 [cs]},
+	author = {Ott, Myle and Edunov, Sergey and Grangier, David and Auli, Michael},
+	month = sep,
+	year = {2018},
+	note = {00099 
+arXiv: 1806.00187},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/3VN6ZI8L/1806.html:text/html}
+}
+
+@article{wu_pay_2019,
+	title = {Pay {Less} {Attention} with {Lightweight} and {Dynamic} {Convolutions}},
+	url = {http://arxiv.org/abs/1901.10430},
+	abstract = {Self-attention is a useful mechanism to build generative models for language and images. It determines the importance of context elements by comparing each element to the current time step. In this paper, we show that a very lightweight convolution can perform competitively to the best reported self-attention results. Next, we introduce dynamic convolutions which are simpler and more efficient than self-attention. We predict separate convolution kernels based solely on the current time-step in order to determine the importance of context elements. The number of operations required by this approach scales linearly in the input length, whereas self-attention is quadratic. Experiments on large-scale machine translation, language modeling and abstractive summarization show that dynamic convolutions improve over strong self-attention models. On the WMT'14 English-German test set dynamic convolutions achieve a new state of the art of 29.7 BLEU.},
+	urldate = {2020-03-13},
+	journal = {arXiv:1901.10430 [cs]},
+	author = {Wu, Felix and Fan, Angela and Baevski, Alexei and Dauphin, Yann N. and Auli, Michael},
+	month = feb,
+	year = {2019},
+	note = {00073 
+arXiv: 1901.10430},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/XNE9WZFB/1901.html:text/html}
+}
+
+@inproceedings{dai_transformer-xl_2019-1,
+	address = {Florence, Italy},
+	title = {Transformer-{XL}: {Attentive} {Language} {Models} beyond a {Fixed}-{Length} {Context}},
+	shorttitle = {Transformer-{XL}},
+	url = {https://www.aclweb.org/anthology/P19-1285},
+	doi = {10.18653/v1/P19-1285},
+	abstract = {Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency beyond a fixed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a novel positional encoding scheme. Our method not only enables capturing longer-term dependency, but also resolves the context fragmentation problem. As a result, Transformer-XL learns dependency that is 80\% longer than RNNs and 450\% longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation. Notably, we improve the state-of-the-art results of bpc/perplexity to 0.99 on enwiki8, 1.08 on text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn Treebank (without finetuning). When trained only on WikiText-103, Transformer-XL manages to generate reasonably coherent, novel text articles with thousands of tokens. Our code, pretrained models, and hyperparameters are available in both Tensorflow and PyTorch.},
+	urldate = {2020-03-13},
+	booktitle = {Proceedings of the 57th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Dai, Zihang and Yang, Zhilin and Yang, Yiming and Carbonell, Jaime and Le, Quoc and Salakhutdinov, Ruslan},
+	month = jul,
+	year = {2019},
+	note = {00238},
+	keywords = {read},
+	pages = {2978--2988}
+}
+
+@article{yang_enhancing_2019-1,
+	title = {Enhancing {Context} {Modeling} with a {Query}-{Guided} {Capsule} {Network} for {Document}-level {Translation}},
+	url = {http://arxiv.org/abs/1909.00564},
+	doi = {10.18653/v1/D19-1164},
+	abstract = {Context modeling is essential to generate coherent and consistent translation for Document-level Neural Machine Translations. The widely used method for document-level translation usually compresses the context information into a representation via hierarchical attention networks. However, this method neither considers the relationship between context words nor distinguishes the roles of context words. To address this problem, we propose a query-guided capsule networks to cluster context information into different perspectives from which the target translation may concern. Experiment results show that our method can significantly outperform strong baselines on multiple data sets of different domains.},
+	urldate = {2020-03-13},
+	journal = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+	author = {Yang, Zhengxin and Zhang, Jinchao and Meng, Fandong and Gu, Shuhao and Feng, Yang and Zhou, Jie},
+	year = {2019},
+	note = {00001 
+arXiv: 1909.00564},
+	keywords = {Computer Science - Computation and Language},
+	pages = {1527--1537},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/K4JFZESC/1909.html:text/html}
+}
+
+@article{rae_compressive_2019,
+	title = {Compressive {Transformers} for {Long}-{Range} {Sequence} {Modelling}},
+	url = {http://arxiv.org/abs/1911.05507},
+	abstract = {We present the Compressive Transformer, an attentive sequence model which compresses past memories for long-range sequence learning. We find the Compressive Transformer obtains state-of-the-art language modelling results in the WikiText-103 and Enwik8 benchmarks, achieving 17.1 ppl and 0.97 bpc respectively. We also find it can model high-frequency speech effectively and can be used as a memory mechanism for RL, demonstrated on an object matching task. To promote the domain of long-range sequence learning, we propose a new open-vocabulary language modelling benchmark derived from books, PG-19.},
+	urldate = {2020-03-17},
+	journal = {arXiv:1911.05507 [cs, stat]},
+	author = {Rae, Jack W. and Potapenko, Anna and Jayakumar, Siddhant M. and Lillicrap, Timothy P.},
+	month = nov,
+	year = {2019},
+	note = {00000 
+arXiv: 1911.05507},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/N9ELUM5R/1911.html:text/html}
+}
+
+@article{xiong_modeling_2018-1,
+	title = {Modeling {Coherence} for {Discourse} {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1811.05683},
+	abstract = {Discourse coherence plays an important role in the translation of one text. However, the previous reported models most focus on improving performance over individual sentence while ignoring cross-sentence links and dependencies, which affects the coherence of the text. In this paper, we propose to use discourse context and reward to refine the translation quality from the discourse perspective. In particular, we generate the translation of individual sentences at first. Next, we deliberate the preliminary produced translations, and train the model to learn the policy that produces discourse coherent text by a reward teacher. Practical results on multiple discourse test datasets indicate that our model significantly improves the translation quality over the state-of-the-art baseline system by +1.23 BLEU score. Moreover, our model generates more discourse coherent text and obtains +2.2 BLEU improvements when evaluated by discourse metrics.},
+	urldate = {2020-03-17},
+	journal = {arXiv:1811.05683 [cs]},
+	author = {Xiong, Hao and He, Zhongjun and Wu, Hua and Wang, Haifeng},
+	month = nov,
+	year = {2018},
+	note = {00012},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/TQ2VC4Z7/1811.html:text/html}
+}
+
+@article{mace_using_2019,
+	title = {Using {Whole} {Document} {Context} in {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1910.07481},
+	abstract = {In Machine Translation, considering the document as a whole can help to resolve ambiguities and inconsistencies. In this paper, we propose a simple yet promising approach to add contextual information in Neural Machine Translation. We present a method to add source context that capture the whole document with accurate boundaries, taking every word into account. We provide this additional information to a Transformer model and study the impact of our method on three language pairs. The proposed approach obtains promising results in the English-German, English-French and French-English document-level translation tasks. We observe interesting cross-sentential behaviors where the model learns to use document-level information to improve translation coherence.},
+	urldate = {2020-03-18},
+	journal = {arXiv:1910.07481 [cs]},
+	author = {Macé, Valentin and Servan, Christophe},
+	month = oct,
+	year = {2019},
+	note = {00000 
+arXiv: 1910.07481},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/9MNAB9ML/1910.html:text/html}
+}
+
+@inproceedings{laubli_has_2018-1,
+	address = {Brussels, Belgium},
+	title = {Has {Machine} {Translation} {Achieved} {Human} {Parity}? {A} {Case} for {Document}-level {Evaluation}},
+	shorttitle = {Has {Machine} {Translation} {Achieved} {Human} {Parity}?},
+	url = {https://www.aclweb.org/anthology/D18-1512},
+	doi = {10.18653/v1/D18-1512},
+	abstract = {Recent research suggests that neural machine translation achieves parity with professional human translation on the WMT Chinese–English news translation task. We empirically test this claim with alternative evaluation protocols, contrasting the evaluation of single sentences and entire documents. In a pairwise ranking experiment, human raters assessing adequacy and fluency show a stronger preference for human over machine translation when evaluating documents as compared to isolated sentences. Our findings emphasise the need to shift towards document-level evaluation as machine translation improves to the degree that errors which are hard or impossible to spot at the sentence-level become decisive in discriminating quality of different translation outputs.},
+	urldate = {2020-03-23},
+	booktitle = {Proceedings of the 2018 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Läubli, Samuel and Sennrich, Rico and Volk, Martin},
+	month = oct,
+	year = {2018},
+	note = {00035},
+	pages = {4791--4796}
+}
+
+@inproceedings{gong_document-level_2015,
+	address = {Lisbon, Portugal},
+	title = {Document-{Level} {Machine} {Translation} {Evaluation} with {Gist} {Consistency} and {Text} {Cohesion}},
+	url = {https://www.aclweb.org/anthology/W15-2504},
+	doi = {10.18653/v1/W15-2504},
+	urldate = {2020-03-23},
+	booktitle = {Proceedings of the {Second} {Workshop} on {Discourse} in {Machine} {Translation}},
+	publisher = {Association for Computational Linguistics},
+	author = {Gong, Zhengxian and Zhang, Min and Zhou, Guodong},
+	month = sep,
+	year = {2015},
+	note = {00006},
+	pages = {33--40}
+}
+
+@article{jwalapuram_evaluating_2019,
+	title = {Evaluating {Pronominal} {Anaphora} in {Machine} {Translation}: {An} {Evaluation} {Measure} and a {Test} {Suite}},
+	shorttitle = {Evaluating {Pronominal} {Anaphora} in {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1909.00131},
+	abstract = {The ongoing neural revolution in machine translation has made it easier to model larger contexts beyond the sentence-level, which can potentially help resolve some discourse-level ambiguities such as pronominal anaphora, thus enabling better translations. Unfortunately, even when the resulting improvements are seen as substantial by humans, they remain virtually unnoticed by traditional automatic evaluation measures like BLEU, as only a few words end up being affected. Thus, specialized evaluation measures are needed. With this aim in mind, we contribute an extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English. We further propose an evaluation measure to differentiate good and bad pronoun translations. We also conduct a user study to report correlations with human judgments.},
+	urldate = {2020-03-23},
+	journal = {arXiv:1909.00131 [cs]},
+	author = {Jwalapuram, Prathyusha and Joty, Shafiq and Temnikova, Irina and Nakov, Preslav},
+	month = aug,
+	year = {2019},
+	note = {00002 
+arXiv: 1909.00131},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/D5RPJII9/1909.html:text/html}
+}
+
+@article{jwalapuram_evaluating_2019-1,
+	title = {Evaluating {Pronominal} {Anaphora} in {Machine} {Translation}: {An} {Evaluation} {Measure} and a {Test} {Suite}},
+	shorttitle = {Evaluating {Pronominal} {Anaphora} in {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1909.00131},
+	abstract = {The ongoing neural revolution in machine translation has made it easier to model larger contexts beyond the sentence-level, which can potentially help resolve some discourse-level ambiguities such as pronominal anaphora, thus enabling better translations. Unfortunately, even when the resulting improvements are seen as substantial by humans, they remain virtually unnoticed by traditional automatic evaluation measures like BLEU, as only a few words end up being affected. Thus, specialized evaluation measures are needed. With this aim in mind, we contribute an extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English. We further propose an evaluation measure to differentiate good and bad pronoun translations. We also conduct a user study to report correlations with human judgments.},
+	urldate = {2020-03-23},
+	journal = {arXiv:1909.00131 [cs]},
+	author = {Jwalapuram, Prathyusha and Joty, Shafiq and Temnikova, Irina and Nakov, Preslav},
+	month = aug,
+	year = {2019},
+	note = {00002 
+arXiv: 1909.00131},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, Computer Science - Artificial Intelligence, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/FZ8ZF9HL/1909.html:text/html}
+}
+
+@inproceedings{wong_extending_2012,
+	address = {Jeju Island, Korea},
+	title = {Extending {Machine} {Translation} {Evaluation} {Metrics} with {Lexical} {Cohesion} to {Document} {Level}},
+	url = {https://www.aclweb.org/anthology/D12-1097},
+	urldate = {2020-03-23},
+	booktitle = {Proceedings of the 2012 {Joint} {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing} and {Computational} {Natural} {Language} {Learning}},
+	publisher = {Association for Computational Linguistics},
+	author = {Wong, Billy T. M. and Kit, Chunyu},
+	month = jul,
+	year = {2012},
+	note = {00044},
+	pages = {1060--1068}
+}
+
+@incollection{hutchison_assessing_2013,
+	address = {Berlin, Heidelberg},
+	title = {Assessing the {Accuracy} of {Discourse} {Connective} {Translations}: {Validation} of an {Automatic} {Metric}},
+	volume = {7817},
+	isbn = {978-3-642-37255-1 978-3-642-37256-8},
+	shorttitle = {Assessing the {Accuracy} of {Discourse} {Connective} {Translations}},
+	url = {http://link.springer.com/10.1007/978-3-642-37256-8_20},
+	urldate = {2020-03-23},
+	booktitle = {Computational {Linguistics} and {Intelligent} {Text} {Processing}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Hajlaoui, Najeh and Popescu-Belis, Andrei},
+	editor = {Hutchison, David and Kanade, Takeo and Kittler, Josef and Kleinberg, Jon M. and Mattern, Friedemann and Mitchell, John C. and Naor, Moni and Nierstrasz, Oscar and Pandu Rangan, C. and Steffen, Bernhard and Sudan, Madhu and Terzopoulos, Demetri and Tygar, Doug and Vardi, Moshe Y. and Weikum, Gerhard and Gelbukh, Alexander},
+	year = {2013},
+	doi = {10.1007/978-3-642-37256-8_20},
+	note = {00000 
+Series Title: Lecture Notes in Computer Science},
+	pages = {236--247}
+}
+
+@inproceedings{jwalapuram_evaluating_2019-2,
+	address = {Hong Kong, China},
+	title = {Evaluating {Pronominal} {Anaphora} in {Machine} {Translation}: {An} {Evaluation} {Measure} and a {Test} {Suite}},
+	shorttitle = {Evaluating {Pronominal} {Anaphora} in {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/D19-1294},
+	doi = {10.18653/v1/D19-1294},
+	abstract = {The ongoing neural revolution in machine translation has made it easier to model larger contexts beyond the sentence-level, which can potentially help resolve some discourse-level ambiguities such as pronominal anaphora, thus enabling better translations. Unfortunately, even when the resulting improvements are seen as substantial by humans, they remain virtually unnoticed by traditional automatic evaluation measures like BLEU, as only a few words end up being affected. Thus, specialized evaluation measures are needed. With this aim in mind, we contribute an extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English. We further propose an evaluation measure to differentiate good and bad pronoun translations. We also conduct a user study to report correlations with human judgments.},
+	urldate = {2020-03-23},
+	booktitle = {Proceedings of the 2019 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing} and the 9th {International} {Joint} {Conference} on {Natural} {Language} {Processing} ({EMNLP}-{IJCNLP})},
+	publisher = {Association for Computational Linguistics},
+	author = {Jwalapuram, Prathyusha and Joty, Shafiq and Temnikova, Irina and Nakov, Preslav},
+	month = nov,
+	year = {2019},
+	note = {00002},
+	keywords = {read},
+	pages = {2964--2975}
+}
+
+@article{visser_using_1996,
+	title = {Using sentence connectors for evaluating {MT} output},
+	url = {http://arxiv.org/abs/cmp-lg/9608019},
+	abstract = {This paper elaborates on the design of a machine translation evaluation method that aims to determine to what degree the meaning of an original text is preserved in translation, without looking into the grammatical correctness of its constituent sentences. The basic idea is to have a human evaluator take the sentences of the translated text and, for each of these sentences, determine the semantic relationship that exists between it and the sentence immediately preceding it. In order to minimise evaluator dependence, relations between sentences are expressed in terms of the conjuncts that can connect them, rather than through explicit categories. For an n-sentence text this results in a list of n-1 sentence-to-sentence relationships, which we call the text's connectivity profile. This can then be compared to the connectivity profile of the original text, and the degree of correspondence between the two would be a measure for the quality of the translation. A set of "essential" conjuncts was extracted for English and Japanese, and a computer interface was designed to support the task of inserting the most fitting conjuncts between sentence pairs. With these in place, several sets of experiments were performed.},
+	urldate = {2020-03-26},
+	journal = {arXiv:cmp-lg/9608019},
+	author = {Visser, Eric M. and Fuji, Masaru},
+	month = aug,
+	year = {1996},
+	note = {00004 
+arXiv: cmp-lg/9608019},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/VM36JYL9/9608019.html:text/html}
+}
+
+@article{matthew_snover_study_2006,
+	title = {A study of translation edit rate with targeted human annotation},
+	url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.129.4369},
+	urldate = {2020-03-25},
+	journal = {Proceedings of the 7th Conference of the Association for Machine Translation in the Americas},
+	author = {Matthew Snover and Dorr, Bonnie and Richard Schwartz and Linnea Micciulla and John Makhoul},
+	month = aug,
+	year = {2006},
+	note = {01912},
+	pages = {223--231},
+	file = {CiteSeerX — A study of translation edit rate with targeted human annotation:/home/lupol/Zotero/storage/J8359PHW/summary.html:text/html}
+}
+
+@inproceedings{papineni_bleu_2002,
+	address = {Philadelphia, Pennsylvania, USA},
+	title = {Bleu: a {Method} for {Automatic} {Evaluation} of {Machine} {Translation}},
+	shorttitle = {Bleu},
+	url = {https://www.aclweb.org/anthology/P02-1040},
+	doi = {10.3115/1073083.1073135},
+	urldate = {2020-03-25},
+	booktitle = {Proceedings of the 40th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing},
+	month = jul,
+	year = {2002},
+	note = {10863},
+	pages = {311--318}
+}
+
+@inproceedings{wong_extending_2012-1,
+	address = {Jeju Island, Korea},
+	title = {Extending {Machine} {Translation} {Evaluation} {Metrics} with {Lexical} {Cohesion} to {Document} {Level}},
+	url = {https://www.aclweb.org/anthology/D12-1097},
+	urldate = {2020-03-25},
+	booktitle = {Proceedings of the 2012 {Joint} {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing} and {Computational} {Natural} {Language} {Learning}},
+	publisher = {Association for Computational Linguistics},
+	author = {Wong, Billy T. M. and Kit, Chunyu},
+	month = jul,
+	year = {2012},
+	note = {00044},
+	pages = {1060--1068}
+}
+
+@inproceedings{banerjee_meteor_2005-1,
+	address = {Ann Arbor, Michigan},
+	title = {{METEOR}: {An} {Automatic} {Metric} for {MT} {Evaluation} with {Improved} {Correlation} with {Human} {Judgments}},
+	shorttitle = {{METEOR}},
+	url = {https://www.aclweb.org/anthology/W05-0909},
+	urldate = {2020-03-25},
+	booktitle = {Proceedings of the {ACL} {Workshop} on {Intrinsic} and {Extrinsic} {Evaluation} {Measures} for {Machine} {Translation} and/or {Summarization}},
+	publisher = {Association for Computational Linguistics},
+	author = {Banerjee, Satanjeev and Lavie, Alon},
+	month = jun,
+	year = {2005},
+	note = {01872},
+	pages = {65--72}
+}
+
+@article{porter_algorithm_1980,
+	title = {An algorithm for suffix stripping},
+	volume = {40},
+	issn = {0033-0337},
+	url = {https://doi.org/10.1108/00330330610681286},
+	doi = {10.1108/00330330610681286},
+	abstract = {Purpose – The automatic removal of suffixes from words in English is of particular interest in the field of information retrieval. This work was originally published in Program in 1980 and is republished as part of a series of articles commemorating the 40th anniversary of the journal. Design/methodology/approach – An algorithm for suffix stripping is described, which has been implemented as a short, fast program in BCPL. Findings – Although simple, it performs slightly better than a much more elaborate system with which it has been compared. It effectively works by treating complex suffixes as compounds made up of simple suffixes, and removing the simple suffixes in a number of steps. In each step the removal of the suffix is made to depend upon the form of the remaining stem, which usually involves a measure of its syllable length. Originality/value – The piece provides a useful historical document on information retrieval.},
+	number = {3},
+	urldate = {2020-03-26},
+	journal = {Program},
+	author = {Porter, M.F.},
+	year = {1980},
+	note = {10830},
+	keywords = {Computer applications, Historical research, Information retrieval},
+	pages = {211--218},
+	file = {Snapshot:/home/lupol/Zotero/storage/GT65PLQ2/html.html:text/html}
+}
+
+@article{fellbaum_semantic_1998,
+	title = {A {Semantic} {Network} of {English}: {The} {Mother} of {All} {WordNets}},
+	volume = {32},
+	issn = {1572-8412},
+	shorttitle = {A {Semantic} {Network} of {English}},
+	url = {https://doi.org/10.1023/A:1001181927857},
+	doi = {10.1023/A:1001181927857},
+	abstract = {We give a brief outline of the design and contents of the English lexical database WordNet, which serves as a model for similarly conceived wordnets in several European languages. WordNet is a semantic network, in which the meanings of nouns, verbs, adjectives, and adverbs are represented in terms of their links to other (groups of) words via conceptual-semantic and lexical relations. Each part of speech is treated differently reflecting different semantic properties. We briefly discuss polysemy in WordNet, and focus on the case of meaning extensions in the verb lexicon. Finally, we outline the potential uses of WordNet not only for applications in natural language processing, but also for research in stylistic analyses in conjunction with a semantic concordance.},
+	language = {en},
+	number = {2},
+	urldate = {2020-03-26},
+	journal = {Computers and the Humanities},
+	author = {Fellbaum, Christiane},
+	month = mar,
+	year = {1998},
+	note = {00194},
+	pages = {209--220}
+}
+
+@inproceedings{wu_verbs_1994,
+	address = {Las Cruces, New Mexico},
+	series = {{ACL} '94},
+	title = {Verbs semantics and lexical selection},
+	url = {https://doi.org/10.3115/981732.981751},
+	doi = {10.3115/981732.981751},
+	abstract = {This paper will focus on the semantic representation of verbs in computer systems and its impact on lexical selection problems in machine translation (MT). Two groups of English and Chinese verbs are examined to show that lexical selection must be based on interpretation of the sentences as well as selection restrictions placed on the verb arguments. A novel representation scheme is suggested, and is compared to representations with selection restrictions used in transfer-based MT. We see our approach as closely aligned with knowledge-based MT approaches (KBMT), and as a separate component that could be incorporated into existing systems. Examples and experimental results will show that, using this scheme, inexact matches can achieve correct lexical selection.},
+	urldate = {2020-03-26},
+	booktitle = {Proceedings of the 32nd annual meeting on {Association} for {Computational} {Linguistics}},
+	publisher = {Association for Computational Linguistics},
+	author = {Wu, Zhibiao and Palmer, Martha},
+	month = jun,
+	year = {1994},
+	note = {03892},
+	pages = {133--138}
+}

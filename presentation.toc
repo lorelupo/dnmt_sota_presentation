@@ -4,5 +4,5 @@
 \beamer@subsectionintoc {1}{2}{Overview}{4}{0}{1}
 \beamer@sectionintoc {2}{Evaluation}{6}{0}{2}
 \beamer@subsectionintoc {2}{3}{Automatic metrics}{10}{0}{2}
-\beamer@subsectionintoc {2}{4}{Test suites}{13}{0}{2}
-\beamer@subsectionintoc {2}{5}{Remarks and conclusions}{14}{0}{2}
+\beamer@subsectionintoc {2}{4}{Test suites}{14}{0}{2}
+\beamer@subsectionintoc {2}{5}{Remarks and conclusions}{15}{0}{2}

@@ -66,7 +66,7 @@
 
 \begin{frame}{Automatic metrics}
 	
-\textbf{Pronoun pair-wise ranking} \cite{jwalapuram_evaluating_2019}
+\textbf{Pronoun Pair-wise Ranking} \cite{jwalapuram_evaluating_2019}
 
 \begin{itemize}
 	\item \textit{Rationale1}: \textbf{ranking-based evaluation} measures can achieve higher correlations with human judgments, as rankings are simpler to obtain from humans and to train models on.
@@ -91,6 +91,31 @@
 \end{figure}
 
 \end{frame}
+
+\begin{frame}{Automatic metrics}
+	
+	\textbf{Lexical Cohesion extension} \cite{wong_extending_2012}
+	
+	\begin{itemize}
+		\item A \textbf{stemming algorithm} \cite{porter_algorithm_1980} is used to identify word stems for each content word  ; 
+		\begin{itemize}
+			\item Words with the same stem are defined and counted as \textbf{Repetitions}.
+		\end{itemize}
+		\item \textbf{WordNet} \cite{fellbaum_semantic_1998} is used to cluster synonims and superordinates into  semantic groups;
+		\begin{itemize}
+			\item Words belonging to the same semantic group or close semantic groups (near-synonims) are defined and counted as \textbf{Lexical Cohesion Devices} (LCD).
+		\end{itemize}
+		\item A \textbf{hybrid metric} can then be defined as weighted average of:		
+			\begin{itemize}
+				\item a \textbf{classic sentence-level metric}, e.g. BLEU, METEOR, TER;
+				\item \textbf{a lexical cohesion metric}, e.g. $Repetitions / content\ words$ or $LCD / content\ words$.
+			\end{itemize}
+		
+		
+	\end{itemize}
+	
+\end{frame}
+
 
 
 \subsection{Test suites}

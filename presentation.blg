@@ -2,74 +2,56 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: presentation.aux
 The style file: apalike.bst
-White space in argument---line 78 of file presentation.aux
- : \bibdata{Bibliography/AAA,Bibliography/evaluation,
- :                                                    Bibliography/architectures, Bibliography/bibliography}
+White space in argument---line 102 of file presentation.aux
+ : \bibdata{Bibliography/document_nmt,
+ :                                     Bibliography/bibliography}
 I'm skipping whatever remains of this command
-Database file #1: Bibliography/AAA.bib
-Database file #2: Bibliography/evaluation.bib
-Repeated entry---line 59 of file Bibliography/evaluation.bib
- : @article{popescu-belis_context_2019
- :                                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 75 of file Bibliography/evaluation.bib
- : @inproceedings{bawden_evaluating_2018
- :                                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 92 of file Bibliography/evaluation.bib
- : @inproceedings{muller_large-scale_2018
- :                                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 141 of file Bibliography/evaluation.bib
- : @inproceedings{laubli_has_2018
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 173 of file Bibliography/evaluation.bib
- : @article{jwalapuram_evaluating_2019
- :                                    ,
-I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in noauthor_citeseerx_nodate
-Warning--empty year in noauthor_citeseerx_nodate
-Warning--empty booktitle in agrawal_contextual_2018
-You've used 51 entries,
+Database file #1: Bibliography/document_nmt.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+You've used 13 entries,
             1935 wiz_defined-function locations,
-            753 strings with 15732 characters,
-and the built_in function-call counts, 24970 in all, are:
-= -- 2622
-> -- 1001
-< -- 46
-+ -- 350
-- -- 342
-* -- 1860
-:= -- 4064
-add.period$ -- 230
-call.type$ -- 51
-change.case$ -- 426
-chr.to.int$ -- 49
-cite$ -- 55
-duplicate$ -- 1083
-empty$ -- 1684
-format.name$ -- 414
-if$ -- 5234
-int.to.chr$ -- 3
+            565 strings with 7164 characters,
+and the built_in function-call counts, 6375 in all, are:
+= -- 687
+> -- 207
+< -- 15
++ -- 76
+- -- 68
+* -- 468
+:= -- 1016
+add.period$ -- 60
+call.type$ -- 13
+change.case$ -- 99
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 283
+empty$ -- 457
+format.name$ -- 91
+if$ -- 1353
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 50
-newline$ -- 307
-num.names$ -- 150
-pop$ -- 427
+missing$ -- 13
+newline$ -- 81
+num.names$ -- 39
+pop$ -- 89
 preamble$ -- 1
-purify$ -- 426
+purify$ -- 99
 quote$ -- 0
-skip$ -- 853
+skip$ -- 227
 stack$ -- 0
-substring$ -- 1590
-swap$ -- 322
-text.length$ -- 31
+substring$ -- 470
+swap$ -- 85
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 306
-warning$ -- 3
-while$ -- 193
+type$ -- 78
+warning$ -- 0
+while$ -- 54
 width$ -- 0
-write$ -- 797
-(There were 6 error messages)
+write$ -- 211
+(There was 1 error message)
