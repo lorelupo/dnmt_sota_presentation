@@ -3,6 +3,6 @@
 \beamer@sectionintoc {1}{Modern Neural Machine Translation}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Overview}{4}{0}{1}
 \beamer@sectionintoc {2}{Evaluation}{6}{0}{2}
-\beamer@subsectionintoc {2}{3}{Automatic metrics}{10}{0}{2}
-\beamer@subsectionintoc {2}{4}{Test suites}{14}{0}{2}
-\beamer@subsectionintoc {2}{5}{Remarks and conclusions}{15}{0}{2}
+\beamer@subsectionintoc {2}{3}{Automatic metrics}{21}{0}{2}
+\beamer@subsectionintoc {2}{4}{Test Suites}{42}{0}{2}
+\beamer@subsectionintoc {2}{5}{Remarks and conclusions}{69}{0}{2}

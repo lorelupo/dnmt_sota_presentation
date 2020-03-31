@@ -18,58 +18,76 @@
 \headcommand {\beamer@subsectionpages {4}{5}}
 \headcommand {\slideentry {2}{2}{3}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {2}{2}{4}{7/7}{}{0}}
-\headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {2}{2}{5}{8/8}{}{0}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {2}{2}{6}{9/9}{}{0}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{10}{Automatic metrics}}\headcommand {\beamer@subsectionpages {6}{9}}
-\headcommand {\slideentry {2}{3}{1}{10/10}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {2}{3}{2}{11/11}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {2}{3}{3}{12/12}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {2}{3}{4}{13/13}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{14}{Test suites}}\headcommand {\beamer@subsectionpages {10}{13}}
-\headcommand {\slideentry {2}{4}{1}{14/14}{Test suites}{0}}
+\headcommand {\slideentry {2}{2}{4}{7/13}{}{0}}
+\headcommand {\beamer@framepages {7}{13}}
+\headcommand {\slideentry {2}{2}{5}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionentry {0}{2}{5}{15}{Remarks and conclusions}}\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {2}{5}{1}{15/15}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {2}{5}{2}{16/16}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{2}{6}{15/20}{}{0}}
+\headcommand {\beamer@framepages {15}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{21}{Automatic metrics}}\headcommand {\beamer@subsectionpages {6}{20}}
+\headcommand {\slideentry {2}{3}{1}{21/25}{Automatic metrics}{0}}
+\headcommand {\beamer@framepages {21}{25}}
+\headcommand {\slideentry {2}{3}{2}{26/31}{Automatic metrics}{0}}
+\headcommand {\beamer@framepages {26}{31}}
+\headcommand {\slideentry {2}{3}{3}{32/32}{Automatic metrics}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {2}{3}{4}{33/41}{Automatic metrics}{0}}
+\headcommand {\beamer@framepages {33}{41}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{42}{Test Suites}}\headcommand {\beamer@subsectionpages {21}{41}}
+\headcommand {\slideentry {2}{4}{1}{42/47}{Test Suites}{0}}
+\headcommand {\beamer@framepages {42}{47}}
+\headcommand {\slideentry {2}{4}{2}{48/50}{Test Suites}{0}}
+\headcommand {\beamer@framepages {48}{50}}
+\headcommand {\slideentry {2}{4}{3}{51/51}{Test Suites}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {2}{4}{4}{52/55}{Test Suites}{0}}
+\headcommand {\beamer@framepages {52}{55}}
+\headcommand {\slideentry {2}{4}{5}{56/56}{Test Suites}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {2}{4}{6}{57/59}{Test Suites}{0}}
+\headcommand {\beamer@framepages {57}{59}}
+\headcommand {\slideentry {2}{4}{7}{60/68}{Test Suites}{0}}
+\headcommand {\beamer@framepages {60}{68}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{69}{Remarks and conclusions}}\headcommand {\beamer@subsectionpages {42}{68}}
+\headcommand {\slideentry {2}{5}{1}{69/75}{Remarks and conclusions}{0}}
+\headcommand {\beamer@framepages {69}{75}}
+\headcommand {\slideentry {2}{5}{2}{76/79}{Remarks and conclusions}{0}}
+\headcommand {\beamer@framepages {76}{79}}
+\headcommand {\slideentry {2}{5}{3}{80/85}{Remarks and conclusions}{0}}
+\headcommand {\beamer@framepages {80}{85}}
+\headcommand {\slideentry {2}{5}{4}{86/86}{Remarks and conclusions}{0}}
+\headcommand {\beamer@framepages {86}{86}}
 \headcommand {\partentry {Appendix}{1}}
-\headcommand {\beamer@partpages {1}{16}}
-\headcommand {\beamer@sectionpages {6}{16}}
-\headcommand {\beamer@subsectionpages {15}{16}}
-\headcommand {\beamer@appendixpages {17}}
-\headcommand {\slideentry {2}{0}{3}{17/17}{}{1}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {2}{0}{3}{17/18}{}{1}}
-\headcommand {\beamer@framepages {17}{18}}
-\headcommand {\slideentry {2}{0}{3}{17/19}{}{1}}
-\headcommand {\beamer@framepages {17}{19}}
-\headcommand {\slideentry {2}{0}{3}{17/20}{}{1}}
-\headcommand {\beamer@framepages {17}{20}}
-\headcommand {\slideentry {2}{0}{3}{17/21}{}{1}}
-\headcommand {\beamer@framepages {17}{21}}
-\headcommand {\slideentry {2}{0}{3}{17/22}{}{1}}
-\headcommand {\beamer@framepages {17}{22}}
-\headcommand {\slideentry {2}{0}{4}{23/23}{}{1}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {2}{0}{5}{24/24}{}{1}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {2}{0}{6}{25/25}{}{1}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {2}{0}{7}{26/26}{}{1}}
-\headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {2}{0}{8}{27/27}{}{1}}
-\headcommand {\beamer@framepages {27}{27}}
-\headcommand {\beamer@partpages {17}{27}}
-\headcommand {\beamer@subsectionpages {17}{27}}
-\headcommand {\beamer@sectionpages {17}{27}}
-\headcommand {\beamer@documentpages {27}}
-\headcommand {\def \inserttotalframenumber {16}}
+\headcommand {\beamer@partpages {1}{86}}
+\headcommand {\beamer@sectionpages {6}{86}}
+\headcommand {\beamer@subsectionpages {69}{86}}
+\headcommand {\beamer@appendixpages {87}}
+\headcommand {\slideentry {2}{0}{5}{87/87}{}{1}}
+\headcommand {\beamer@framepages {87}{87}}
+\headcommand {\slideentry {2}{0}{5}{87/88}{}{1}}
+\headcommand {\beamer@framepages {87}{88}}
+\headcommand {\slideentry {2}{0}{5}{87/89}{}{1}}
+\headcommand {\beamer@framepages {87}{89}}
+\headcommand {\slideentry {2}{0}{5}{87/90}{}{1}}
+\headcommand {\beamer@framepages {87}{90}}
+\headcommand {\slideentry {2}{0}{5}{87/91}{}{1}}
+\headcommand {\beamer@framepages {87}{91}}
+\headcommand {\slideentry {2}{0}{5}{87/92}{}{1}}
+\headcommand {\beamer@framepages {87}{92}}
+\headcommand {\slideentry {2}{0}{5}{87/93}{}{1}}
+\headcommand {\beamer@framepages {87}{93}}
+\headcommand {\slideentry {2}{0}{6}{94/94}{}{1}}
+\headcommand {\beamer@framepages {94}{94}}
+\headcommand {\slideentry {2}{0}{7}{95/95}{}{1}}
+\headcommand {\beamer@framepages {95}{95}}
+\headcommand {\slideentry {2}{0}{8}{96/96}{}{1}}
+\headcommand {\beamer@framepages {96}{96}}
+\headcommand {\slideentry {2}{0}{9}{97/97}{}{1}}
+\headcommand {\beamer@framepages {97}{97}}
+\headcommand {\slideentry {2}{0}{10}{98/98}{}{1}}
+\headcommand {\beamer@framepages {98}{98}}
+\headcommand {\beamer@partpages {87}{98}}
+\headcommand {\beamer@subsectionpages {87}{98}}
+\headcommand {\beamer@sectionpages {87}{98}}
+\headcommand {\beamer@documentpages {98}}
+\headcommand {\def \inserttotalframenumber {24}}

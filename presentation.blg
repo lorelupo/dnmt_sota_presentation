@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: presentation.aux
 The style file: apalike.bst
-White space in argument---line 102 of file presentation.aux
+White space in argument---line 126 of file presentation.aux
  : \bibdata{Bibliography/document_nmt,
  :                                     Bibliography/bibliography}
 I'm skipping whatever remains of this command
@@ -13,45 +13,45 @@ Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
 Reallocated out_buf (elt_size=1) to 40000 items from 20000.
 Reallocated name_tok (elt_size=4) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-You've used 13 entries,
+You've used 15 entries,
             1935 wiz_defined-function locations,
-            565 strings with 7164 characters,
-and the built_in function-call counts, 6375 in all, are:
-= -- 687
-> -- 207
-< -- 15
-+ -- 76
-- -- 68
-* -- 468
-:= -- 1016
-add.period$ -- 60
-call.type$ -- 13
-change.case$ -- 99
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 283
-empty$ -- 457
-format.name$ -- 91
-if$ -- 1353
+            576 strings with 7953 characters,
+and the built_in function-call counts, 7709 in all, are:
+= -- 829
+> -- 263
+< -- 16
++ -- 98
+- -- 88
+* -- 569
+:= -- 1217
+add.period$ -- 70
+call.type$ -- 15
+change.case$ -- 119
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 341
+empty$ -- 547
+format.name$ -- 111
+if$ -- 1642
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 81
-num.names$ -- 39
-pop$ -- 89
+missing$ -- 15
+newline$ -- 93
+num.names$ -- 45
+pop$ -- 114
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 119
 quote$ -- 0
-skip$ -- 227
+skip$ -- 273
 stack$ -- 0
-substring$ -- 470
-swap$ -- 85
-text.length$ -- 8
+substring$ -- 576
+swap$ -- 109
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
+type$ -- 90
 warning$ -- 0
-while$ -- 54
+while$ -- 64
 width$ -- 0
-write$ -- 211
+write$ -- 244
 (There was 1 error message)

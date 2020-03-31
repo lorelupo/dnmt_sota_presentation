@@ -93,6 +93,35 @@ Porter, M. (1980).
 \newblock {\em Program}, 40(3):211--218.
 \newblock 10830.
 
+\bibitem[Rysová et~al., 2019]{rysova_test_2019}
+Rysová, K., Rysová, M., Musil, T., Poláková, L., and Bojar, O. (2019).
+\newblock A {Test} {Suite} and {Manual} {Evaluation} of {Document}-{Level}
+  {NMT} at {WMT19}.
+\newblock In {\em Proceedings of the {Fourth} {Conference} on {Machine}
+  {Translation} ({Volume} 2: {Shared} {Task} {Papers}, {Day} 1)}, pages
+  455--463, Florence, Italy. Association for Computational Linguistics.
+\newblock 00001.
+
+\bibitem[Voita et~al., 2019]{voita_when_2019}
+Voita, E., Sennrich, R., and Titov, I. (2019).
+\newblock When a {Good} {Translation} is {Wrong} in {Context}:
+  {Context}-{Aware} {Machine} {Translation} {Improves} on {Deixis}, {Ellipsis},
+  and {Lexical} {Cohesion}.
+\newblock In {\em Proceedings of the 57th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics}}, pages 1198--1212, Florence,
+  Italy. Association for Computational Linguistics.
+\newblock 00007.
+
+\bibitem[Voita et~al., 2018]{voita_context-aware_2018}
+Voita, E., Serdyukov, P., Sennrich, R., and Titov, I. (2018).
+\newblock Context-{Aware} {Neural} {Machine} {Translation} {Learns} {Anaphora}
+  {Resolution}.
+\newblock In {\em Proceedings of the 56th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
+  {Papers})}, pages 1264--1274, Melbourne, Australia. Association for
+  Computational Linguistics.
+\newblock 00047.
+
 \bibitem[Wong and Kit, 2012]{wong_extending_2012}
 Wong, B. T.~M. and Kit, C. (2012).
 \newblock Extending {Machine} {Translation} {Evaluation} {Metrics} with
@@ -102,13 +131,5 @@ Wong, B. T.~M. and Kit, C. (2012).
   {Language} {Learning}}, pages 1060--1068, Jeju Island, Korea. Association for
   Computational Linguistics.
 \newblock 00044.
-
-\bibitem[Wu and Palmer, 1994]{wu_verbs_1994}
-Wu, Z. and Palmer, M. (1994).
-\newblock Verbs semantics and lexical selection.
-\newblock In {\em Proceedings of the 32nd annual meeting on {Association} for
-  {Computational} {Linguistics}}, {ACL} '94, pages 133--138, Las Cruces, New
-  Mexico. Association for Computational Linguistics.
-\newblock 03892.
 
 \end{thebibliography}
