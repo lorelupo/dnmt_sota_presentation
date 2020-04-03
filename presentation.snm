@@ -1,8 +1,5 @@
-\beamer@slide {fig:maruf2019discoursephenomena}{14}
-\beamer@slide {fig:jwalapuram2019pronounranker}{32}
-\beamer@slide {fr:test_suites_intro}{42}
-\beamer@slide {fig:anaphoratestsuite}{51}
-\beamer@slide {fig:coherencetestsuite}{56}
-\beamer@slide {eq:ise}{97}
-\beamer@slide {eq:truncatedmise}{97}
-\beamer@slide {th:regretdiscretized}{98}
+\beamer@slide {fig:modelsoutidedecoder}{5}
+\beamer@slide {fig:modelsinsidedecodersequential}{9}
+\beamer@slide {eq:ise}{20}
+\beamer@slide {eq:truncatedmise}{20}
+\beamer@slide {th:regretdiscretized}{21}

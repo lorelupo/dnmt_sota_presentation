@@ -225,7 +225,7 @@ arXiv: 1912.08494},
 	author = {Scherrer, Yves and Tiedemann, Jörg and Loáiciga, Sharid},
 	month = nov,
 	year = {2019},
-	note = {00000},
+	note = {00001},
 	keywords = {read},
 	pages = {51--61}
 }
@@ -948,7 +948,7 @@ arXiv: 1910.00294},
 	urldate = {2020-02-25},
 	booktitle = {Proceedings of the {Third} {Conference} on {Machine} {Translation}: {Research} {Papers}},
 	publisher = {Association for Computational Linguistics},
-	author = {Muller, Mathias and Rios, Annette and Voita, Elena and Sennrich, Rico},
+	author = {Müller, Mathias and Rios, Annette and Voita, Elena and Sennrich, Rico},
 	month = oct,
 	year = {2018},
 	note = {00013},
@@ -1252,7 +1252,7 @@ arXiv: 1910.00294},
 	year = {2019},
 	note = {00003 
 arXiv: 1903.04715},
-	keywords = {Computer Science - Computation and Language},
+	keywords = {Computer Science - Computation and Language, read},
 	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/JB8PXLP7/1903.html:text/html}
 }
 
@@ -1506,7 +1506,7 @@ arXiv: 1910.07481},
 	year = {2019},
 	note = {00002 
 arXiv: 1909.00131},
-	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning, read},
 	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/D5RPJII9/1909.html:text/html}
 }
 
@@ -1719,4 +1719,121 @@ arXiv: cmp-lg/9608019},
 	note = {00001},
 	keywords = {read},
 	pages = {455--463}
+}
+
+@article{zhang_learning_2020,
+	title = {Learning {Contextualized} {Sentence} {Representations} for {Document}-{Level} {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/2003.13205},
+	abstract = {Document-level machine translation incorporates inter-sentential dependencies into the translation of a source sentence. In this paper, we propose a new framework to model cross-sentence dependencies by training neural machine translation (NMT) to predict both the target translation and surrounding sentences of a source sentence. By enforcing the NMT model to predict source context, we want the model to learn "contextualized" source sentence representations that capture document-level dependencies on the source side. We further propose two different methods to learn and integrate such contextualized sentence embeddings into NMT: a joint training method that jointly trains an NMT model with the source context prediction model and a pre-training \& fine-tuning method that pretrains the source context prediction model on a large-scale monolingual document corpus and then fine-tunes it with the NMT model. Experiments on Chinese-English and English-German translation show that both methods can substantially improve the translation quality over a strong document-level Transformer baseline.},
+	urldate = {2020-03-31},
+	journal = {arXiv:2003.13205 [cs]},
+	author = {Zhang, Pei and Zhang, Xu and Chen, Wei and Yu, Jian and Wang, Yanfeng and Xiong, Deyi},
+	month = mar,
+	year = {2020},
+	note = {00000 
+arXiv: 2003.13205},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/LFEHUA7C/2003.html:text/html}
+}
+
+@article{yamagishi_improving_2019,
+	title = {Improving {Context}-aware {Neural} {Machine} {Translation} with {Target}-side {Context}},
+	url = {http://arxiv.org/abs/1909.00531},
+	abstract = {In recent years, several studies on neural machine translation (NMT) have attempted to use document-level context by using a multi-encoder and two attention mechanisms to read the current and previous sentences to incorporate the context of the previous sentences. These studies concluded that the target-side context is less useful than the source-side context. However, we considered that the reason why the target-side context is less useful lies in the architecture used to model these contexts. Therefore, in this study, we investigate how the target-side context can improve context-aware neural machine translation. We propose a weight sharing method wherein NMT saves decoder states and calculates an attention vector using the saved states when translating a current sentence. Our experiments show that the target-side context is also useful if we plug it into NMT as the decoder state when translating a previous sentence.},
+	urldate = {2020-03-31},
+	journal = {arXiv:1909.00531 [cs]},
+	author = {Yamagishi, Hayahide and Komachi, Mamoru},
+	month = sep,
+	year = {2019},
+	note = {00001 
+arXiv: 1909.00531},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/H38EHZ5J/1909.html:text/html}
+}
+
+@inproceedings{maruf_contextual_2018,
+	address = {Brussels, Belgium},
+	title = {Contextual {Neural} {Model} for {Translating} {Bilingual} {Multi}-{Speaker} {Conversations}},
+	url = {https://www.aclweb.org/anthology/W18-6311},
+	doi = {10.18653/v1/W18-6311},
+	abstract = {Recent works in neural machine translation have begun to explore document translation. However, translating online multi-speaker conversations is still an open problem. In this work, we propose the task of translating Bilingual Multi-Speaker Conversations, and explore neural architectures which exploit both source and target-side conversation histories for this task. To initiate an evaluation for this task, we introduce datasets extracted from Europarl v7 and OpenSubtitles2016. Our experiments on four language-pairs confirm the significance of leveraging conversation history, both in terms of BLEU and manual evaluation.},
+	urldate = {2020-03-31},
+	booktitle = {Proceedings of the {Third} {Conference} on {Machine} {Translation}: {Research} {Papers}},
+	publisher = {Association for Computational Linguistics},
+	author = {Maruf, Sameen and Martins, André F. T. and Haffari, Gholamreza},
+	month = oct,
+	year = {2018},
+	note = {00002},
+	pages = {101--112}
+}
+
+@article{wang_improving_2019,
+	title = {Improving {Conditioning} in {Context}-{Aware} {Sequence} to {Sequence} {Models}},
+	url = {https://arxiv.org/abs/1911.09728v1},
+	abstract = {Neural sequence to sequence models are well established for applications
+which can be cast as mapping a single input sequence into a single output
+sequence. In this work, we focus on cases where generation is conditioned on
+both a short query and a long context, such as abstractive question answering
+or document-level translation. We modify the standard sequence-to-sequence
+approach to make better use of both the query and the context by expanding the
+conditioning mechanism to intertwine query and context attention. We also
+introduce a simple and efficient data augmentation method for the proposed
+model. Experiments on three different tasks show that both changes lead to
+consistent improvements.},
+	language = {en},
+	urldate = {2020-03-31},
+	author = {Wang, Xinyi and Weston, Jason and Auli, Michael and Jernite, Yacine},
+	month = nov,
+	year = {2019},
+	note = {00002},
+	file = {Snapshot:/home/lupol/Zotero/storage/ZXZUI792/1911.html:text/html}
+}
+
+@article{zheng_learning_2018,
+	title = {Learning to {Discriminate} {Noises} for {Incorporating} {External} {Information} in {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1810.10317},
+	abstract = {Previous studies show that incorporating external information could improve the translation quality of Neural Machine Translation (NMT) systems. However, there are inevitably noises in the external information, severely reducing the benefit that the existing methods could receive from the incorporation. To tackle the problem, this study pays special attention to the discrimination of the noises during the incorporation. We argue that there exist two kinds of noise in this external information, i.e. global noise and local noise, which affect the translations for the whole sentence and for some specific words, respectively. Accordingly, we propose a general framework that learns to jointly discriminate both the global and local noises, so that the external information could be better leveraged. Our model is trained on the dataset derived from the original parallel corpus without any external labeled data or annotation. Experimental results in various real-world scenarios, language pairs, and neural architectures indicate that discriminating noises contributes to significant improvements in translation quality by being able to better incorporate the external information, even in very noisy conditions.},
+	urldate = {2020-03-31},
+	journal = {arXiv:1810.10317 [cs]},
+	author = {Zheng, Zaixiang and Huang, Shujian and Sun, Zewei and Weng, Rongxiang and Dai, Xin-Yu and Chen, Jiajun},
+	month = nov,
+	year = {2018},
+	note = {00003 
+arXiv: 1810.10317},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/YFH8ATAA/1810.html:text/html}
+}
+
+@inproceedings{michel_extreme_2018,
+	address = {Melbourne, Australia},
+	title = {Extreme {Adaptation} for {Personalized} {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/P18-2050},
+	doi = {10.18653/v1/P18-2050},
+	abstract = {Every person speaks or writes their own flavor of their native language, influenced by a number of factors: the content they tend to talk about, their gender, their social status, or their geographical origin. When attempting to perform Machine Translation (MT), these variations have a significant effect on how the system should perform translation, but this is not captured well by standard one-size-fits-all models. In this paper, we propose a simple and parameter-efficient adaptation technique that only requires adapting the bias of the output softmax to each particular user of the MT system, either directly or through a factored approximation. Experiments on TED talks in three languages demonstrate improvements in translation accuracy, and better reflection of speaker traits in the target text.},
+	urldate = {2020-03-31},
+	booktitle = {Proceedings of the 56th {Annual} {Meeting} of the {Association} for {Computational} {Linguistics} ({Volume} 2: {Short} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Michel, Paul and Neubig, Graham},
+	month = jul,
+	year = {2018},
+	note = {00023},
+	pages = {312--318}
+}
+
+@inproceedings{martins_softmax_2016,
+	title = {From {Softmax} to {Sparsemax}: {A} {Sparse} {Model} of {Attention} and {Multi}-{Label} {Classification}},
+	shorttitle = {From {Softmax} to {Sparsemax}},
+	url = {http://proceedings.mlr.press/v48/martins16.html},
+	abstract = {We propose sparsemax, a new activation function similar to the traditional softmax, but able to output sparse probabilities. After deriving its properties, we show how its Jacobian can be efficient...},
+	language = {en},
+	urldate = {2020-04-02},
+	booktitle = {International {Conference} on {Machine} {Learning}},
+	author = {Martins, Andre and Astudillo, Ramon},
+	month = jun,
+	year = {2016},
+	note = {00145 
+ISSN: 1938-7228
+Section: Machine Learning},
+	pages = {1614--1623},
+	file = {Snapshot:/home/lupol/Zotero/storage/J423P4EP/martins16.html:text/html}
 }

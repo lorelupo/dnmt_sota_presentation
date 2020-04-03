@@ -1,51 +1,102 @@
 \section{Models}
 
-\begin{frame}{Problem Formalization}
+\begin{frame}{Overview}
+	\begin{itemize}
+		\item Single-Encoder Approach
+		\item Multi-Encoder Approach
+		\begin{itemize}
+			\item Integration Outside the Decoder
+			\item Integration Inside the Decoder
+			\begin{itemize}
+				\item Sequential Attentions
+				\item Parallel Attentions
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
 
-\onslide<+->\begin{block}{Decision Set}
-The parameter space $\Theta\subseteq\Reals^d$.
-\end{block}
+\begin{frame}{Multi-Encoder - Integration Outside the Decoder}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.53\linewidth]{Images/models_outide_decoder}
+		\caption{}
+		\label{fig:modelsoutidedecoder}
+	\end{figure}
+\end{frame}
 
-\onslide<+->\begin{block}{Procedure}
-At every decision step $t\in[0,1,2,\dots,T]$:
-	\begin{enumerate}
-			\item<+-|alert@+> \tikz[baseline]{\node[anchor=base] (select) {\textbf{Select} a parametrization $\vtheta_t\in\Theta$;};}
-			\item<+-|alert@+> \textbf{Sample} a trajectory $\tau_t\in\Tau$ by following $\pi_{\vtheta_t}$;
-			\item<+-|alert@+> \textbf{Observe} the return $\Rew(\tau_t)$.
-		\end{enumerate}
-\end{block}
+\begin{frame}{Multi-Encoder - Integration Outside the Decoder}
 
-\onslide<+->{
-\begin{tikzpicture}[overlay]
-		\node[draw=MyOrange, opacity=0.7, line width=3pt, minimum width=5.5cm, minimum height=0.6cm] at (select) {};
-\end{tikzpicture}
-}
-
-\onslide<+->\begin{block}{Goal}
-\textbf{Minimize} $Regret(T) = \sum_{t=0}^{T}\mu(\vtheta^*)-\mu(\vtheta_t), \quad$ where $\vtheta^*=\arg\max_{\vtheta\in\Theta}\mu(\vtheta)$
-\end{block}
-
-
-
-%\onslide<+->\begin{block}{Goal}
-%\begin{itemize}
-%\item Maximize the total expected return $\sum_{t=0}^T \Exp_{\tau_t\sim p_{\vtheta_t}}[\Rew(\tau_t)] = \sum_{t=0}^T \mu(\vtheta)$
-%\item<+-> Alternatively, minimize \textbf{regret}.
-%\end{itemize}
-%\end{block}
+\cite{maruf_document_2018} \textbf{Two-pass approach \textcolor{red}{(not training! to explain...)}. All context (source and target). Fr/De/Et$\to$En. Decoder without attention (integration in the RNN gates).} First pass for sentence representations (filling the memories), second pass for integrating current sentence representation with information stocked into memories (via coarse attention). \textcolor{red}{extention: attention to target memory!}
+FORSE VA MESSO NELLA SEZIONE CACHES
 
 \end{frame}
 
-\begin{frame}{Desideratum}
-\onslide<+->\begin{block}{Sub-linear Regret}
-	\begin{enumerate}
-			\item<1-|alert@1> for any linear function $f(T)$, for sufficiently large input $T$, $Regret(T)$ grows slower than $f(T)$;
-			\item<1-> Alternatively, $\lim_{T\to\infty}Regret(T)/T=0$.
-			\item<2-|alert@2> \textbf{Meaning}: after a certain number of iterations, the policy keeps improving.
-		\end{enumerate}
-	\end{block}
-	\centering
-	\includegraphics<1->[width=0.7\textwidth]{Images/sublinear}
+
+\begin{frame}{Multi-Encoder - Integration Outside the Decoder}
+	\begin{itemize}
+		\item encoders might encode multiple previous sentences. E.g. \cite{wang_exploiting_2017}.
+		\item architectures might be RNNs (e.g. \cite{wang_exploiting_2017}) or Transformers (e.g. \cite{zhang_improving_2018})
+		\item integration inside the decoder might happen with a different system than cross-attention. E.g. \cite{wang_exploiting_2017} propose to concatenate the context representation to the cell state of the decoder's RNN.
+		\item source-side attention to context can be at both sentence and word level. E.g. \cite{maruf_selective_2019, miculicich_document-level_2018}.
+		\item gating context is a way substitutes residual add.
+		\item despite some have considered target-side context harmful because of the \textit{error propagation} problem \cite{zhang_improving_2018}, now...
+		\item weight sharing is blabla \cite{voita_context-aware_2018}. Some use it. In general, it has been proven to be successful by a comparative study \cite{yamagishi_improving_2019}.
+		\item two-step training what is. E.g. \cite{zhang_improving_2018, miculicich_document-level_2018}. Explain that DL training corpus is small! possible future direction...
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Multi-Encoder - Integration Outside the Decoder}
+	\begin{table}
+		\begin{tabular}{ *{5}{c|} c }
+
+			\thead{Reference}
+			& \thead{Context}
+					& \thead{Two-Pass\\ Approach}
+						& \thead{Outside\\ Integr.}
+							& \thead{Inside\\ Integr.}
+								& \thead{Lang.\\ Pair}
+									 \\
+			\hline\hline
+			\cite{wang_exploiting_2017}&s:-3 &&optional&optional&Zh$\to$En\\
+			\hline
+			\cite{voita_context-aware_2018}&s:-1&&yes&&En$\to$Ru\\
+			\hline
+			\cite{zhang_improving_2018}&s:-2&&yes&sequential&Zh$\to$En\\
+			\hline
+			\cite{miculicich_document-level_2018}&s:-3; t:-3&&yes&&Zh/Es$\to$En\\
+			\hline
+			\cite{maruf_selective_2019}&s:all; t:all&optional&yes&&En$\to$De\\
+			\hline
+			\cite{jean_does_2017}&s:-1&&&parallel&En$\to$De/Fr\\
+			\hline
+			\cite{bawden_evaluating_2018}&s:-1; t:-1&&&parallel&En$\to$Fr\\
+			\hline
+			\cite{fu_reference_2019}&s:all; t:-1&yes&&parallel&En/Zh$\to$De/En\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Multi-Encoder - Integration Inside the Decoder}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\textwidth]{Images/models_inside_decoder_sequential}%
+		\includegraphics[width=0.5\textwidth]{Images/models_inside_decoder_parallel}
+		\caption{}
+		\label{fig:modelsinsidedecodersequential}
+	\end{figure}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Remarks and conclusions}
+
+\begin{frame}{Remarks and conclusions}
+	\textbf{Possible Future Research Directions}
+	\begin{itemize}
+		\item build a large DL corpus for training systems;
+	\end{itemize}
 \end{frame}
 
 %\begin{frame}{Regret}

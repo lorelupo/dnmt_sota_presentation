@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: presentation.aux
 The style file: apalike.bst
-White space in argument---line 126 of file presentation.aux
+White space in argument---line 82 of file presentation.aux
  : \bibdata{Bibliography/document_nmt,
  :                                     Bibliography/bibliography}
 I'm skipping whatever remains of this command
@@ -13,45 +13,45 @@ Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
 Reallocated out_buf (elt_size=1) to 40000 items from 20000.
 Reallocated name_tok (elt_size=4) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-You've used 15 entries,
+You've used 10 entries,
             1935 wiz_defined-function locations,
-            576 strings with 7953 characters,
-and the built_in function-call counts, 7709 in all, are:
-= -- 829
-> -- 263
-< -- 16
-+ -- 98
-- -- 88
-* -- 569
-:= -- 1217
-add.period$ -- 70
-call.type$ -- 15
-change.case$ -- 119
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 341
-empty$ -- 547
-format.name$ -- 111
-if$ -- 1642
+            535 strings with 6329 characters,
+and the built_in function-call counts, 5236 in all, are:
+= -- 551
+> -- 215
+< -- 8
++ -- 74
+- -- 74
+* -- 392
+:= -- 844
+add.period$ -- 46
+call.type$ -- 10
+change.case$ -- 87
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 224
+empty$ -- 348
+format.name$ -- 88
+if$ -- 1102
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 15
-newline$ -- 93
-num.names$ -- 45
-pop$ -- 114
+missing$ -- 10
+newline$ -- 63
+num.names$ -- 30
+pop$ -- 87
 preamble$ -- 1
-purify$ -- 119
+purify$ -- 87
 quote$ -- 0
-skip$ -- 273
+skip$ -- 184
 stack$ -- 0
-substring$ -- 576
-swap$ -- 109
-text.length$ -- 10
+substring$ -- 352
+swap$ -- 74
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 60
 warning$ -- 0
-while$ -- 64
+while$ -- 38
 width$ -- 0
-write$ -- 244
+write$ -- 160
 (There was 1 error message)
