@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[Agrawal et~al., 2018]{agrawal_contextual_2018}
+Agrawal, R.~R., Turchi, M., and Negri, M. (2018).
+\newblock Contextual {Handling} in {Neural} {Machine} {Translation}: {Look}
+  {Behind}, {Ahead} and on {Both} {Sides}.
+\newblock pages 11--20.
+\newblock 00007 Accepted: 2018-08-08T15:15:28Z.
+
 \bibitem[Bawden et~al., 2018]{bawden_evaluating_2018}
 Bawden, R., Sennrich, R., Birch, A., and Haddow, B. (2018).
 \newblock Evaluating {Discourse} {Phenomena} in {Neural} {Machine}
@@ -11,6 +18,14 @@ Bawden, R., Sennrich, R., Birch, A., and Haddow, B. (2018).
   Linguistics.
 \newblock 00055.
 
+\bibitem[Dai et~al., 2019]{dai_transformer-xl_2019}
+Dai, Z., Yang, Z., Yang, Y., Carbonell, J., Le, Q.~V., and Salakhutdinov, R.
+  (2019).
+\newblock Transformer-{XL}: {Attentive} {Language} {Models} {Beyond} a
+  {Fixed}-{Length} {Context}.
+\newblock {\em arXiv:1901.02860 [cs, stat]}.
+\newblock 00238 arXiv: 1901.02860.
+
 \bibitem[Fu et~al., 2019]{fu_reference_2019}
 Fu, H., Liu, C., and Sun, J. (2019).
 \newblock Reference {Network} for {Neural} {Machine} {Translation}.
@@ -19,12 +34,48 @@ Fu, H., Liu, C., and Sun, J. (2019).
   Italy. Association for Computational Linguistics.
 \newblock 00000.
 
+\bibitem[Gulcehre et~al., 2015]{gulcehre_using_2015}
+Gulcehre, C., Firat, O., Xu, K., Cho, K., Barrault, L., Lin, H.-C., Bougares,
+  F., Schwenk, H., and Bengio, Y. (2015).
+\newblock On {Using} {Monolingual} {Corpora} in {Neural} {Machine}
+  {Translation}.
+\newblock {\em arXiv:1503.03535 [cs]}.
+\newblock 00207 arXiv: 1503.03535.
+
+\bibitem[Jean and Cho, 2019]{jean_context-aware_2019}
+Jean, S. and Cho, K. (2019).
+\newblock Context-{Aware} {Learning} for {Neural} {Machine} {Translation}.
+\newblock {\em arXiv:1903.04715 [cs]}.
+\newblock 00003 arXiv: 1903.04715.
+
 \bibitem[Jean et~al., 2017]{jean_does_2017}
 Jean, S., Lauly, S., Firat, O., and Cho, K. (2017).
 \newblock Does {Neural} {Machine} {Translation} {Benefit} from {Larger}
   {Context}?
 \newblock {\em arXiv:1704.05135 [cs, stat]}.
 \newblock 00038 arXiv: 1704.05135.
+
+\bibitem[Kim et~al., 2019]{kim_when_2019}
+Kim, Y., Tran, D.~T., and Ney, H. (2019).
+\newblock When and {Why} is {Document}-level {Context} {Useful} in {Neural}
+  {Machine} {Translation}?
+\newblock {\em arXiv:1910.00294 [cs]}.
+\newblock 00001 arXiv: 1910.00294.
+
+\bibitem[Li et~al., 2019]{li_pretrained_2019}
+Li, L., Jiang, X., and Liu, Q. (2019).
+\newblock Pretrained {Language} {Models} for {Document}-{Level} {Neural}
+  {Machine} {Translation}.
+\newblock {\em arXiv:1911.03110 [cs]}.
+\newblock 00001 arXiv: 1911.03110.
+
+\bibitem[Martínez~Garcia et~al., 2019]{martinez_garcia_context-aware_2019}
+Martínez~Garcia, E., Creus, C., and España-Bonet, C. (2019).
+\newblock Context-{Aware} {Neural} {Machine} {Translation} {Decoding}.
+\newblock In {\em Proceedings of the {Fourth} {Workshop} on {Discourse} in
+  {Machine} {Translation} ({DiscoMT} 2019)}, pages 13--23, Hong Kong, China.
+  Association for Computational Linguistics.
+\newblock 00000.
 
 \bibitem[Maruf and Haffari, 2018]{maruf_document_2018}
 Maruf, S. and Haffari, G. (2018).
@@ -35,6 +86,15 @@ Maruf, S. and Haffari, G. (2018).
   {Papers})}, pages 1275--1284, Melbourne, Australia. Association for
   Computational Linguistics.
 \newblock 00032.
+
+\bibitem[Maruf et~al., 2018]{maruf_contextual_2018}
+Maruf, S., Martins, A. F.~T., and Haffari, G. (2018).
+\newblock Contextual {Neural} {Model} for {Translating} {Bilingual}
+  {Multi}-{Speaker} {Conversations}.
+\newblock In {\em Proceedings of the {Third} {Conference} on {Machine}
+  {Translation}: {Research} {Papers}}, pages 101--112, Brussels, Belgium.
+  Association for Computational Linguistics.
+\newblock 00002.
 
 \bibitem[Maruf et~al., 2019]{maruf_selective_2019}
 Maruf, S., Martins, A. F.~T., and Haffari, G. (2019).
@@ -49,6 +109,93 @@ Miculicich, L., Ram, D., Pappas, N., and Henderson, J. (2018).
   {Attention} {Networks}.
 \newblock {\em arXiv:1809.01576 [cs]}.
 \newblock 00024 arXiv: 1809.01576.
+
+\bibitem[Ohtani et~al., 2019]{ohtani_context-aware_2019}
+Ohtani, T., Kamigaito, H., Nagata, M., and Okumura, M. (2019).
+\newblock Context-aware {Neural} {Machine} {Translation} with {Coreference}
+  {Information}.
+\newblock In {\em Proceedings of the {Fourth} {Workshop} on {Discourse} in
+  {Machine} {Translation} ({DiscoMT} 2019)}, pages 45--50, Hong Kong, China.
+  Association for Computational Linguistics.
+\newblock 00000.
+
+\bibitem[Rios~Gonzales et~al., 2017]{rios_gonzales_improving_2017}
+Rios~Gonzales, A., Mascarell, L., and Sennrich, R. (2017).
+\newblock Improving {Word} {Sense} {Disambiguation} in {Neural} {Machine}
+  {Translation} with {Sense} {Embeddings}.
+\newblock In {\em Proceedings of the {Second} {Conference} on {Machine}
+  {Translation}}, pages 11--19, Copenhagen, Denmark. Association for
+  Computational Linguistics.
+\newblock 00030.
+
+\bibitem[Scherrer et~al., 2019]{scherrer_analysing_2019}
+Scherrer, Y., Tiedemann, J., and Loáiciga, S. (2019).
+\newblock Analysing concatenation approaches to document-level {NMT} in two
+  different domains.
+\newblock In {\em Proceedings of the {Fourth} {Workshop} on {Discourse} in
+  {Machine} {Translation} ({DiscoMT} 2019)}, pages 51--61, Hong Kong, China.
+  Association for Computational Linguistics.
+\newblock 00001.
+
+\bibitem[Stojanovski and Fraser, 2018]{stojanovski_coreference_2018}
+Stojanovski, D. and Fraser, A. (2018).
+\newblock Coreference and {Coherence} in {Neural} {Machine} {Translation}: {A}
+  {Study} {Using} {Oracle} {Experiments}.
+\newblock In {\em Proceedings of the {Third} {Conference} on {Machine}
+  {Translation}: {Research} {Papers}}, pages 49--60, Brussels, Belgium.
+  Association for Computational Linguistics.
+\newblock 00003.
+
+\bibitem[Sugiyama and Yoshinaga, 2019]{sugiyama_data_2019}
+Sugiyama, A. and Yoshinaga, N. (2019).
+\newblock Data augmentation using back-translation for context-aware neural
+  machine translation.
+\newblock In {\em Proceedings of the {Fourth} {Workshop} on {Discourse} in
+  {Machine} {Translation} ({DiscoMT} 2019)}, pages 35--44, Hong Kong, China.
+  Association for Computational Linguistics.
+\newblock 00000.
+
+\bibitem[Tan et~al., 2019]{tan_hierarchical_2019}
+Tan, X., Zhang, L., Xiong, D., and Zhou, G. (2019).
+\newblock Hierarchical {Modeling} of {Global} {Context} for {Document}-{Level}
+  {Neural} {Machine} {Translation}.
+\newblock In {\em Proceedings of the 2019 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing} and the 9th {International} {Joint}
+  {Conference} on {Natural} {Language} {Processing} ({EMNLP}-{IJCNLP})}, pages
+  1576--1585, Hong Kong, China. Association for Computational Linguistics.
+\newblock 00002.
+
+\bibitem[Tiedemann and Scherrer, 2017]{tiedemann_neural_2017}
+Tiedemann, J. and Scherrer, Y. (2017).
+\newblock Neural {Machine} {Translation} with {Extended} {Context}.
+\newblock In {\em Proceedings of the {Third} {Workshop} on {Discourse} in
+  {Machine} {Translation}}, pages 82--92, Copenhagen, Denmark. Association for
+  Computational Linguistics.
+\newblock 00038.
+
+\bibitem[Vaswani et~al., 2017]{vaswani_attention_2017}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, L., and Polosukhin, I. (2017).
+\newblock Attention {Is} {All} {You} {Need}.
+\newblock {\em arXiv:1706.03762 [cs]}.
+\newblock 05728 arXiv: 1706.03762.
+
+\bibitem[Voita et~al., 2019a]{voita_context-aware_2019}
+Voita, E., Sennrich, R., and Titov, I. (2019a).
+\newblock Context-{Aware} {Monolingual} {Repair} for {Neural} {Machine}
+  {Translation}.
+\newblock {\em arXiv:1909.01383 [cs]}.
+\newblock 00003 arXiv: 1909.01383.
+
+\bibitem[Voita et~al., 2019b]{voita_when_2019}
+Voita, E., Sennrich, R., and Titov, I. (2019b).
+\newblock When a {Good} {Translation} is {Wrong} in {Context}:
+  {Context}-{Aware} {Machine} {Translation} {Improves} on {Deixis}, {Ellipsis},
+  and {Lexical} {Cohesion}.
+\newblock In {\em Proceedings of the 57th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics}}, pages 1198--1212, Florence,
+  Italy. Association for Computational Linguistics.
+\newblock 00007.
 
 \bibitem[Voita et~al., 2018]{voita_context-aware_2018}
 Voita, E., Serdyukov, P., Sennrich, R., and Titov, I. (2018).
@@ -84,5 +231,19 @@ Zhang, J., Luan, H., Sun, M., Zhai, F., Xu, J., Zhang, M., and Liu, Y. (2018).
   in {Natural} {Language} {Processing}}, pages 533--542, Brussels, Belgium.
   Association for Computational Linguistics.
 \newblock 00028.
+
+\bibitem[Zheng et~al., 2018]{zheng_learning_2018}
+Zheng, Z., Huang, S., Sun, Z., Weng, R., Dai, X.-Y., and Chen, J. (2018).
+\newblock Learning to {Discriminate} {Noises} for {Incorporating} {External}
+  {Information} in {Neural} {Machine} {Translation}.
+\newblock {\em arXiv:1810.10317 [cs]}.
+\newblock 00003 arXiv: 1810.10317.
+
+\bibitem[Zheng et~al., 2020]{zheng_toward_2020}
+Zheng, Z., Yue, X., Huang, S., Chen, J., and Birch, A. (2020).
+\newblock Toward {Making} the {Most} of {Context} in {Neural} {Machine}
+  {Translation}.
+\newblock {\em arXiv:2002.07982 [cs]}.
+\newblock 00000 arXiv: 2002.07982.
 
 \end{thebibliography}

@@ -1506,7 +1506,7 @@ arXiv: 1910.07481},
 	year = {2019},
 	note = {00002 
 arXiv: 1909.00131},
-	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning, read},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, Computer Science - Artificial Intelligence, read},
 	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/D5RPJII9/1909.html:text/html}
 }
 
@@ -1836,4 +1836,144 @@ ISSN: 1938-7228
 Section: Machine Learning},
 	pages = {1614--1623},
 	file = {Snapshot:/home/lupol/Zotero/storage/J423P4EP/martins16.html:text/html}
+}
+
+@inproceedings{clinchant_use_2019,
+	address = {Hong Kong},
+	title = {On the use of {BERT} for {Neural} {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/D19-5611},
+	doi = {10.18653/v1/D19-5611},
+	abstract = {Exploiting large pretrained models for various NMT tasks have gained a lot of visibility recently. In this work we study how BERT pretrained models could be exploited for supervised Neural Machine Translation. We compare various ways to integrate pretrained BERT model with NMT model and study the impact of the monolingual data used for BERT training on the final translation quality. We use WMT-14 English-German, IWSLT15 English-German and IWSLT14 English-Russian datasets for these experiments. In addition to standard task test set evaluation, we perform evaluation on out-of-domain test sets and noise injected test sets, in order to assess how BERT pretrained representations affect model robustness.},
+	urldate = {2020-04-03},
+	booktitle = {Proceedings of the 3rd {Workshop} on {Neural} {Generation} and {Translation}},
+	publisher = {Association for Computational Linguistics},
+	author = {Clinchant, Stephane and Jung, Kweon Woo and Nikoulina, Vassilina},
+	month = nov,
+	year = {2019},
+	note = {00005},
+	keywords = {read},
+	pages = {108--117}
+}
+
+@inproceedings{luong_deep_2015,
+	address = {Beijing, China},
+	title = {Deep {Neural} {Language} {Models} for {Machine} {Translation}},
+	url = {https://www.aclweb.org/anthology/K15-1031},
+	doi = {10.18653/v1/K15-1031},
+	urldate = {2020-04-03},
+	booktitle = {Proceedings of the {Nineteenth} {Conference} on {Computational} {Natural} {Language} {Learning}},
+	publisher = {Association for Computational Linguistics},
+	author = {Luong, Thang and Kayser, Michael and Manning, Christopher D.},
+	month = jul,
+	year = {2015},
+	note = {00021},
+	pages = {305--309}
+}
+
+@article{stahlberg_simple_2019,
+	title = {Simple {Fusion}: {Return} of the {Language} {Model}},
+	shorttitle = {Simple {Fusion}},
+	url = {http://arxiv.org/abs/1809.00125},
+	abstract = {Neural Machine Translation (NMT) typically leverages monolingual data in training through backtranslation. We investigate an alternative simple method to use monolingual data for NMT training: We combine the scores of a pre-trained and fixed language model (LM) with the scores of a translation model (TM) while the TM is trained from scratch. To achieve that, we train the translation model to predict the residual probability of the training data added to the prediction of the LM. This enables the TM to focus its capacity on modeling the source sentence since it can rely on the LM for fluency. We show that our method outperforms previous approaches to integrate LMs into NMT while the architecture is simpler as it does not require gating networks to balance TM and LM. We observe gains of between +0.24 and +2.36 BLEU on all four test sets (English-Turkish, Turkish-English, Estonian-English, Xhosa-English) on top of ensembles without LM. We compare our method with alternative ways to utilize monolingual data such as backtranslation, shallow fusion, and cold fusion.},
+	urldate = {2020-04-03},
+	journal = {arXiv:1809.00125 [cs]},
+	author = {Stahlberg, Felix and Cross, James and Stoyanov, Veselin},
+	month = jan,
+	year = {2019},
+	note = {00013 
+arXiv: 1809.00125},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/XMSPCP3G/1809.html:text/html}
+}
+
+@article{gulcehre_using_2015,
+	title = {On {Using} {Monolingual} {Corpora} in {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1503.03535},
+	abstract = {Recent work on end-to-end neural network-based architectures for machine translation has shown promising results for En-Fr and En-De translation. Arguably, one of the major factors behind this success has been the availability of high quality parallel corpora. In this work, we investigate how to leverage abundant monolingual corpora for neural machine translation. Compared to a phrase-based and hierarchical baseline, we obtain up to \$1.96\$ BLEU improvement on the low-resource language pair Turkish-English, and \$1.59\$ BLEU on the focused domain task of Chinese-English chat messages. While our method was initially targeted toward such tasks with less parallel data, we show that it also extends to high resource languages such as Cs-En and De-En where we obtain an improvement of \$0.39\$ and \$0.47\$ BLEU scores over the neural machine translation baselines, respectively.},
+	urldate = {2020-04-03},
+	journal = {arXiv:1503.03535 [cs]},
+	author = {Gulcehre, Caglar and Firat, Orhan and Xu, Kelvin and Cho, Kyunghyun and Barrault, Loic and Lin, Huei-Chi and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua},
+	month = jun,
+	year = {2015},
+	note = {00207 
+arXiv: 1503.03535},
+	keywords = {Computer Science - Computation and Language, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/FJN6KG26/1503.html:text/html}
+}
+
+@article{lample_cross-lingual_2019,
+	title = {Cross-lingual {Language} {Model} {Pretraining}},
+	url = {http://arxiv.org/abs/1901.07291},
+	abstract = {Recent studies have demonstrated the efficiency of generative pretraining for English natural language understanding. In this work, we extend this approach to multiple languages and show the effectiveness of cross-lingual pretraining. We propose two methods to learn cross-lingual language models (XLMs): one unsupervised that only relies on monolingual data, and one supervised that leverages parallel data with a new cross-lingual language model objective. We obtain state-of-the-art results on cross-lingual classification, unsupervised and supervised machine translation. On XNLI, our approach pushes the state of the art by an absolute gain of 4.9\% accuracy. On unsupervised machine translation, we obtain 34.3 BLEU on WMT'16 German-English, improving the previous state of the art by more than 9 BLEU. On supervised machine translation, we obtain a new state of the art of 38.5 BLEU on WMT'16 Romanian-English, outperforming the previous best approach by more than 4 BLEU. Our code and pretrained models will be made publicly available.},
+	urldate = {2020-04-03},
+	journal = {arXiv:1901.07291 [cs]},
+	author = {Lample, Guillaume and Conneau, Alexis},
+	month = jan,
+	year = {2019},
+	note = {00141 
+arXiv: 1901.07291},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/2HBW57KM/1901.html:text/html}
+}
+
+@inproceedings{edunov_pre-trained_2019,
+	address = {Minneapolis, Minnesota},
+	title = {Pre-trained language model representations for language generation},
+	url = {https://www.aclweb.org/anthology/N19-1409},
+	doi = {10.18653/v1/N19-1409},
+	abstract = {Pre-trained language model representations have been successful in a wide range of language understanding tasks. In this paper, we examine different strategies to integrate pre-trained representations into sequence to sequence models and apply it to neural machine translation and abstractive summarization. We find that pre-trained representations are most effective when added to the encoder network which slows inference by only 14\%. Our experiments in machine translation show gains of up to 5.3 BLEU in a simulated resource-poor setup. While returns diminish with more labeled data, we still observe improvements when millions of sentence-pairs are available. Finally, on abstractive summarization we achieve a new state of the art on the full text version of CNN/DailyMail.},
+	urldate = {2020-04-03},
+	booktitle = {Proceedings of the 2019 {Conference} of the {North} {American} {Chapter} of the {Association} for {Computational} {Linguistics}: {Human} {Language} {Technologies}, {Volume} 1 ({Long} and {Short} {Papers})},
+	publisher = {Association for Computational Linguistics},
+	author = {Edunov, Sergey and Baevski, Alexei and Auli, Michael},
+	month = jun,
+	year = {2019},
+	note = {00020},
+	pages = {4052--4059}
+}
+
+@article{artetxe_unsupervised_2018,
+	title = {Unsupervised {Neural} {Machine} {Translation}},
+	url = {http://arxiv.org/abs/1710.11041},
+	abstract = {In spite of the recent success of neural machine translation (NMT) in standard benchmarks, the lack of large parallel corpora poses a major practical problem for many language pairs. There have been several proposals to alleviate this issue with, for instance, triangulation and semi-supervised learning techniques, but they still require a strong cross-lingual signal. In this work, we completely remove the need of parallel data and propose a novel method to train an NMT system in a completely unsupervised manner, relying on nothing but monolingual corpora. Our model builds upon the recent work on unsupervised embedding mappings, and consists of a slightly modified attentional encoder-decoder model that can be trained on monolingual corpora alone using a combination of denoising and backtranslation. Despite the simplicity of the approach, our system obtains 15.56 and 10.21 BLEU points in WMT 2014 French-to-English and German-to-English translation. The model can also profit from small parallel corpora, and attains 21.81 and 15.24 points when combined with 100,000 parallel sentences, respectively. Our implementation is released as an open source project.},
+	urldate = {2020-04-03},
+	journal = {arXiv:1710.11041 [cs]},
+	author = {Artetxe, Mikel and Labaka, Gorka and Agirre, Eneko and Cho, Kyunghyun},
+	month = feb,
+	year = {2018},
+	note = {00272 
+arXiv: 1710.11041},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Machine Learning, read},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/FS3LB4R3/1710.html:text/html}
+}
+
+@article{song_mass_2019,
+	title = {{MASS}: {Masked} {Sequence} to {Sequence} {Pre}-training for {Language} {Generation}},
+	shorttitle = {{MASS}},
+	url = {http://arxiv.org/abs/1905.02450},
+	abstract = {Pre-training and fine-tuning, e.g., BERT, have achieved great success in language understanding by transferring knowledge from rich-resource pre-training task to the low/zero-resource downstream tasks. Inspired by the success of BERT, we propose MAsked Sequence to Sequence pre-training (MASS) for the encoder-decoder based language generation tasks. MASS adopts the encoder-decoder framework to reconstruct a sentence fragment given the remaining part of the sentence: its encoder takes a sentence with randomly masked fragment (several consecutive tokens) as input, and its decoder tries to predict this masked fragment. In this way, MASS can jointly train the encoder and decoder to develop the capability of representation extraction and language modeling. By further fine-tuning on a variety of zero/low-resource language generation tasks, including neural machine translation, text summarization and conversational response generation (3 tasks and totally 8 datasets), MASS achieves significant improvements over the baselines without pre-training or with other pre-training methods. Specially, we achieve the state-of-the-art accuracy (37.5 in terms of BLEU score) on the unsupervised English-French translation, even beating the early attention-based supervised model.},
+	urldate = {2020-04-03},
+	journal = {arXiv:1905.02450 [cs]},
+	author = {Song, Kaitao and Tan, Xu and Qin, Tao and Lu, Jianfeng and Liu, Tie-Yan},
+	month = jun,
+	year = {2019},
+	note = {00068 
+arXiv: 1905.02450},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+	file = {arXiv.org Snapshot:/home/lupol/Zotero/storage/2EQIQBDW/1905.html:text/html}
+}
+
+@inproceedings{rios_gonzales_improving_2017,
+	address = {Copenhagen, Denmark},
+	title = {Improving {Word} {Sense} {Disambiguation} in {Neural} {Machine} {Translation} with {Sense} {Embeddings}},
+	url = {https://www.aclweb.org/anthology/W17-4702},
+	doi = {10.18653/v1/W17-4702},
+	urldate = {2020-04-08},
+	booktitle = {Proceedings of the {Second} {Conference} on {Machine} {Translation}},
+	publisher = {Association for Computational Linguistics},
+	author = {Rios Gonzales, Annette and Mascarell, Laura and Sennrich, Rico},
+	month = sep,
+	year = {2017},
+	note = {00030},
+	pages = {11--19}
 }
