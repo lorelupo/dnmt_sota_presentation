@@ -3,6 +3,12 @@
 \beamer@slide {fig:modelsoutidedecoder}{9}
 \beamer@slide {fig:modelsoutidedecoder}{10}
 \beamer@slide {slide:separateencoding}{13}
-\beamer@slide {eq:ise}{39}
-\beamer@slide {eq:truncatedmise}{39}
-\beamer@slide {th:regretdiscretized}{40}
+\beamer@slide {fig:cache}{15}
+\beamer@slide {fig:cacheonly}{16}
+\beamer@slide {fig:cacheonly}{17}
+\beamer@slide {fig:cacheonly}{18}
+\beamer@slide {fig:docrepairtrain}{24}
+\beamer@slide {fig:docrepairtest}{24}
+\beamer@slide {eq:ise}{46}
+\beamer@slide {eq:truncatedmise}{46}
+\beamer@slide {th:regretdiscretized}{47}

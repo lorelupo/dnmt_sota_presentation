@@ -18,14 +18,6 @@ Bawden, R., Sennrich, R., Birch, A., and Haddow, B. (2018).
   Linguistics.
 \newblock 00055.
 
-\bibitem[Dai et~al., 2019]{dai_transformer-xl_2019}
-Dai, Z., Yang, Z., Yang, Y., Carbonell, J., Le, Q.~V., and Salakhutdinov, R.
-  (2019).
-\newblock Transformer-{XL}: {Attentive} {Language} {Models} {Beyond} a
-  {Fixed}-{Length} {Context}.
-\newblock {\em arXiv:1901.02860 [cs, stat]}.
-\newblock 00238 arXiv: 1901.02860.
-
 \bibitem[Fu et~al., 2019]{fu_reference_2019}
 Fu, H., Liu, C., and Sun, J. (2019).
 \newblock Reference {Network} for {Neural} {Machine} {Translation}.
@@ -34,13 +26,12 @@ Fu, H., Liu, C., and Sun, J. (2019).
   Italy. Association for Computational Linguistics.
 \newblock 00000.
 
-\bibitem[Gulcehre et~al., 2015]{gulcehre_using_2015}
-Gulcehre, C., Firat, O., Xu, K., Cho, K., Barrault, L., Lin, H.-C., Bougares,
-  F., Schwenk, H., and Bengio, Y. (2015).
-\newblock On {Using} {Monolingual} {Corpora} in {Neural} {Machine}
-  {Translation}.
-\newblock {\em arXiv:1503.03535 [cs]}.
-\newblock 00207 arXiv: 1503.03535.
+\bibitem[Jean et~al., 2019]{jean_fill_2019}
+Jean, S., Bapna, A., and Firat, O. (2019).
+\newblock Fill in the {Blanks}: {Imputing} {Missing} {Sentences} for
+  {Larger}-{Context} {Neural} {Machine} {Translation}.
+\newblock {\em arXiv:1910.14075 [cs]}.
+\newblock 00000 arXiv: 1910.14075.
 
 \bibitem[Jean and Cho, 2019]{jean_context-aware_2019}
 Jean, S. and Cho, K. (2019).
@@ -61,6 +52,15 @@ Kim, Y., Tran, D.~T., and Ney, H. (2019).
   {Machine} {Translation}?
 \newblock {\em arXiv:1910.00294 [cs]}.
 \newblock 00001 arXiv: 1910.00294.
+
+\bibitem[Kuang et~al., 2018]{kuang_modeling_2018}
+Kuang, S., Xiong, D., Luo, W., and Zhou, G. (2018).
+\newblock Modeling {Coherence} for {Neural} {Machine} {Translation} with
+  {Dynamic} and {Topic} {Caches}.
+\newblock In {\em Proceedings of the 27th {International} {Conference} on
+  {Computational} {Linguistics}}, pages 596--606, Santa Fe, New Mexico, USA.
+  Association for Computational Linguistics.
+\newblock 00012.
 
 \bibitem[Li et~al., 2019]{li_pretrained_2019}
 Li, L., Jiang, X., and Liu, Q. (2019).
@@ -119,6 +119,12 @@ Ohtani, T., Kamigaito, H., Nagata, M., and Okumura, M. (2019).
   Association for Computational Linguistics.
 \newblock 00000.
 
+\bibitem[Rae et~al., 2019]{rae_compressive_2019}
+Rae, J.~W., Potapenko, A., Jayakumar, S.~M., and Lillicrap, T.~P. (2019).
+\newblock Compressive {Transformers} for {Long}-{Range} {Sequence} {Modelling}.
+\newblock {\em arXiv:1911.05507 [cs, stat]}.
+\newblock 00000 arXiv: 1911.05507.
+
 \bibitem[Rios~Gonzales et~al., 2017]{rios_gonzales_improving_2017}
 Rios~Gonzales, A., Mascarell, L., and Sennrich, R. (2017).
 \newblock Improving {Word} {Sense} {Disambiguation} in {Neural} {Machine}
@@ -173,6 +179,13 @@ Tiedemann, J. and Scherrer, Y. (2017).
   Computational Linguistics.
 \newblock 00038.
 
+\bibitem[Tu et~al., 2017]{tu_learning_2017}
+Tu, Z., Liu, Y., Shi, S., and Zhang, T. (2017).
+\newblock Learning to {Remember} {Translation} {History} with a {Continuous}
+  {Cache}.
+\newblock {\em arXiv:1711.09367 [cs]}.
+\newblock 00037 arXiv: 1711.09367.
+
 \bibitem[Vaswani et~al., 2017]{vaswani_attention_2017}
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
   Kaiser, L., and Polosukhin, I. (2017).
@@ -216,13 +229,6 @@ Wang, L., Tu, Z., Way, A., and Liu, Q. (2017).
   Association for Computational Linguistics.
 \newblock 00045.
 
-\bibitem[Yamagishi and Komachi, 2019]{yamagishi_improving_2019}
-Yamagishi, H. and Komachi, M. (2019).
-\newblock Improving {Context}-aware {Neural} {Machine} {Translation} with
-  {Target}-side {Context}.
-\newblock {\em arXiv:1909.00531 [cs]}.
-\newblock 00001 arXiv: 1909.00531.
-
 \bibitem[Zhang et~al., 2018]{zhang_improving_2018}
 Zhang, J., Luan, H., Sun, M., Zhai, F., Xu, J., Zhang, M., and Liu, Y. (2018).
 \newblock Improving the {Transformer} {Translation} {Model} with
@@ -232,18 +238,19 @@ Zhang, J., Luan, H., Sun, M., Zhai, F., Xu, J., Zhang, M., and Liu, Y. (2018).
   Association for Computational Linguistics.
 \newblock 00028.
 
-\bibitem[Zheng et~al., 2018]{zheng_learning_2018}
-Zheng, Z., Huang, S., Sun, Z., Weng, R., Dai, X.-Y., and Chen, J. (2018).
-\newblock Learning to {Discriminate} {Noises} for {Incorporating} {External}
-  {Information} in {Neural} {Machine} {Translation}.
-\newblock {\em arXiv:1810.10317 [cs]}.
-\newblock 00003 arXiv: 1810.10317.
-
 \bibitem[Zheng et~al., 2020]{zheng_toward_2020}
 Zheng, Z., Yue, X., Huang, S., Chen, J., and Birch, A. (2020).
 \newblock Toward {Making} the {Most} of {Context} in {Neural} {Machine}
   {Translation}.
 \newblock {\em arXiv:2002.07982 [cs]}.
 \newblock 00000 arXiv: 2002.07982.
+
+\bibitem[Zhu et~al., 2015]{zhu_aligning_2015}
+Zhu, Y., Kiros, R., Zemel, R., Salakhutdinov, R., Urtasun, R., Torralba, A.,
+  and Fidler, S. (2015).
+\newblock Aligning {Books} and {Movies}: {Towards} {Story}-like {Visual}
+  {Explanations} by {Watching} {Movies} and {Reading} {Books}.
+\newblock {\em arXiv:1506.06724 [cs]}.
+\newblock 00450 arXiv: 1506.06724.
 
 \end{thebibliography}

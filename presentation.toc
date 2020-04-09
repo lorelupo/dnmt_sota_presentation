@@ -3,6 +3,7 @@
 \beamer@sectionintoc {1}{Models}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Concatenation Approaches}{5}{0}{1}
 \beamer@subsectionintoc {1}{3}{Separate Encoding Approaches}{7}{0}{1}
-\beamer@subsectionintoc {1}{4}{Caches}{14}{0}{1}
-\beamer@subsectionintoc {1}{5}{Others}{15}{0}{1}
-\beamer@subsectionintoc {1}{6}{Remarks and conclusions}{20}{0}{1}
+\beamer@subsectionintoc {1}{4}{Cache Approaches}{15}{0}{1}
+\beamer@subsectionintoc {1}{5}{Exploiting Monolingual Corpora}{20}{0}{1}
+\beamer@subsectionintoc {1}{6}{Others}{25}{0}{1}
+\beamer@subsectionintoc {1}{7}{Remarks and conclusions}{27}{0}{1}
