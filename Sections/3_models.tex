@@ -169,7 +169,7 @@ Once the encoding of the current and the context sentences has been carried out,
 	For many approaches to DNMT, the standard positional encoding proposed by \cite{vaswani_attention_2017} is insufficient because the DNMT system needs to tell context sentences from the current one. For this reason, many strategies have been proposed in the literature, such as:
 	\begin{enumerate}
 		\item<+(1)-|alert@+(1)> Adding a \textbf{sentence distance embedding} to context sentences, that tell the model how far away they are from the current sentence \cite{voita_when_2019}.
-		\item<+(1)-|alert@+(1)> Assign \textbf{positional embeddings progressively} to the current sentence, then to the previous one, and so on, so that far away sentences have high values of positional embedding \cite{booo}.
+		\item<+(1)-|alert@+(1)> Assign \textbf{positional embeddings progressively} to the current sentence, then to the previous one, and so on, so that far away sentences have high values of positional embedding \cite{li_pretrained_2019}.
 		\item<+(1)-|alert@+(1)> Adding a \textbf{segment embedding}, similar to classical positional encoding but for the position of the sentence/segment within the document  \cite{zheng_toward_2020}.
 	\end{enumerate}
 \end{frame}

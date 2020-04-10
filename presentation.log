@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.18)  10 APR 2020 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.18)  10 APR 2020 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2120,34 +2120,18 @@ Overfull \hbox (9.14107pt too wide) in paragraph at lines 166--166
 
 [110
 
-]
+] [111
 
-LaTeX Warning: Citation `booo' on page 111 undefined on input line 175.
+] [112
 
-[111
+] [113
 
-]
-
-LaTeX Warning: Citation `booo' on page 112 undefined on input line 175.
-
-[112
-
-]
-
-LaTeX Warning: Citation `booo' on page 113 undefined on input line 175.
-
-[113
-
-]
-
-LaTeX Warning: Citation `booo' on page 114 undefined on input line 175.
-
-[114
+] [114
 
 ] (./presentation.toc) [115
 
 ]
-<Images/cache.png, id=1015, 946.737pt x 464.937pt>
+<Images/cache.png, id=1021, 946.737pt x 464.937pt>
 File: Images/cache.png Graphic file (type png)
  <use Images/cache.png>
 Package pdftex.def Info: Images/cache.png used on input line 190.
@@ -2159,7 +2143,7 @@ Overfull \vbox (5.19908pt too high) detected at line 190
 [116
 
  <./Images/cache.png (PNG copy)>]
-<Images/cache_only.png, id=1026, 520.344pt x 404.712pt>
+<Images/cache_only.png, id=1031, 520.344pt x 404.712pt>
 File: Images/cache_only.png Graphic file (type png)
 
 <use Images/cache_only.png>
@@ -2301,14 +2285,14 @@ Missing character: There is no ­ in font cmss10!
 
 ] [147
 
-] <Images/docrepair_train.png, id=1283, 639.5895pt x 423.984pt>
+] <Images/docrepair_train.png, id=1287, 639.5895pt x 423.984pt>
 File: Images/docrepair_train.png Graphic file (type png)
 
 <use Images/docrepair_train.png>
 Package pdftex.def Info: Images/docrepair_train.png used on input line 338.
 (pdftex.def)             Requested size: 199.1693pt x 132.02885pt.
 
-<Images/docrepair_test.png, id=1284, 640.794pt x 405.9165pt>
+<Images/docrepair_test.png, id=1288, 640.794pt x 405.9165pt>
 File: Images/docrepair_test.png Graphic file (type png)
 
 <use Images/docrepair_test.png>
@@ -2461,18 +2445,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 33388 strings out of 493029
- 641362 string characters out of 6136234
- 729962 words of memory out of 7999999
- 35822 multiletter control sequences out of 15000+600000
+ 33387 strings out of 493029
+ 641356 string characters out of 6136234
+ 729926 words of memory out of 7999999
+ 35821 multiletter control sequences out of 15000+600000
  24767 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,17n,63p,10416b,842s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2491,10 +2472,10 @@ matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
 ha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb6.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb>
-Output written on presentation.pdf (185 pages, 1138762 bytes).
+Output written on presentation.pdf (185 pages, 1138710 bytes).
 PDF statistics:
- 1723 PDF objects out of 1728 (max. 8388607)
- 1481 compressed objects within 15 object streams
+ 1727 PDF objects out of 1728 (max. 8388607)
+ 1485 compressed objects within 15 object streams
  437 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
