@@ -7,6 +7,16 @@ Agrawal, R.~R., Turchi, M., and Negri, M. (2018).
 \newblock pages 11--20.
 \newblock 00007 Accepted: 2018-08-08T15:15:28Z.
 
+\bibitem[Banerjee and Lavie, 2005]{banerjee_meteor_2005}
+Banerjee, S. and Lavie, A. (2005).
+\newblock {METEOR}: {An} {Automatic} {Metric} for {MT} {Evaluation} with
+  {Improved} {Correlation} with {Human} {Judgments}.
+\newblock In {\em Proceedings of the {ACL} {Workshop} on {Intrinsic} and
+  {Extrinsic} {Evaluation} {Measures} for {Machine} {Translation} and/or
+  {Summarization}}, pages 65--72, Ann Arbor, Michigan. Association for
+  Computational Linguistics.
+\newblock 00000.
+
 \bibitem[Bawden et~al., 2018]{bawden_evaluating_2018}
 Bawden, R., Sennrich, R., Birch, A., and Haddow, B. (2018).
 \newblock Evaluating {Discourse} {Phenomena} in {Neural} {Machine}
@@ -18,6 +28,13 @@ Bawden, R., Sennrich, R., Birch, A., and Haddow, B. (2018).
   Linguistics.
 \newblock 00055.
 
+\bibitem[Fellbaum, 1998]{fellbaum_semantic_1998}
+Fellbaum, C. (1998).
+\newblock A {Semantic} {Network} of {English}: {The} {Mother} of {All}
+  {WordNets}.
+\newblock {\em Computers and the Humanities}, 32(2):209--220.
+\newblock 00194.
+
 \bibitem[Fu et~al., 2019]{fu_reference_2019}
 Fu, H., Liu, C., and Sun, J. (2019).
 \newblock Reference {Network} for {Neural} {Machine} {Translation}.
@@ -25,6 +42,15 @@ Fu, H., Liu, C., and Sun, J. (2019).
   {Association} for {Computational} {Linguistics}}, pages 3002--3012, Florence,
   Italy. Association for Computational Linguistics.
 \newblock 00000.
+
+\bibitem[Guillou and Hardmeier, 2018]{guillou_automatic_2018}
+Guillou, L. and Hardmeier, C. (2018).
+\newblock Automatic {Reference}-{Based} {Evaluation} of {Pronoun} {Translation}
+  {Misses} the {Point}.
+\newblock In {\em Proceedings of the 2018 {Conference} on {Empirical} {Methods}
+  in {Natural} {Language} {Processing}}, pages 4797--4802, Brussels, Belgium.
+  Association for Computational Linguistics.
+\newblock 00008.
 
 \bibitem[Jean et~al., 2019]{jean_fill_2019}
 Jean, S., Bapna, A., and Firat, O. (2019).
@@ -45,6 +71,13 @@ Jean, S., Lauly, S., Firat, O., and Cho, K. (2017).
   {Context}?
 \newblock {\em arXiv:1704.05135 [cs, stat]}.
 \newblock 00038 arXiv: 1704.05135.
+
+\bibitem[Jwalapuram et~al., 2019]{jwalapuram_evaluating_2019}
+Jwalapuram, P., Joty, S., Temnikova, I., and Nakov, P. (2019).
+\newblock Evaluating {Pronominal} {Anaphora} in {Machine} {Translation}: {An}
+  {Evaluation} {Measure} and a {Test} {Suite}.
+\newblock {\em arXiv:1909.00131 [cs]}.
+\newblock 00002 arXiv: 1909.00131.
 
 \bibitem[Kim et~al., 2019]{kim_when_2019}
 Kim, Y., Tran, D.~T., and Ney, H. (2019).
@@ -69,6 +102,13 @@ Li, L., Jiang, X., and Liu, Q. (2019).
 \newblock {\em arXiv:1911.03110 [cs]}.
 \newblock 00001 arXiv: 1911.03110.
 
+\bibitem[Läubli et~al., 2018]{laubli_has_2018}
+Läubli, S., Sennrich, R., and Volk, M. (2018).
+\newblock Has {Machine} {Translation} {Achieved} {Human} {Parity}? {A} {Case}
+  for {Document}-level {Evaluation}.
+\newblock {\em arXiv:1808.07048 [cs]}.
+\newblock 00035 arXiv: 1808.07048.
+
 \bibitem[Martínez~Garcia et~al., 2019]{martinez_garcia_context-aware_2019}
 Martínez~Garcia, E., Creus, C., and España-Bonet, C. (2019).
 \newblock Context-{Aware} {Neural} {Machine} {Translation} {Decoding}.
@@ -87,21 +127,19 @@ Maruf, S. and Haffari, G. (2018).
   Computational Linguistics.
 \newblock 00032.
 
-\bibitem[Maruf et~al., 2018]{maruf_contextual_2018}
-Maruf, S., Martins, A. F.~T., and Haffari, G. (2018).
-\newblock Contextual {Neural} {Model} for {Translating} {Bilingual}
-  {Multi}-{Speaker} {Conversations}.
-\newblock In {\em Proceedings of the {Third} {Conference} on {Machine}
-  {Translation}: {Research} {Papers}}, pages 101--112, Brussels, Belgium.
-  Association for Computational Linguistics.
-\newblock 00002.
-
-\bibitem[Maruf et~al., 2019]{maruf_selective_2019}
-Maruf, S., Martins, A. F.~T., and Haffari, G. (2019).
+\bibitem[Maruf et~al., 2019a]{maruf_selective_2019}
+Maruf, S., Martins, A. F.~T., and Haffari, G. (2019a).
 \newblock Selective {Attention} for {Context}-aware {Neural} {Machine}
   {Translation}.
 \newblock {\em arXiv:1903.08788 [cs]}.
 \newblock 00012.
+
+\bibitem[Maruf et~al., 2019b]{maruf_survey_2019}
+Maruf, S., Saleh, F., and Haffari, G. (2019b).
+\newblock A {Survey} on {Document}-level {Machine} {Translation}: {Methods} and
+  {Evaluation}.
+\newblock {\em arXiv:1912.08494 [cs]}.
+\newblock 00000 arXiv: 1912.08494.
 
 \bibitem[Miculicich et~al., 2018]{miculicich_document-level_2018}
 Miculicich, L., Ram, D., Pappas, N., and Henderson, J. (2018).
@@ -109,6 +147,26 @@ Miculicich, L., Ram, D., Pappas, N., and Henderson, J. (2018).
   {Attention} {Networks}.
 \newblock {\em arXiv:1809.01576 [cs]}.
 \newblock 00024 arXiv: 1809.01576.
+
+\bibitem[Miculicich~Werlen and Popescu-Belis,
+  2017]{miculicich_werlen_validation_2017}
+Miculicich~Werlen, L. and Popescu-Belis, A. (2017).
+\newblock Validation of an {Automatic} {Metric} for the {Accuracy} of {Pronoun}
+  {Translation} ({APT}).
+\newblock In {\em Proceedings of the {Third} {Workshop} on {Discourse} in
+  {Machine} {Translation}}, pages 17--25, Copenhagen, Denmark. Association for
+  Computational Linguistics.
+\newblock 00000.
+
+\bibitem[Müller et~al., 2018]{muller_large-scale_2018}
+Müller, M., Rios, A., Voita, E., and Sennrich, R. (2018).
+\newblock A {Large}-{Scale} {Test} {Set} for the {Evaluation} of
+  {Context}-{Aware} {Pronoun} {Translation} in {Neural} {Machine}
+  {Translation}.
+\newblock In {\em Proceedings of the {Third} {Conference} on {Machine}
+  {Translation}: {Research} {Papers}}, pages 61--72, Brussels, Belgium.
+  Association for Computational Linguistics.
+\newblock 00010.
 
 \bibitem[Ohtani et~al., 2019]{ohtani_context-aware_2019}
 Ohtani, T., Kamigaito, H., Nagata, M., and Okumura, M. (2019).
@@ -118,6 +176,21 @@ Ohtani, T., Kamigaito, H., Nagata, M., and Okumura, M. (2019).
   {Machine} {Translation} ({DiscoMT} 2019)}, pages 45--50, Hong Kong, China.
   Association for Computational Linguistics.
 \newblock 00000.
+
+\bibitem[Papineni et~al., 2002]{papineni_bleu_2002}
+Papineni, K., Roukos, S., Ward, T., and Zhu, W.-J. (2002).
+\newblock Bleu: a {Method} for {Automatic} {Evaluation} of {Machine}
+  {Translation}.
+\newblock In {\em Proceedings of the 40th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics}}, pages 311--318,
+  Philadelphia, Pennsylvania, USA. Association for Computational Linguistics.
+\newblock 10863.
+
+\bibitem[Porter, 1980]{porter_algorithm_1980}
+Porter, M. (1980).
+\newblock An algorithm for suffix stripping.
+\newblock {\em Program}, 40(3):211--218.
+\newblock 10830.
 
 \bibitem[Rae et~al., 2019]{rae_compressive_2019}
 Rae, J.~W., Potapenko, A., Jayakumar, S.~M., and Lillicrap, T.~P. (2019).
@@ -133,6 +206,15 @@ Rios~Gonzales, A., Mascarell, L., and Sennrich, R. (2017).
   {Translation}}, pages 11--19, Copenhagen, Denmark. Association for
   Computational Linguistics.
 \newblock 00030.
+
+\bibitem[Rysová et~al., 2019]{rysova_test_2019}
+Rysová, K., Rysová, M., Musil, T., Poláková, L., and Bojar, O. (2019).
+\newblock A {Test} {Suite} and {Manual} {Evaluation} of {Document}-{Level}
+  {NMT} at {WMT19}.
+\newblock In {\em Proceedings of the {Fourth} {Conference} on {Machine}
+  {Translation} ({Volume} 2: {Shared} {Task} {Papers}, {Day} 1)}, pages
+  455--463, Florence, Italy. Association for Computational Linguistics.
+\newblock 00001.
 
 \bibitem[Scherrer et~al., 2019]{scherrer_analysing_2019}
 Scherrer, Y., Tiedemann, J., and Loáiciga, S. (2019).
@@ -228,6 +310,16 @@ Wang, L., Tu, Z., Way, A., and Liu, Q. (2017).
   in {Natural} {Language} {Processing}}, pages 2826--2831, Copenhagen, Denmark.
   Association for Computational Linguistics.
 \newblock 00045.
+
+\bibitem[Wong and Kit, 2012]{wong_extending_2012}
+Wong, B. T.~M. and Kit, C. (2012).
+\newblock Extending {Machine} {Translation} {Evaluation} {Metrics} with
+  {Lexical} {Cohesion} to {Document} {Level}.
+\newblock In {\em Proceedings of the 2012 {Joint} {Conference} on {Empirical}
+  {Methods} in {Natural} {Language} {Processing} and {Computational} {Natural}
+  {Language} {Learning}}, pages 1060--1068, Jeju Island, Korea. Association for
+  Computational Linguistics.
+\newblock 00044.
 
 \bibitem[Zhang et~al., 2018]{zhang_improving_2018}
 Zhang, J., Luan, H., Sun, M., Zhai, F., Xu, J., Zhang, M., and Liu, Y. (2018).

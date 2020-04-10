@@ -1,8 +1,12 @@
-\BOOKMARK [2][]{Outline0.1}{Models}{}% 1
-\BOOKMARK [3][]{Outline0.1.2.5}{Concatenation Approaches}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.3.7}{Separate Encoding Approaches}{Outline0.1}% 3
-\BOOKMARK [3][]{Outline0.1.4.15}{Cache Approaches}{Outline0.1}% 4
-\BOOKMARK [3][]{Outline0.1.5.20}{Exploiting Monolingual Corpora}{Outline0.1}% 5
-\BOOKMARK [3][]{Outline0.1.6.25}{Others}{Outline0.1}% 6
-\BOOKMARK [3][]{Outline0.1.7.27}{Remarks and conclusions}{Outline0.1}% 7
-\BOOKMARK [1][]{Outline1}{Appendix}{}% 8
+\BOOKMARK [2][]{Outline0.1}{Evaluation}{}% 1
+\BOOKMARK [3][]{Outline0.1.2.18}{Automatic metrics}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.3.40}{Test Suites}{Outline0.1}% 3
+\BOOKMARK [3][]{Outline0.1.4.68}{Remarks and conclusions}{Outline0.1}% 4
+\BOOKMARK [2][]{Outline0.2}{Approaches to DLNMT}{}% 5
+\BOOKMARK [3][]{Outline0.2.5.87}{Concatenation Approaches}{Outline0.2}% 6
+\BOOKMARK [3][]{Outline0.2.6.94}{Separate Encoding Approaches}{Outline0.2}% 7
+\BOOKMARK [3][]{Outline0.2.7.115}{Cache Approaches}{Outline0.2}% 8
+\BOOKMARK [3][]{Outline0.2.8.126}{Exploiting Monolingual Corpora}{Outline0.2}% 9
+\BOOKMARK [3][]{Outline0.2.9.149}{Others}{Outline0.2}% 10
+\BOOKMARK [3][]{Outline0.2.10.154}{Remarks and conclusions}{Outline0.2}% 11
+\BOOKMARK [1][]{Outline1}{Appendix}{}% 12

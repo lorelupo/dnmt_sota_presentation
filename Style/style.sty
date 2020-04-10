@@ -56,6 +56,7 @@
 }
 
 \setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
 
 %\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
 \setbeamertemplate{footline}[frame number] % To replace the footer line in all slides with a simple slide count uncomment this line
@@ -143,6 +144,15 @@
  \tableofcontents[currentsection]
  \end{frame}
 }
+
+\AtBeginSubsection[]
+{%
+	\begin{frame}<beamer>
+		\frametitle{Plan}
+		\tableofcontents[currentsection,currentsubsection]
+	\end{frame}
+}
+
 
 %------------------------------------------------------------------------------
 % Define commands for backup slides
