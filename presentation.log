@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.18)  10 APR 2020 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.18)  15 APR 2020 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2341,8 +2341,6 @@ py)>] (./presentation.toc) [149
 \c@finalframe=\count362
  (./presentation.bbl
 Missing character: There is no Ã in font cmss10!
-Missing character: There is no ¤ in font cmss10!
-Missing character: There is no Ã in font cmss10!
 Missing character: There is no ­ in font cmss10!
 Missing character: There is no Ã in font cmss10!
 Missing character: There is no ± in font cmss10!
@@ -2411,15 +2409,9 @@ Missing character: There is no ¡ in font cmss10!
 ] [182
 
 
-] [183
-
-
-] [184
-
-
 ]
-Package atenddvi Info: Last page = 185.
- [185
+Package atenddvi Info: Last page = 183.
+ [183
 
 
 ]
@@ -2432,11 +2424,11 @@ Package atenddvi Info: Last page = 185.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 97.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 96.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 6879D9ED3AE51008C433EABDBEE0790E;776.
 
@@ -2447,13 +2439,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 33387 strings out of 493029
- 641356 string characters out of 6136234
- 729926 words of memory out of 7999999
- 35821 multiletter control sequences out of 15000+600000
+ 33370 strings out of 493029
+ 641047 string characters out of 6136234
+ 726193 words of memory out of 7999999
+ 35811 multiletter control sequences out of 15000+600000
  24767 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,17n,63p,10416b,842s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2472,10 +2464,10 @@ matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
 ha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb6.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb>
-Output written on presentation.pdf (185 pages, 1138710 bytes).
+Output written on presentation.pdf (183 pages, 1136407 bytes).
 PDF statistics:
- 1727 PDF objects out of 1728 (max. 8388607)
- 1485 compressed objects within 15 object streams
- 437 named destinations out of 1000 (max. 500000)
+ 1711 PDF objects out of 1728 (max. 8388607)
+ 1471 compressed objects within 15 object streams
+ 430 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,10 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: presentation.aux
 The style file: apalike.bst
-White space in argument---line 352 of file presentation.aux
- : \bibdata{Bibliography/document_nmt,
- :                                     Bibliografy/bibliografy}
-I'm skipping whatever remains of this command
 Database file #1: Bibliography/document_nmt.bib
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
@@ -13,47 +9,46 @@ Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
 Reallocated out_buf (elt_size=1) to 40000 items from 20000.
 Reallocated name_tok (elt_size=4) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-Warning--I didn't find a database entry for "booo"
 Warning--empty booktitle in agrawal_contextual_2018
-You've used 42 entries,
+You've used 39 entries,
             1935 wiz_defined-function locations,
-            714 strings with 13765 characters,
-and the built_in function-call counts, 20588 in all, are:
-= -- 2156
-> -- 839
-< -- 35
-+ -- 298
-- -- 286
-* -- 1555
-:= -- 3371
-add.period$ -- 191
-call.type$ -- 42
-change.case$ -- 353
-chr.to.int$ -- 40
-cite$ -- 43
-duplicate$ -- 879
-empty$ -- 1381
-format.name$ -- 346
-if$ -- 4291
+            693 strings with 12910 characters,
+and the built_in function-call counts, 19135 in all, are:
+= -- 2001
+> -- 785
+< -- 32
++ -- 280
+- -- 268
+* -- 1448
+:= -- 3136
+add.period$ -- 177
+call.type$ -- 39
+change.case$ -- 329
+chr.to.int$ -- 37
+cite$ -- 40
+duplicate$ -- 814
+empty$ -- 1280
+format.name$ -- 323
+if$ -- 3983
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 42
-newline$ -- 255
-num.names$ -- 126
-pop$ -- 347
+missing$ -- 39
+newline$ -- 237
+num.names$ -- 117
+pop$ -- 323
 preamble$ -- 1
-purify$ -- 353
+purify$ -- 329
 quote$ -- 0
-skip$ -- 688
+skip$ -- 638
 stack$ -- 0
-substring$ -- 1316
-swap$ -- 253
-text.length$ -- 24
+substring$ -- 1224
+swap$ -- 234
+text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 252
+type$ -- 234
 warning$ -- 1
-while$ -- 160
+while$ -- 148
 width$ -- 0
-write$ -- 661
-(There was 1 error message)
+write$ -- 613
+(There was 1 warning)

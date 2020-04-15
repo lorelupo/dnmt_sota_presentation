@@ -7,16 +7,6 @@ Agrawal, R.~R., Turchi, M., and Negri, M. (2018).
 \newblock pages 11--20.
 \newblock 00007 Accepted: 2018-08-08T15:15:28Z.
 
-\bibitem[Banerjee and Lavie, 2005]{banerjee_meteor_2005}
-Banerjee, S. and Lavie, A. (2005).
-\newblock {METEOR}: {An} {Automatic} {Metric} for {MT} {Evaluation} with
-  {Improved} {Correlation} with {Human} {Judgments}.
-\newblock In {\em Proceedings of the {ACL} {Workshop} on {Intrinsic} and
-  {Extrinsic} {Evaluation} {Measures} for {Machine} {Translation} and/or
-  {Summarization}}, pages 65--72, Ann Arbor, Michigan. Association for
-  Computational Linguistics.
-\newblock 00000.
-
 \bibitem[Bawden et~al., 2018]{bawden_evaluating_2018}
 Bawden, R., Sennrich, R., Birch, A., and Haddow, B. (2018).
 \newblock Evaluating {Discourse} {Phenomena} in {Neural} {Machine}
@@ -102,13 +92,6 @@ Li, L., Jiang, X., and Liu, Q. (2019).
 \newblock {\em arXiv:1911.03110 [cs]}.
 \newblock 00001 arXiv: 1911.03110.
 
-\bibitem[Läubli et~al., 2018]{laubli_has_2018}
-Läubli, S., Sennrich, R., and Volk, M. (2018).
-\newblock Has {Machine} {Translation} {Achieved} {Human} {Parity}? {A} {Case}
-  for {Document}-level {Evaluation}.
-\newblock {\em arXiv:1808.07048 [cs]}.
-\newblock 00035 arXiv: 1808.07048.
-
 \bibitem[Martínez~Garcia et~al., 2019]{martinez_garcia_context-aware_2019}
 Martínez~Garcia, E., Creus, C., and España-Bonet, C. (2019).
 \newblock Context-{Aware} {Neural} {Machine} {Translation} {Decoding}.
@@ -176,15 +159,6 @@ Ohtani, T., Kamigaito, H., Nagata, M., and Okumura, M. (2019).
   {Machine} {Translation} ({DiscoMT} 2019)}, pages 45--50, Hong Kong, China.
   Association for Computational Linguistics.
 \newblock 00000.
-
-\bibitem[Papineni et~al., 2002]{papineni_bleu_2002}
-Papineni, K., Roukos, S., Ward, T., and Zhu, W.-J. (2002).
-\newblock Bleu: a {Method} for {Automatic} {Evaluation} of {Machine}
-  {Translation}.
-\newblock In {\em Proceedings of the 40th {Annual} {Meeting} of the
-  {Association} for {Computational} {Linguistics}}, pages 311--318,
-  Philadelphia, Pennsylvania, USA. Association for Computational Linguistics.
-\newblock 10863.
 
 \bibitem[Porter, 1980]{porter_algorithm_1980}
 Porter, M. (1980).
