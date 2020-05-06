@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.18)  15 APR 2020 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.18)  6 MAY 2020 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2114,8 +2114,12 @@ l.109 \end{frame}
 ] [109
 
 ]
-Overfull \hbox (9.14107pt too wide) in paragraph at lines 166--166
+Overfull \hbox (9.14107pt too wide) in paragraph at lines 168--168
  [] 
+ []
+
+
+Overfull \vbox (11.73442pt too high) detected at line 168
  []
 
 [110
@@ -2131,23 +2135,23 @@ Overfull \hbox (9.14107pt too wide) in paragraph at lines 166--166
 ] (./presentation.toc) [115
 
 ]
-<Images/cache.png, id=1021, 946.737pt x 464.937pt>
+<Images/cache.png, id=1023, 946.737pt x 464.937pt>
 File: Images/cache.png Graphic file (type png)
  <use Images/cache.png>
-Package pdftex.def Info: Images/cache.png used on input line 190.
+Package pdftex.def Info: Images/cache.png used on input line 192.
 (pdftex.def)             Requested size: 278.83578pt x 136.93529pt.
 
-Overfull \vbox (5.19908pt too high) detected at line 190
+Overfull \vbox (5.19908pt too high) detected at line 192
  []
 
 [116
 
  <./Images/cache.png (PNG copy)>]
-<Images/cache_only.png, id=1031, 520.344pt x 404.712pt>
+<Images/cache_only.png, id=1033, 520.344pt x 404.712pt>
 File: Images/cache_only.png Graphic file (type png)
 
 <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 207.
+Package pdftex.def Info: Images/cache_only.png used on input line 209.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
  [117
 
@@ -2155,19 +2159,19 @@ Package pdftex.def Info: Images/cache_only.png used on input line 207.
 File: Images/cache_only.png Graphic file (type png)
 
 <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 228.
+Package pdftex.def Info: Images/cache_only.png used on input line 230.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:cacheonly
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.228 \end{frame}
+l.230 \end{frame}
                   [118
 
 ]
 File: Images/cache_only.png Graphic file (type png)
  <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 228.
+Package pdftex.def Info: Images/cache_only.png used on input line 230.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
  [119
 
@@ -2175,14 +2179,14 @@ Package pdftex.def Info: Images/cache_only.png used on input line 228.
 File: Images/cache_only.png Graphic file (type png)
 
 <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 228.
+Package pdftex.def Info: Images/cache_only.png used on input line 230.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
  [120
 
 ]
 File: Images/cache_only.png Graphic file (type png)
  <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 228.
+Package pdftex.def Info: Images/cache_only.png used on input line 230.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
  [121
 
@@ -2190,19 +2194,19 @@ Package pdftex.def Info: Images/cache_only.png used on input line 228.
 File: Images/cache_only.png Graphic file (type png)
 
 <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 248.
+Package pdftex.def Info: Images/cache_only.png used on input line 250.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:cacheonly
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.248 \end{frame}
+l.250 \end{frame}
                   [122
 
 ]
 File: Images/cache_only.png Graphic file (type png)
  <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 248.
+Package pdftex.def Info: Images/cache_only.png used on input line 250.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
  [123
 
@@ -2210,12 +2214,12 @@ Package pdftex.def Info: Images/cache_only.png used on input line 248.
 File: Images/cache_only.png Graphic file (type png)
 
 <use Images/cache_only.png>
-Package pdftex.def Info: Images/cache_only.png used on input line 248.
+Package pdftex.def Info: Images/cache_only.png used on input line 250.
 (pdftex.def)             Requested size: 179.25114pt x 139.41582pt.
  [124
 
 ]
-Overfull \hbox (4.23686pt too wide) in paragraph at lines 270--270
+Overfull \hbox (4.23686pt too wide) in paragraph at lines 272--272
 []|\OT1/cmss/m/n/10 [[]]| 
  []
 
@@ -2285,18 +2289,18 @@ Missing character: There is no ­ in font cmss10!
 
 ] [147
 
-] <Images/docrepair_train.png, id=1287, 639.5895pt x 423.984pt>
+] <Images/docrepair_train.png, id=1289, 639.5895pt x 423.984pt>
 File: Images/docrepair_train.png Graphic file (type png)
 
 <use Images/docrepair_train.png>
-Package pdftex.def Info: Images/docrepair_train.png used on input line 338.
+Package pdftex.def Info: Images/docrepair_train.png used on input line 340.
 (pdftex.def)             Requested size: 199.1693pt x 132.02885pt.
 
-<Images/docrepair_test.png, id=1288, 640.794pt x 405.9165pt>
+<Images/docrepair_test.png, id=1290, 640.794pt x 405.9165pt>
 File: Images/docrepair_test.png Graphic file (type png)
 
 <use Images/docrepair_test.png>
-Package pdftex.def Info: Images/docrepair_test.png used on input line 338.
+Package pdftex.def Info: Images/docrepair_test.png used on input line 340.
 (pdftex.def)             Requested size: 199.1693pt x 126.16727pt.
  [148
 
@@ -2442,10 +2446,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 33370 strings out of 493029
- 641047 string characters out of 6136234
- 726193 words of memory out of 7999999
- 35811 multiletter control sequences out of 15000+600000
+ 33373 strings out of 493029
+ 641128 string characters out of 6136234
+ 726581 words of memory out of 7999999
+ 35813 multiletter control sequences out of 15000+600000
  24767 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,17n,63p,10416b,842s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2464,10 +2468,10 @@ matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mat
 ha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb6.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb>
-Output written on presentation.pdf (183 pages, 1136407 bytes).
+Output written on presentation.pdf (183 pages, 1136485 bytes).
 PDF statistics:
- 1711 PDF objects out of 1728 (max. 8388607)
- 1471 compressed objects within 15 object streams
- 430 named destinations out of 1000 (max. 500000)
+ 1713 PDF objects out of 1728 (max. 8388607)
+ 1473 compressed objects within 15 object streams
+ 431 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

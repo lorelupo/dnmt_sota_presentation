@@ -16,7 +16,7 @@ Bawden, R., Sennrich, R., Birch, A., and Haddow, B. (2018).
   {Human} {Language} {Technologies}, {Volume} 1 ({Long} {Papers})}, pages
   1304--1313, New Orleans, Louisiana. Association for Computational
   Linguistics.
-\newblock 00055.
+\newblock 00056.
 
 \bibitem[Fellbaum, 1998]{fellbaum_semantic_1998}
 Fellbaum, C. (1998).
@@ -60,7 +60,7 @@ Jean, S., Lauly, S., Firat, O., and Cho, K. (2017).
 \newblock Does {Neural} {Machine} {Translation} {Benefit} from {Larger}
   {Context}?
 \newblock {\em arXiv:1704.05135 [cs, stat]}.
-\newblock 00038 arXiv: 1704.05135.
+\newblock 00039 arXiv: 1704.05135.
 
 \bibitem[Jwalapuram et~al., 2019]{jwalapuram_evaluating_2019}
 Jwalapuram, P., Joty, S., Temnikova, I., and Nakov, P. (2019).
@@ -108,7 +108,7 @@ Maruf, S. and Haffari, G. (2018).
   {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
   {Papers})}, pages 1275--1284, Melbourne, Australia. Association for
   Computational Linguistics.
-\newblock 00032.
+\newblock 00000.
 
 \bibitem[Maruf et~al., 2019a]{maruf_selective_2019}
 Maruf, S., Martins, A. F.~T., and Haffari, G. (2019a).
@@ -129,7 +129,7 @@ Miculicich, L., Ram, D., Pappas, N., and Henderson, J. (2018).
 \newblock Document-{Level} {Neural} {Machine} {Translation} with {Hierarchical}
   {Attention} {Networks}.
 \newblock {\em arXiv:1809.01576 [cs]}.
-\newblock 00024 arXiv: 1809.01576.
+\newblock 00029 arXiv: 1809.01576.
 
 \bibitem[Miculicich~Werlen and Popescu-Belis,
   2017]{miculicich_werlen_validation_2017}
@@ -233,14 +233,14 @@ Tiedemann, J. and Scherrer, Y. (2017).
 \newblock In {\em Proceedings of the {Third} {Workshop} on {Discourse} in
   {Machine} {Translation}}, pages 82--92, Copenhagen, Denmark. Association for
   Computational Linguistics.
-\newblock 00038.
+\newblock 00040.
 
 \bibitem[Tu et~al., 2017]{tu_learning_2017}
 Tu, Z., Liu, Y., Shi, S., and Zhang, T. (2017).
 \newblock Learning to {Remember} {Translation} {History} with a {Continuous}
   {Cache}.
 \newblock {\em arXiv:1711.09367 [cs]}.
-\newblock 00037 arXiv: 1711.09367.
+\newblock 00041 arXiv: 1711.09367.
 
 \bibitem[Vaswani et~al., 2017]{vaswani_attention_2017}
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
@@ -274,7 +274,7 @@ Voita, E., Serdyukov, P., Sennrich, R., and Titov, I. (2018).
   {Association} for {Computational} {Linguistics} ({Volume} 1: {Long}
   {Papers})}, pages 1264--1274, Melbourne, Australia. Association for
   Computational Linguistics.
-\newblock 00047.
+\newblock 00049.
 
 \bibitem[Wang et~al., 2017]{wang_exploiting_2017}
 Wang, L., Tu, Z., Way, A., and Liu, Q. (2017).
@@ -283,7 +283,13 @@ Wang, L., Tu, Z., Way, A., and Liu, Q. (2017).
 \newblock In {\em Proceedings of the 2017 {Conference} on {Empirical} {Methods}
   in {Natural} {Language} {Processing}}, pages 2826--2831, Copenhagen, Denmark.
   Association for Computational Linguistics.
-\newblock 00045.
+\newblock 00048.
+
+\bibitem[Wang et~al., 2019]{wang_improving_2019}
+Wang, X., Weston, J., Auli, M., and Jernite, Y. (2019).
+\newblock Improving {Conditioning} in {Context}-{Aware} {Sequence} to
+  {Sequence} {Models}.
+\newblock 00002.
 
 \bibitem[Wong and Kit, 2012]{wong_extending_2012}
 Wong, B. T.~M. and Kit, C. (2012).
