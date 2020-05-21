@@ -288,7 +288,7 @@ Once the encoding of the current and the context sentences has been carried out,
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)> Unfortunately, document-level parallel corpora are often insufficient to train DLNMT systems from scratch, although it is often possible to make them converge to a local optimum. 
 		\item<+(1)-|alert@+(1)> \cite{kim_when_2019} pointed out that when constraining training on such small datasets, model comparison becomes misleading because gains in performance are mainly related to better regularization.
-		\item<+(1)-|alert@+(1)> A popular solution to this problem is the \textbf{two-step training strategy}: \cite{tu_learning_2017,voita_context-aware_2018,miculicich_document-level_2018}
+		\item<+(1)-|alert@+(1)> A popular solution to this problem is the \textbf{two-step training strategy}: \cite{tu_learning_2017,zhang_improving_2018,miculicich_document-level_2018}
 		\begin{enumerate}
 			\item<+(1)-|alert@+(1)> Distinguish two integrated components in your model with params $\Theta=[\theta_S;\theta_D]$:
 				\begin{itemize}
@@ -296,7 +296,7 @@ Once the encoding of the current and the context sentences has been carried out,
 					\item<+(1)-|alert@+(1)> Some context-handling modules with parameters $\theta_D$.
 				\end{itemize}
 			\item<+(1)-|alert@+(1)> Train $\theta_S$ independently on a sentence-level parallel corpus $C_S$.
-			\item<+(1)-|alert@+(1)> Train together $\theta_D$ and $\theta_S$ (finetune) on a document-level parallel corpus $C_D$.
+			\item<+(1)-|alert@+(1)> Train $\theta_D$ on a document-level parallel corpus $C_D$ while fine-tuning $\theta_S$, or freezing them \cite{zhang_improving_2018}.
 		\end{enumerate}
 	\end{itemize}
 \end{frame}
