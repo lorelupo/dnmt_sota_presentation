@@ -1,13 +1,2 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {english}
-\beamer@sectionintoc {1}{Approaches to DLNMT}{15}{0}{1}
-\beamer@subsectionintoc {1}{2}{Concatenation Approaches}{16}{0}{1}
-\beamer@subsectionintoc {1}{3}{Separate Encoding Approaches}{23}{0}{1}
-\beamer@subsectionintoc {1}{4}{Cache Approaches}{44}{0}{1}
-\beamer@subsectionintoc {1}{5}{Exploiting Monolingual Corpora}{55}{0}{1}
-\beamer@subsectionintoc {1}{6}{Others}{78}{0}{1}
-\beamer@subsectionintoc {1}{7}{Remarks and conclusions}{83}{0}{1}
-\beamer@sectionintoc {2}{Evaluation}{94}{0}{2}
-\beamer@subsectionintoc {2}{8}{Automatic metrics}{109}{0}{2}
-\beamer@subsectionintoc {2}{9}{Test Suites}{131}{0}{2}
-\beamer@subsectionintoc {2}{10}{Remarks and conclusions}{156}{0}{2}

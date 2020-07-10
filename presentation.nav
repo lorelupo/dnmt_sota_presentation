@@ -5,178 +5,33 @@
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\slideentry {0}{1}{3}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {0}{1}{4}{4/7}{}{0}}
-\headcommand {\beamer@framepages {4}{7}}
-\headcommand {\slideentry {0}{1}{5}{8/9}{}{0}}
-\headcommand {\beamer@framepages {8}{9}}
-\headcommand {\slideentry {0}{1}{6}{10/10}{}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {0}{1}{7}{11/13}{}{0}}
-\headcommand {\beamer@framepages {11}{13}}
-\headcommand {\slideentry {0}{1}{8}{14/14}{}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\sectionentry {1}{Approaches to DLNMT}{15}{Approaches to DLNMT}{0}}
-\headcommand {\beamer@sectionpages {1}{14}}
-\headcommand {\beamer@subsectionpages {1}{14}}
-\headcommand {\slideentry {1}{1}{9}{15/15}{}{0}}
-\headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{16}{Concatenation Approaches}}\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\slideentry {1}{2}{1}{16/16}{Concatenation Approaches}{0}}
-\headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {1}{2}{2}{17/17}{Concatenation Approaches}{0}}
+\headcommand {\slideentry {0}{1}{4}{4/6}{}{0}}
+\headcommand {\beamer@framepages {4}{6}}
+\headcommand {\slideentry {0}{1}{5}{7/10}{}{0}}
+\headcommand {\beamer@framepages {7}{10}}
+\headcommand {\slideentry {0}{1}{6}{11/12}{}{0}}
+\headcommand {\beamer@framepages {11}{12}}
+\headcommand {\slideentry {0}{1}{7}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {0}{1}{8}{14/16}{}{0}}
+\headcommand {\beamer@framepages {14}{16}}
+\headcommand {\slideentry {0}{1}{9}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {1}{2}{3}{18/22}{Concatenation Approaches}{0}}
-\headcommand {\beamer@framepages {18}{22}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{23}{Separate Encoding Approaches}}\headcommand {\beamer@subsectionpages {16}{22}}
-\headcommand {\slideentry {1}{3}{1}{23/23}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {1}{3}{2}{24/28}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {24}{28}}
-\headcommand {\slideentry {1}{3}{3}{29/29}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {1}{3}{4}{30/30}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {1}{3}{5}{31/31}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {1}{3}{6}{32/35}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {32}{35}}
-\headcommand {\slideentry {1}{3}{7}{36/38}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {36}{38}}
-\headcommand {\slideentry {1}{3}{8}{39/39}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {1}{3}{9}{40/43}{Separate Encoding Approaches}{0}}
-\headcommand {\beamer@framepages {40}{43}}
-\headcommand {\beamer@subsectionentry {0}{1}{4}{44}{Cache Approaches}}\headcommand {\beamer@subsectionpages {23}{43}}
-\headcommand {\slideentry {1}{4}{1}{44/44}{Cache Approaches}{0}}
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {1}{4}{2}{45/45}{Cache Approaches}{0}}
-\headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {1}{4}{3}{46/46}{Cache Approaches}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {1}{4}{4}{47/50}{Cache Approaches}{0}}
-\headcommand {\beamer@framepages {47}{50}}
-\headcommand {\slideentry {1}{4}{5}{51/53}{Cache Approaches}{0}}
-\headcommand {\beamer@framepages {51}{53}}
-\headcommand {\slideentry {1}{4}{6}{54/54}{Cache Approaches}{0}}
-\headcommand {\beamer@framepages {54}{54}}
-\headcommand {\beamer@subsectionentry {0}{1}{5}{55}{Exploiting Monolingual Corpora}}\headcommand {\beamer@subsectionpages {44}{54}}
-\headcommand {\slideentry {1}{5}{1}{55/55}{Exploiting Monolingual Corpora}{0}}
-\headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {1}{5}{2}{56/60}{Exploiting Monolingual Corpora}{0}}
-\headcommand {\beamer@framepages {56}{60}}
-\headcommand {\slideentry {1}{5}{3}{61/69}{Exploiting Monolingual Corpora}{0}}
-\headcommand {\beamer@framepages {61}{69}}
-\headcommand {\slideentry {1}{5}{4}{70/75}{Exploiting Monolingual Corpora}{0}}
-\headcommand {\beamer@framepages {70}{75}}
-\headcommand {\slideentry {1}{5}{5}{76/76}{Exploiting Monolingual Corpora}{0}}
-\headcommand {\beamer@framepages {76}{76}}
-\headcommand {\slideentry {1}{5}{6}{77/77}{Exploiting Monolingual Corpora}{0}}
-\headcommand {\beamer@framepages {77}{77}}
-\headcommand {\beamer@subsectionentry {0}{1}{6}{78}{Others}}\headcommand {\beamer@subsectionpages {55}{77}}
-\headcommand {\slideentry {1}{6}{1}{78/78}{Others}{0}}
-\headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {1}{6}{2}{79/81}{Others}{0}}
-\headcommand {\beamer@framepages {79}{81}}
-\headcommand {\slideentry {1}{6}{3}{82/82}{Others}{0}}
-\headcommand {\beamer@framepages {82}{82}}
-\headcommand {\beamer@subsectionentry {0}{1}{7}{83}{Remarks and conclusions}}\headcommand {\beamer@subsectionpages {78}{82}}
-\headcommand {\slideentry {1}{7}{1}{83/83}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {83}{83}}
-\headcommand {\slideentry {1}{7}{2}{84/93}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {84}{93}}
-\headcommand {\sectionentry {2}{Evaluation}{94}{Evaluation}{0}}
-\headcommand {\beamer@sectionpages {15}{93}}
-\headcommand {\beamer@subsectionpages {83}{93}}
-\headcommand {\slideentry {2}{7}{3}{94/94}{}{0}}
-\headcommand {\beamer@framepages {94}{94}}
-\headcommand {\slideentry {2}{7}{4}{95/101}{}{0}}
-\headcommand {\beamer@framepages {95}{101}}
-\headcommand {\slideentry {2}{7}{5}{102/102}{}{0}}
-\headcommand {\beamer@framepages {102}{102}}
-\headcommand {\slideentry {2}{7}{6}{103/108}{}{0}}
-\headcommand {\beamer@framepages {103}{108}}
-\headcommand {\beamer@subsectionentry {0}{2}{8}{109}{Automatic metrics}}\headcommand {\beamer@subsectionpages {94}{108}}
-\headcommand {\slideentry {2}{8}{1}{109/109}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {109}{109}}
-\headcommand {\slideentry {2}{8}{2}{110/114}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {110}{114}}
-\headcommand {\slideentry {2}{8}{3}{115/120}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {115}{120}}
-\headcommand {\slideentry {2}{8}{4}{121/121}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {121}{121}}
-\headcommand {\slideentry {2}{8}{5}{122/130}{Automatic metrics}{0}}
-\headcommand {\beamer@framepages {122}{130}}
-\headcommand {\beamer@subsectionentry {0}{2}{9}{131}{Test Suites}}\headcommand {\beamer@subsectionpages {109}{130}}
-\headcommand {\slideentry {2}{9}{1}{131/131}{Test Suites}{0}}
-\headcommand {\beamer@framepages {131}{131}}
-\headcommand {\slideentry {2}{9}{2}{132/137}{Test Suites}{0}}
-\headcommand {\beamer@framepages {132}{137}}
-\headcommand {\slideentry {2}{9}{3}{138/140}{Test Suites}{0}}
-\headcommand {\beamer@framepages {138}{140}}
-\headcommand {\slideentry {2}{9}{4}{141/141}{Test Suites}{0}}
-\headcommand {\beamer@framepages {141}{141}}
-\headcommand {\slideentry {2}{9}{5}{142/142}{Test Suites}{0}}
-\headcommand {\beamer@framepages {142}{142}}
-\headcommand {\slideentry {2}{9}{6}{143/143}{Test Suites}{0}}
-\headcommand {\beamer@framepages {143}{143}}
-\headcommand {\slideentry {2}{9}{7}{144/146}{Test Suites}{0}}
-\headcommand {\beamer@framepages {144}{146}}
-\headcommand {\slideentry {2}{9}{8}{147/155}{Test Suites}{0}}
-\headcommand {\beamer@framepages {147}{155}}
-\headcommand {\beamer@subsectionentry {0}{2}{10}{156}{Remarks and conclusions}}\headcommand {\beamer@subsectionpages {131}{155}}
-\headcommand {\slideentry {2}{10}{1}{156/156}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {156}{156}}
-\headcommand {\slideentry {2}{10}{2}{157/163}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {157}{163}}
-\headcommand {\slideentry {2}{10}{3}{164/167}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {164}{167}}
-\headcommand {\slideentry {2}{10}{4}{168/173}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {168}{173}}
-\headcommand {\slideentry {2}{10}{5}{174/174}{Remarks and conclusions}{0}}
-\headcommand {\beamer@framepages {174}{174}}
+\headcommand {\slideentry {0}{1}{10}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
 \headcommand {\partentry {Appendix}{1}}
-\headcommand {\beamer@partpages {1}{174}}
-\headcommand {\beamer@sectionpages {94}{174}}
-\headcommand {\beamer@subsectionpages {156}{174}}
-\headcommand {\beamer@appendixpages {175}}
-\headcommand {\slideentry {2}{0}{6}{175/175}{}{1}}
-\headcommand {\beamer@framepages {175}{175}}
-\headcommand {\slideentry {2}{0}{6}{175/176}{}{1}}
-\headcommand {\beamer@framepages {175}{176}}
-\headcommand {\slideentry {2}{0}{6}{175/177}{}{1}}
-\headcommand {\beamer@framepages {175}{177}}
-\headcommand {\slideentry {2}{0}{6}{175/178}{}{1}}
-\headcommand {\beamer@framepages {175}{178}}
-\headcommand {\slideentry {2}{0}{6}{175/179}{}{1}}
-\headcommand {\beamer@framepages {175}{179}}
-\headcommand {\slideentry {2}{0}{6}{175/180}{}{1}}
-\headcommand {\beamer@framepages {175}{180}}
-\headcommand {\slideentry {2}{0}{6}{175/181}{}{1}}
-\headcommand {\beamer@framepages {175}{181}}
-\headcommand {\slideentry {2}{0}{6}{175/182}{}{1}}
-\headcommand {\beamer@framepages {175}{182}}
-\headcommand {\slideentry {2}{0}{6}{175/183}{}{1}}
-\headcommand {\beamer@framepages {175}{183}}
-\headcommand {\slideentry {2}{0}{6}{175/184}{}{1}}
-\headcommand {\beamer@framepages {175}{184}}
-\headcommand {\slideentry {2}{0}{6}{175/185}{}{1}}
-\headcommand {\beamer@framepages {175}{185}}
-\headcommand {\slideentry {2}{0}{6}{175/186}{}{1}}
-\headcommand {\beamer@framepages {175}{186}}
-\headcommand {\slideentry {2}{0}{6}{175/187}{}{1}}
-\headcommand {\beamer@framepages {175}{187}}
-\headcommand {\slideentry {2}{0}{6}{175/188}{}{1}}
-\headcommand {\beamer@framepages {175}{188}}
-\headcommand {\slideentry {2}{0}{6}{175/189}{}{1}}
-\headcommand {\beamer@framepages {175}{189}}
-\headcommand {\slideentry {2}{0}{6}{175/190}{}{1}}
-\headcommand {\beamer@framepages {175}{190}}
-\headcommand {\slideentry {2}{0}{6}{175/191}{}{1}}
-\headcommand {\beamer@framepages {175}{191}}
-\headcommand {\slideentry {2}{0}{6}{175/192}{}{1}}
-\headcommand {\beamer@framepages {175}{192}}
-\headcommand {\beamer@partpages {175}{192}}
-\headcommand {\beamer@subsectionpages {175}{192}}
-\headcommand {\beamer@sectionpages {175}{192}}
-\headcommand {\beamer@documentpages {192}}
-\headcommand {\def \inserttotalframenumber {60}}
+\headcommand {\beamer@partpages {1}{18}}
+\headcommand {\beamer@sectionpages {1}{18}}
+\headcommand {\beamer@subsectionpages {1}{18}}
+\headcommand {\beamer@appendixpages {19}}
+\headcommand {\slideentry {0}{0}{11}{19/19}{}{1}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {0}{0}{11}{19/20}{}{1}}
+\headcommand {\beamer@framepages {19}{20}}
+\headcommand {\slideentry {0}{0}{11}{19/21}{}{1}}
+\headcommand {\beamer@framepages {19}{21}}
+\headcommand {\beamer@partpages {19}{21}}
+\headcommand {\beamer@subsectionpages {19}{21}}
+\headcommand {\beamer@sectionpages {19}{21}}
+\headcommand {\beamer@documentpages {21}}
+\headcommand {\def \inserttotalframenumber {10}}
