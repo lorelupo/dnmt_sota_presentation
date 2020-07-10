@@ -2,33 +2,30 @@
 
 \begin{frame}{Evaluation}	
 	\begin{itemize}
-		\item<+(1)-|alert@+(1)> Classical metrics such as BLUE and METEOR are inadequate in evaluating document-level MT because they evaluate \textbf{average translation quality} at \textbf{sentence-level}. Thus:
+		\item<+(1)-|alert@+(1)> Classical metrics such as BLUE and METEOR are inadequate in evaluating document-level neural MT (DNMT) because they evaluate \textbf{average translation quality} by matching n-grams at \textbf{sentence-level}. Thus:
 		\begin{itemize}
-			\item<+(1)-|alert@+(1)> they are unable to capture document-wide phenomena like coherence and cohesion \cite{wong_extending_2012}.
-			\item<+(1)-|alert@+(1)> they are not able to measure improvements over discourse phenomena that affect few words but heavily influence fluency and correctness of the translation \cite{muller_large-scale_2018}. E.g. pronomial anaphora.
+			\item<+(1)-|alert@+(1)> they are unable to capture document-wide phenomena like \textbf{coherence} and \textbf{cohesion} \cite{wong_extending_2012}.
+			\item<+(1)-|alert@+(1)> they are not able to measure improvements over translations  of discourse \textbf{phenomena that affect few words but heavily influence fluency and correctness} of the translation \cite{muller_large-scale_2018}. E.g. pronomial anaphora.
 		\end{itemize}
-		\item<+(1)-|alert@+(1)> Evaluation of \textbf{translation of discourse phenomena} can be undertaken with:
-			\begin{itemize}
-				\item<+(1)-|alert@+(1)> automatic metrics.
-				\item<+(1)-|alert@+(1)> test suites.
-			\end{itemize}
+		\item<+(1)-|alert@+(1)> Instead, we should evaluate DNMT with metrics that can \textbf{capture inter-sentential discourse phenomena}. 
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Evaluation}	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Images/maruf_2019_discourse_phenomena}
-		\caption{Overview of works on discourse phenomena evaluation in MT \cite{maruf_survey_2019}.}
-			\label{fig:maruf2019discoursephenomena}
-	\end{figure}	
-\end{frame}
+%\begin{frame}{Evaluation}	
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=0.7\linewidth]{Images/maruf_2019_discourse_phenomena}
+%		\caption{Overview of works on discourse phenomena evaluation in MT \cite{maruf_survey_2019}.}
+%			\label{fig:maruf2019discoursephenomena}
+%	\end{figure}	
+%\end{frame}
 
-\begin{frame}{Evaluation}
-	The evaluation of translation of discourse-phenomena in document-level MT should:
+\begin{frame}{Desiderata of Document-level MT Evaluation}
+	The evaluation of document-level MT should:
 	\begin{itemize}
-		\item<+(1)-|alert@+(1)> Provide inter-sentential context\footnote{in the remainder of this presentation, we refer to inter-sentential context simply as context.}.
-		\item<+(1)-|alert@+(1)> Focus on context-dependent cases.
+		\item<+(1)-|alert@+(1)> Be undertaken by providing inter-sentential context\footnote{in the remainder of this presentation, we refer to inter-sentential context simply as context.}.
+		\item<+(1)-|alert@+(1)> Consider both translation quality (BLEU) and correct translation of discourse-phenomena.
+		\item<+(1)-|alert@+(1)> Focus on context-dependent discourse phenomena.
 		\begin{itemize}
 			\item<+(1)-|alert@+(1)> E.g., pronominal anaphora cases in which the antecedent is in a previous sentence (context-dependent), instead of being in the same sentence (context-independent).
 		\end{itemize}
@@ -44,40 +41,56 @@
 \subsection{Automatic metrics}
 
 \begin{frame}{Automatic metrics}
-	\textbf{Accuracy of Pronoun Translation} \cite{miculicich_werlen_validation_2017}:
-	\begin{enumerate}
-		\item<+(1)-|alert@+(1)> Align source, reference and candidate translation with GIZA++ plus some heuristics.
-		\item<+(1)-|alert@+(1)> Compare candidate and reference pronouns taking into account \textbf{equivalent} pronouns and identical pronouns with \textbf{different forms} (target language-specific).
-		\begin{itemize}
-			\item<+(1)-|alert@+(1)> E.g. \textit{it is difficult} $\rightarrow$ \textit{il/ce/c' est difficile}. 
-		\end{itemize}
-	\end{enumerate}
+	In the literature, we can find some automatic metrics for machine translation that specialize on discourse phenomena:
 	\begin{itemize}
-		\item<+(1)-|alert@+(1)> \textit{Compatible languages}: conceived for English to French but it has also been extended to other language pairs. \\
+		\item<+(1)-|alert@+(1)> Metrics for \textbf{pronoun translation}, usually involved in phenomena of coreference resolution (deixis, grammatical cohesion). E.g.,
+			\begin{itemize}
+				\item<+(1)-|alert@+(1)> \textbf{Accuracy of Pronoun Translation} \cite{miculicich_werlen_validation_2017} and \textbf{Pronoun Pair-wise Ranking} \cite{jwalapuram_evaluating_2019}
+			\end{itemize}
+		\item<+(1)-|alert@+(1)> Metrics for \textbf{lexical cohesion}. E.g.,
+			\begin{itemize}
+				\item<+(1)-|alert@+(1)> \cite{hajlaoui_assessing_2013} proposed new automatic and semi-automatic metrics for discourse connectives, referred to as \textbf{Accuracy of Connective Translation}.
+				\item<+(1)-|alert@+(1)> \cite{wong_extending_2012} measure the abundance of lexical cohesion characterized by semantically related words with \textbf{Lexical Cohesion Devices}.
+			\end{itemize}
 	\end{itemize}
+	
 \end{frame}
 
-\begin{frame}{Automatic metrics}	
-	\textbf{Pronoun Pair-wise Ranking} \cite{jwalapuram_evaluating_2019}	
-	\begin{itemize}
-		\item<+(1)-|alert@+(1)> \textit{Rationale}: \textbf{ranking-based evaluation} measures can achieve higher correlations with human judgments, as rankings are simpler to obtain from humans and to train models on.
-		\item<+(1)-|alert@+(1)> \textit{Compatible languages}: all target languages on which it is possible to built a training set (parsers needed). all source languages!
-		\item<+(1)-|alert@+(1)> \textit{System input}: a pair $R=(C_r, r)$ and $S=(C_s, s)$ of translations to be compared:
-		\begin{itemize}
-			\item<+(1)-|alert@+(1)> $C_r,C_s$ are the two translations. Each $C$ can comprise one or multiple sentences (context)
-			\item<+(1)-|alert@+(1)> $r,s$ are the positions of the pronouns to be compared in the translation $R$ and $S$, respectively.
-		\end{itemize} 
-	\end{itemize}	
-\end{frame}
+%\begin{frame}{Automatic metrics}
+%	\textbf{Accuracy of Pronoun Translation} \cite{miculicich_werlen_validation_2017}:
+%	\begin{enumerate}
+%		\item<+(1)-|alert@+(1)> Align source, reference and candidate translation with GIZA++ plus some heuristics.
+%		\item<+(1)-|alert@+(1)> Compare candidate and reference pronouns taking into account \textbf{equivalent} pronouns and identical pronouns with \textbf{different forms} (target language-specific).
+%		\begin{itemize}
+%			\item<+(1)-|alert@+(1)> E.g. \textit{it is difficult} $\rightarrow$ \textit{il/ce/c' est difficile}. 
+%		\end{itemize}
+%	\end{enumerate}
+%	\begin{itemize}
+%		\item<+(1)-|alert@+(1)> \textit{Compatible languages}: conceived for English to French but it has also been extended to other language pairs. \\
+%	\end{itemize}
+%\end{frame}
 
-\begin{frame}{Automatic metrics}	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.55\linewidth]{Images/jwalapuram_2019_pronoun_ranker}
-		\caption{Pairwise ranking system by \cite{jwalapuram_evaluating_2019}.}
-		\label{fig:jwalapuram2019pronounranker}
-	\end{figure}
-\end{frame}
+%\begin{frame}{Automatic metrics}	
+%	\textbf{Pronoun Pair-wise Ranking} \cite{jwalapuram_evaluating_2019}	
+%	\begin{itemize}
+%		\item<+(1)-|alert@+(1)> \textit{Rationale}: \textbf{ranking-based evaluation} measures can achieve higher correlations with human judgments, as rankings are simpler to obtain from humans and to train models on.
+%		\item<+(1)-|alert@+(1)> \textit{Compatible languages}: all target languages on which it is possible to built a training set (parsers needed). all source languages!
+%		\item<+(1)-|alert@+(1)> \textit{System input}: a pair $R=(C_r, r)$ and $S=(C_s, s)$ of translations to be compared:
+%		\begin{itemize}
+%			\item<+(1)-|alert@+(1)> $C_r,C_s$ are the two translations. Each $C$ can comprise one or multiple sentences (context)
+%			\item<+(1)-|alert@+(1)> $r,s$ are the positions of the pronouns to be compared in the translation $R$ and $S$, respectively.
+%		\end{itemize} 
+%	\end{itemize}	
+%\end{frame}
+
+%\begin{frame}{Automatic metrics}	
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=0.55\linewidth]{Images/jwalapuram_2019_pronoun_ranker}
+%		\caption{Pairwise ranking system by \cite{jwalapuram_evaluating_2019}.}
+%		\label{fig:jwalapuram2019pronounranker}
+%	\end{figure}
+%\end{frame}
 
 \begin{frame}{Automatic metrics}
 	\textbf{Lexical Cohesion Devices} \cite{wong_extending_2012}
@@ -110,13 +123,21 @@
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)> \textbf{Manual test suites} consist in the manual evaluation of a number of test cases (e.g. discourse phenomena) based on a given machine translation task.
 		\begin{itemize}
-			\item<+(1)-|alert@+(1)> For instance, WMT2019 not only provided ratings for each system output but also some manual evaluation and analysis of the outputs, like the English $\rightarrow$ Czech test suite one on coherence by \cite{rysova_test_2019}.
+			\item<+(1)-|alert@+(1)> For instance, WMT2019 not only provided ratings for each system output but also some manual evaluation and analysis of the outputs, like the English $\rightarrow$ Czech test suite on coherence by \cite{rysova_test_2019}.
 		\end{itemize}
-		\item<+(1)-|alert@+(1)> \textbf{Specialized test sets} are like normal MT test sets but consist of sentence pairs that are more densely populated with specific discourse phenomena. Translations are evaluated on such tests sets by means of average quality metrics like BLEU.
+		\item<+(1)-|alert@+(1)> \textbf{Specialized test sets} are like normal MT test sets but consist of consecutive sentences that are more densely populated with specific discourse phenomena. Translations are evaluated on such tests sets by means of average quality metrics like BLEU.
 		\begin{itemize}
 			\item<+(1)-|alert@+(1)> E.g. \cite{voita_context-aware_2018} build a specialized English $\rightarrow$ Russian test set by retrieving from OpenSubtitles2016 all the sentences containing pronouns that are coreferent to an expression in the previous sentence.
 		\end{itemize}
-		\item<+(1)-|alert@+(1)> \textbf{Contrastive test suites} consists in blocks of few candidate translations of a given source in which one translation is correct and the others are not. MT systems are assessed on their ability to rank correct translations higher than the incorrect ones.   
+		\item<+(1)-|alert@+(1)> \textbf{Contrastive test suites} allow to evaluate MT systems on their ability to rank correct translations higher than the incorrect ones.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Contrastive Test Suites}
+	\begin{itemize}
+		\item<+(1)-|alert@+(1)>  \textbf{Deixis, Ellipsis, and Lexical Cohesion} \cite{voita_when_2019}
+		\item<+(1)-|alert@+(1)> \textbf{Large Contrastive Test-suite for Pronoun Translation} \cite{muller_large-scale_2018}
+		\item<+(1)-|alert@+(1)> \textbf{Pronomial Anaphora, Lexical Coherence and Cohesion} \cite{bawden_evaluating_2018}
 	\end{itemize}
 \end{frame}
 
@@ -161,35 +182,35 @@
 \end{frame}
 
 
-\begin{frame}{Contrastive Test Suites}
-	\textbf{Deixis, Ellipsis, and Lexical Cohesion} \cite{voita_when_2019}
-	\begin{itemize}
-		\item<+(1)-|alert@+(1)> \textit{Language}: English $\rightarrow$ Russian (OpenSubtitles2018).
-		\item<+(1)-|alert@+(1)> \textit{Design method}: manual design preceded by a human analysis on the most common translation errors in the target language pair.
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{Contrastive Test Suites}
-	\textbf{Large Contrastive Test-suite for Pronoun Translation} \cite{muller_large-scale_2018}
-	\begin{itemize}
-		\item<+(1)-|alert@+(1)> \textit{Rationale}: previous contrastive test suites are not suitable for DLNMT systems because either they \textbf{don't provid context}, or they are \textbf{too small} to provide statistical significance \cite{bawden_evaluating_2018}.
-		\item<+(1)-|alert@+(1)> \textit{Language}: English $\rightarrow$ German (OpenSubtitles2016).
-		\item<+(1)-|alert@+(1)> \textit{Focus}: \textit{it} $\rightarrow$ \textit{er, sie, es} (hard cases of inter-sentential anaphora).
-		\item<+(1)-|alert@+(1)> \textit{Method}:
-		\begin{itemize}
-			\item<+(1)-|alert@+(1)> \textbf{Align and parse} source-reference pairs with coreference annotators (e.g. CoreNLP for En)
-			\item<+(1)-|alert@+(1)> \textbf \textbf{filter} aligned sentences containing aligned pronouns and antecedents.
-			\item<+(1)-|alert@+(1)> \textbf{Randomly sample} 4000 instances of each of the three translations of \textit{it} under consideration: \textit{er,sie,es}.
-			\item<+(1)-|alert@+(1)> \textbf{Generate two contrastive translations for each} of the 12000 reference translations, by swapping the correct German pronoun with the two incorrect ones.
-		\end{itemize} 
-	\end{itemize}
-\end{frame}
+%\begin{frame}{Contrastive Test Suites}
+%	\textbf{Deixis, Ellipsis, and Lexical Cohesion} \cite{voita_when_2019}
+%	\begin{itemize}
+%		\item<+(1)-|alert@+(1)> \textit{Language}: English $\rightarrow$ Russian (OpenSubtitles2018).
+%		\item<+(1)-|alert@+(1)> \textit{Design method}: manual design preceded by a human analysis on the most common translation errors in the target language pair.
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}{Contrastive Test Suites}
+%	\textbf{Large Contrastive Test-suite for Pronoun Translation} \cite{muller_large-scale_2018}
+%	\begin{itemize}
+%		\item<+(1)-|alert@+(1)> \textit{Rationale}: previous contrastive test suites are not suitable for DNMT systems because either they \textbf{don't provid context}, or they are \textbf{too small} to provide statistical significance \cite{bawden_evaluating_2018}.
+%		\item<+(1)-|alert@+(1)> \textit{Language}: English $\rightarrow$ German (OpenSubtitles2016).
+%		\item<+(1)-|alert@+(1)> \textit{Focus}: \textit{it} $\rightarrow$ \textit{er, sie, es} (hard cases of inter-sentential anaphora).
+%		\item<+(1)-|alert@+(1)> \textit{Method}:
+%		\begin{itemize}
+%			\item<+(1)-|alert@+(1)> \textbf{Align and parse} source-reference pairs with coreference annotators (e.g. CoreNLP for En)
+%			\item<+(1)-|alert@+(1)> \textbf \textbf{filter} aligned sentences containing aligned pronouns and antecedents.
+%			\item<+(1)-|alert@+(1)> \textbf{Randomly sample} 4000 instances of each of the three translations of \textit{it} under consideration: \textit{er,sie,es}.
+%			\item<+(1)-|alert@+(1)> \textbf{Generate two contrastive translations for each} of the 12000 reference translations, by swapping the correct German pronoun with the two incorrect ones.
+%		\end{itemize} 
+%	\end{itemize}
+%\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Remarks and conclusions}
+\subsection{Remarks}
 
-\begin{frame}{Remarks and conclusions}
+\begin{frame}{Remarks}
 	\textbf{Automatic Metrics}
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)>[$+$] They are \textbf{unexpensive} w.r.t. human annotation.
@@ -203,7 +224,7 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Remarks and conclusions}
+\begin{frame}{Remarks}
 	\textbf{Test Suites}
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)>[$+$] They can evaluate discourse phenomena translations with \textbf{high precision} and, if well designed, \textbf{hig recall}.
@@ -212,28 +233,24 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Remarks and conclusions}
-	\textbf{Possible Future Research Directions}
-	\begin{itemize}
-		\item<+(1)-|alert@+(1)> New automatic metrics strongly tested against human judgment.
-			\begin{itemize}
-				\item<+(1)-|alert@+(1)> Works on coherence and cohesion are particularly lacking.
-			\end{itemize}
-		\item<+(1)-|alert@+(1)> Semi-automatic metrics: use a high precision automatic metric and a human to evaluate negative cases.
-		\item<+(1)-|alert@+(1)> New test suites for restricted scope.
-			\begin{itemize}
-				\item<+(1)-|alert@+(1)> Considering other documents other than movie subtitles for building test sets would be interesting for various reasons:
-				\begin{itemize}
-					\item No multiple speakers, no unavailable context (the video), more phenomena related to future context. 
-				\end{itemize}
-				 
-			\end{itemize}
-	\end{itemize}
-\end{frame}
-
-
-
-		
+%\begin{frame}{Conclusions}
+%	\textbf{Possible Future Research Directions}
+%	\begin{itemize}
+%		\item<+(1)-|alert@+(1)> New automatic metrics strongly tested against human judgment.
+%			\begin{itemize}
+%				\item<+(1)-|alert@+(1)> Works on coherence and cohesion are particularly lacking.
+%			\end{itemize}
+%		\item<+(1)-|alert@+(1)> Semi-automatic metrics: use a high precision automatic metric and a human to evaluate negative cases.
+%		\item<+(1)-|alert@+(1)> New test suites for restricted scope.
+%			\begin{itemize}
+%				\item<+(1)-|alert@+(1)> Considering other documents other than movie subtitles for building test sets would be interesting for various reasons:
+%				\begin{itemize}
+%					\item No multiple speakers, no unavailable context (the video), more phenomena related to future context. 
+%				\end{itemize}
+%				 
+%			\end{itemize}
+%	\end{itemize}
+%\end{frame}
 
 
 %\begin{itemize}[noitemsep,topsep=0pt]
