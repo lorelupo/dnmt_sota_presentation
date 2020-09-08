@@ -57,7 +57,7 @@ Separate encoding approaches to DNMT consist in encoder-decoder models that enco
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)> \textbf{Multiple encoders} working in parallel for the current and previous sentence. E.g. \cite{wang_exploiting_2017}.
 		\item<+(1)-|alert@+(1)> \textbf{Multiple encoders with shared weights}. In this case, the parallel-working encoders not only have the same architecture, but also the same weights. E.g. \cite{voita_context-aware_2018}.
-		\item<+(1)-|alert@+(1)> \textbf{Two-pass approaches}, in which the encoder makes a first sentence-level encoding pass of the source, and a second in which it encodes contextual information too. See Slide \ref{slide:separateencoding}.
+		\item<+(1)-|alert@+(1)> \textbf{Two-pass approaches}, in which the encoder makes a first sentence-level encoding pass of the source, and a second in which it uses the context-agnostic drafts as contextual information for the current sentence. This can been achieved also by directly encoding the concatenation of many sentences and encoding them in a context-agnostic fashion, then encode context on top of it with extra layers. E.g. \cite{zheng_toward_2020}. See Slide \ref{slide:separateencoding}.
 %		\begin{itemize}
 %			\item<+(1)-|alert@+(1)> Remark: a powerful feature of two-pass approaches is their ability to exploit \textbf{future} target-side context.
 %		\end{itemize}
