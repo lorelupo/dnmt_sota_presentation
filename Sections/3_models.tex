@@ -1,10 +1,35 @@
-\section{Approaches to DLNMT}
+\section{Approaches to DNMT}
+
+\begin{frame}{DNMT architectures}
+
+	DNMT architectures are based on traditional encoder-decoder models:
+	
+	\onslide<2->{\begin{figure}
+		\centering
+		\textbf{RNN-based} (until 2017)\par\medskip
+		\includegraphics[width=0.45\linewidth]{Images/encoder_decoder}
+		\label{fig:concatenation}
+	\end{figure}
+	}
+\end{frame}
+
+\begin{frame}{DNMT architectures}
+	
+	DNMT architectures are based on traditional encoder-decoder models:
+	
+	\begin{figure}
+		\centering
+		\textbf{Transformer-based} (afterwards)\par\medskip
+		\includegraphics[width=0.3\linewidth]{Images/transformer}
+		\label{fig:concatenation}
+	\end{figure}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Concatenation Approaches}
 
 \begin{frame}{Concatenation Approaches}
-Concatenation approaches to DLNMT consist in feeding a standard encoder-decoder architecture with a concatenation of sentences. 
+Concatenation approaches to DNMT consist in feeding a standard encoder-decoder architecture with a concatenation of sentences. 
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.45\linewidth]{Images/concatenation}
@@ -15,12 +40,12 @@ Concatenation approaches to DLNMT consist in feeding a standard encoder-decoder 
 \begin{frame}{Concatenation Approaches}
 For instance:
 	\begin{itemize}
-		\item<+(1)-|alert@+(1)> \cite{tiedemann_neural_2017} firstly introduced this approach proposing an RNN-based model that incorporate the preceding sentence by prepending it to the current one, separated by a $<$CONCAT$>$ token. They propose two methods:
+		\item<+(1)-|alert@+(1)> \cite{tiedemann_neural_2017} firstly introduced this approach proposing an \textbf{RNN-based} model that incorporate the preceding sentence by prepending it to the current one, separated by a $<$CONCAT$>$ token. They propose two methods:
 			\begin{itemize}
 				\item<+(1)-|alert@+(1)> \textbf{2-TO-2}: the previous and the current sentences are translated together. The translation of the current sentence is then obtained by only retaining the tokens following the concatenation token.
 				\item<+(1)-|alert@+(1)> \textbf{2-TO-1}: only the current sentence is translated. 
 			\end{itemize}
-		\item<+(1)-|alert@+(1)> \cite{agrawal_contextual_2018,scherrer_analysing_2019} investigated the concatenation approach with the Transformer as base model, extending the number of context sentences both on the source (s:-3,+1) and the target (t:-2) side.
+		\item<+(1)-|alert@+(1)> \cite{agrawal_contextual_2018,scherrer_analysing_2019} investigated the concatenation approach with the \textbf{Transformer} as base model, extending the number of context sentences both on the \textbf{source (s:-3,+1)} and the \textbf{target (t:-2)} side.
 	\end{itemize}
 \end{frame}
 
@@ -28,14 +53,14 @@ For instance:
 \subsection{Separate Encoding Approaches}
 
 \begin{frame}{Separate Encoding Approaches}
-Separate encoding approaches to DLNMT consist in encoder-decoder models that encode the current and context sentences separately. This can be undertaken by:
+Separate encoding approaches to DNMT consist in encoder-decoder models that encode the current and context sentences separately. This can be undertaken by:
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)> \textbf{Multiple encoders} working in parallel for the current and previous sentence. E.g. \cite{wang_exploiting_2017}.
 		\item<+(1)-|alert@+(1)> \textbf{Multiple encoders with shared weights}. In this case, the parallel-working encoders not only have the same architecture, but also the same weights. E.g. \cite{voita_context-aware_2018}.
-		\item<+(1)-|alert@+(1)> \textbf{Two-pass approaches}, in which the encoder makes a first sentence-level encoding pass of the source, and a second in which it encodes contextual information too. See Slide \ref{slide:separateencoding}.
-		\begin{itemize}
-			\item<+(1)-|alert@+(1)> Remark: a powerful feature of two-pass approaches is their ability to exploit \textbf{future} target-side context.
-		\end{itemize}
+		\item<+(1)-|alert@+(1)> \textbf{Two-pass approaches}, in which the encoder makes a first sentence-level encoding pass of the source, and a second in which it uses the context-agnostic drafts as contextual information for the current sentence. This can been achieved also by directly encoding the concatenation of many sentences and encoding them in a context-agnostic fashion, then encode context on top of it with extra layers. E.g. \cite{zheng_toward_2020}. See Slide \ref{slide:separateencoding}.
+%		\begin{itemize}
+%			\item<+(1)-|alert@+(1)> Remark: a powerful feature of two-pass approaches is their ability to exploit \textbf{future} target-side context.
+%		\end{itemize}
 	\end{itemize}  
 \end{frame}
 
@@ -108,15 +133,15 @@ Once the encoding of the current and the context sentences has been carried out,
 	\end{columns} 
 \end{frame}
 
-\begin{frame}{Separate Encoding Approaches}
-	\textbf{Architecture}\\
-	The encoder-decoder architectures depicted above can be both RNN-based (until 2017) or Transfomer-based (after 2017), as for any approach to DLNMT. However, often some modifications are applied. For example:
-	\begin{itemize} 
-		\item<+(1)-|alert@+(1)> In the case of RNN-based architectures, integration inside the decoder can be undertaken without attention by simply concatenating context representations to the cell state of the deocdrr's RNN \cite{wang_exploiting_2017}.
-		\item<+(1)-|alert@+(1)>  Beside contextual representation of words, the context encoder can also generate higher level representations such as sentence or document embeddings. This representations can also be attended by the decoder \cite{miculicich_document-level_2018, maruf_selective_2019} or added to the word-representations \cite{tan_hierarchical_2019}.
-		\item<+(1)-|alert@+(1)> Parallel integration inside the decoder can also happen within a single multi-head attention that takes as values and queries the concatenations of the current and context sentence representations \cite{voita_when_2019}
-	\end{itemize}
-\end{frame}
+%\begin{frame}{Separate Encoding Approaches}
+%	\textbf{Architecture}\\
+%	The encoder-decoder architectures depicted above can be both RNN-based (until 2017) or Transfomer-based (after 2017), as for any approach to DNMT. However, often some modifications are applied. For example:
+%	\begin{itemize} 
+%		\item<+(1)-|alert@+(1)> In the case of RNN-based architectures, integration inside the decoder can be undertaken without attention by simply concatenating context representations to the cell state of the deocdrr's RNN \cite{wang_exploiting_2017}.
+%		\item<+(1)-|alert@+(1)>  Beside contextual representation of words, the context encoder can also generate higher level representations such as sentence or document embeddings. This representations can also be attended by the decoder \cite{miculicich_document-level_2018, maruf_selective_2019} or added to the word-representations \cite{tan_hierarchical_2019}.
+%		\item<+(1)-|alert@+(1)> Parallel integration inside the decoder can also happen within a single multi-head attention that takes as values and queries the concatenations of the current and context sentence representations \cite{voita_when_2019}
+%	\end{itemize}
+%\end{frame}
 
 \begin{frame}{Separate Encoding Approaches}
 	\textbf{Including target-side context}\\
@@ -180,7 +205,7 @@ Once the encoding of the current and the context sentences has been carried out,
 \subsection{Cache Approaches}
 
 \begin{frame}{Cache Approaches}
-	Cache approaches to DLNMT consist in encoder-decoder models that are equipped with one or more caches that store context information.
+	Cache approaches to DNMT consist in encoder-decoder models that are equipped with one or more caches that store context information.
 	The information stored can belong to both \textbf{source side or target side, past and future}. 
 
 	\begin{figure}
@@ -194,7 +219,7 @@ Once the encoding of the current and the context sentences has been carried out,
 \begin{frame}[c]{Cache Approaches}
 	\begin{columns}[c] % align columns
 		\begin{column}{.50\textwidth}
-			Every cache slot is a \textbf{key-value-indicator} triplet (the key and the indicator are often the same thing). With these variables, we can \textbf{read} or \textbf{write} caches.
+			Every cache slot is a \textbf{key-value} tuple. With these variables, we can \textbf{read} or \textbf{write} caches.
 			\vspace{0.3cm}
 		\end{column}%
 		\hfill%
@@ -234,8 +259,8 @@ Once the encoding of the current and the context sentences has been carried out,
 		\begin{column}{.50\textwidth}
 			\textbf{Cache writing} can be undertaken after having translated one or more sentences. For every triplet:
 			\begin{itemize}
-				\item<+(1)-|alert@+(1)> If the \textbf{indicator} already exists in the cache, we just update it's keys and values.  
-				\item<+(1)-|alert@+(1)> Else, we write the triplet in an empty slot, after having emptied the oldest slot if the cache is full.
+				\item<+(1)-|alert@+(1)> If the \textbf{key} already exists in the cache, we just update its value.  
+				\item<+(1)-|alert@+(1)> Else, we write the key-value tuple in an empty slot, after having emptied the oldest slot if the cache is full.
 			\end{itemize} 
 		\end{column}%
 		\hfill%
@@ -272,10 +297,10 @@ Once the encoding of the current and the context sentences has been carried out,
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Exploiting Monolingual Corpora}
+\subsection{Exploiting Document-level Monolingual Corpora}
 
 \begin{frame}{On Parallel Corpora for Training}
-	DLNMT systems require training on \textbf{document-level parallel corpora}. These corpora are usually released during workshops on machine translation like IWSLT and WMT, and hosted on open source web inventories. The most common ones, are extracted from:
+	DNMT systems require training on \textbf{document-level parallel corpora}. These corpora are usually released during workshops on machine translation like IWSLT and WMT, and hosted on open source web inventories. The most common ones, are extracted from:
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)> Movie subtitles (OpenSubtitles)
 		\item<+(1)-|alert@+(1)> TED talks (WIT3)
@@ -286,8 +311,8 @@ Once the encoding of the current and the context sentences has been carried out,
 
 \begin{frame}{On Parallel Corpora for Training}
 	\begin{itemize}
-		\item<+(1)-|alert@+(1)> Unfortunately, document-level parallel corpora are often insufficient to train DLNMT systems from scratch, although it is often possible to make them converge to a local optimum. 
-		\item<+(1)-|alert@+(1)> \cite{kim_when_2019} pointed out that when constraining training on such small datasets, model comparison becomes misleading because gains in performance are mainly related to better regularization.
+		\item<+(1)-|alert@+(1)> Unfortunately, document-level parallel \textbf{corpora are often insufficient} to train DNMT systems from scratch, although it is often possible to make them converge to a local optimum. 
+		\item<+(1)-|alert@+(1)> \cite{kim_when_2019, li_does_2020} pointed out that when constraining training on such small datasets, model comparison becomes misleading because gains in performance are mainly related to better regularization.
 		\item<+(1)-|alert@+(1)> A popular solution to this problem is the \textbf{two-step training strategy}: \cite{tu_learning_2017,zhang_improving_2018,miculicich_document-level_2018}
 		\begin{enumerate}
 			\item<+(1)-|alert@+(1)> Distinguish two integrated components in your model with params $\Theta=[\theta_S;\theta_D]$:
@@ -301,25 +326,25 @@ Once the encoding of the current and the context sentences has been carried out,
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Exploiting Monolingual Corpora}
+\begin{frame}{Exploiting Document-level Monolingual Corpora}
 	Another solution to the lack of vast document-level parallel corpora is leveraging on huge \textit{monolingual} document-level corpora like BookCorpus \cite{zhu_aligning_2015} and PG-19 \cite{rae_compressive_2019}. In the literature, we can find various approaches to leverage monolingual corpora:
 	\begin{itemize}
 		\item<+(1)-|alert@+(1)> \textbf{Back-translate} target-side corpus to augment dl corpus \cite{sugiyama_data_2019}.
 		\item<+(1)-|alert@+(1)> Train \textbf{context-aware language models} on target/source-side corpus, then:
 		\begin{itemize}
 			\item<+(1)-|alert@+(1)> Generate translations by fusioning the decoder and the LM's scores to candidate words  \cite{martinez_garcia_context-aware_2019}.
-			\item<+(1)-|alert@+(1)> Initialize the econder (or decoder) of a DLNMT model \cite{li_pretrained_2019}.
+			\item<+(1)-|alert@+(1)> Initialize the econder (or decoder) of a DNMT model \cite{li_pretrained_2019}.
 		\end{itemize}  
 		\item<+(1)-|alert@+(1)> Train \textbf{Automatic Post Editing} systems on target-side corpus (See next slide).
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Exploiting Monolingual Corpora}
+\begin{frame}{Exploiting Document-level Monolingual Corpora}
 	\textbf{Automatic Post Editing} (APE)\\
 	\cite{voita_context-aware_2019} devised an APE system called DocRepair, that turns a sentence-level translation into a context-aware translation. DocRepair can work on top of whatever sentence-level MT system.
 \end{frame}
 
-\begin{frame}{Cache Approaches}
+\begin{frame}{DocRepair}
 	\begin{columns}[c] % align columns
 		\begin{column}{.50\textwidth}
 			\begin{figure}
@@ -354,7 +379,7 @@ Once the encoding of the current and the context sentences has been carried out,
 \begin{frame}{Others}
 	\textbf{Learning Approaches}\\
 	 \cite{jean_context-aware_2019} looked at the problem from a learning perspective and designed a regularisation term
-to encourage a DLNMT model to exploit the additional context in a useful way . This regularisation
+to encourage a DNMT model to exploit the additional context in a useful way . This regularisation
 term is applied at the token, sentence and corpus levels and is based on pair-wise ranking loss,
 that is, it helps to assign a higher log-probability to a translation paired with the correct context
 than to the translation without context.
@@ -370,189 +395,14 @@ than to the translation without context.
 		\begin{itemize}
 			\item<+(1)-|alert@+(1)> E.g. imputing context sentences \cite{jean_fill_2019}.
 		\end{itemize}
-		\item<+(1)-|alert@+(1)> Design models with good results on lexical cohesion \cite{voita_when_2019}.
+%		\item<+(1)-|alert@+(1)> Design models with good results on lexical cohesion \cite{voita_when_2019}.
 		\item<+(1)-|alert@+(1)> Design models exploiting full context in a memory-efficient way:
 		\begin{itemize}
 			\item<+(1)-|alert@+(1)> Dynamic context integration.
 			\item<+(1)-|alert@+(1)> Caches integrated to Transformer-based models.
 		\end{itemize}
 		\item<+(1)-|alert@+(1)> Design automatic post-processing models that are lightweight and can be trained on little data \cite{kim_when_2019}.
-		\item<+(1)-|alert@+(1)> Study pre-trained language models for DLNMT decoder.
+		\item<+(1)-|alert@+(1)> Study pre-trained language models for DNMT decoder.
 		\item<+(1)-|alert@+(1)> Study other learning methods that foster document-level modeling \cite{jean_context-aware_2019}.
 	\end{itemize}
 \end{frame}
-
-%\begin{frame}{Regret}
-%
-%	\begin{columns}
-%	\begin{column}{0.6\textwidth}
-%	 \onslide<+->\begin{block}{Sub-linear Regret}
-%	\begin{enumerate}
-%			\item<+(1)-|alert@+(1)> for any linear function $f(T)$, for sufficiently large input $T$, $Regret(T)$ grows slower than $f(T)$.
-%			\item<+(1)-|alert@+(1)> Alternatively, $\lim_{T\to\infty}Regret(T)/T=0$
-%		\end{enumerate}
-%	\end{block}
-%	\end{column}
-%
-%	\begin{column}{0.4\textwidth}
-%		\centering
-%		\includegraphics<+->[width=1\textwidth]{Images/mabomber}
-%	\end{column}
-%	\end{columns}
-%\end{frame}
-
-
-%\begin{frame}{A useful formulation}
-%
-%	\begin{columns}
-%	\begin{column}{0.4\textwidth}
-%	  \begin{center}
-%	     \includegraphics<+->[width=1\textwidth]{Images/mabomber}
-%	  \end{center}
-%%	    \quad Multi \hspace{0.80cm} Armed \hspace{0.70cm} Bandits
-%	\end{column}
-%
-%	\begin{column}{0.6\textwidth}
-%	\begin{block}{Multi Armed Bandits}
-%	    \begin{itemize}
-%	    \item<+(1)-|alert@+(1)><+-|alert@+> Simpler framework;
-%	    \item<+(1)-|alert@+(1)><+-|alert@+> Share the exploration-exploitation tradeoff;
-%	    \item<+(1)-|alert@+(1)><+-|alert@+> Ample literature available.
-%	    \end{itemize}
-%	 \end{block}
-%	 
-%	 \onslide<+->{	
-%	\begin{block}{Regret}
-%	 $Regret(T)=\mathcal{O}(\sqrt T)\to$ regret is \textbf{sub-linear}.
-%	\end{block}
-%	}
-%	
-%%	\onslide<+->{	
-%%	\begin{block}{Desideratum}
-%%	 \textbf{sub-linear} $Regret(T)\Leftrightarrow \lim_{T\to\infty}Regret(T)/T=0$
-%%	 \\~\\
-%%	 E.g. $Regret(T)=\mathcal{O}(\log T)$
-%%	\end{block}
-%%	}
-%%	
-%	\end{column}
-%	\end{columns}
-%\end{frame}
-
-
-%	\onslide<2->{
-%	\textbf{Rewards}: portfolio log-return with transaction costs
-%		\begin{equation*}
-%			R_{t+1} = \log \left\{ 1 + \sum^{I}_{i=0} \left[ 
-%				\tikz[baseline]{
-%		        	\node[anchor=base] (t1) {$a_t^i X_{t+1}^i$};
-%		        } - 
-%		        \tikz[baseline]{
-%		        	\node[anchor=base] (t2) {$\delta_i \left| a_t^i - \widetilde{a}_t^i \right|$};
-%		       	} -
-%		       	\tikz[baseline]{
-%		       		\node[anchor=base] (t3) {$\delta_s {(a_t^i)}^-$};
-%		       	} \right] -
-%		       	\tikz[baseline]{
-%		       		\node[anchor=base] (t4) {$\delta_f \mathbf{1}_{{a}_t \neq \tilde{{a}}_{t-1}}$};
-%		       	} \right\}	 	
-%		 \end{equation*}
-%	}
-%	
-%	\onslide<7->{
-%	\textbf{Actions}: Portfolio weights
-%		\begin{equation*}
-%			\{a_t^i\}_{i=0}^I \;\;\; \text{s.t.}\;\;\; \sum^{I}_{i=0} a_t^i = 1 \;\;\;\;\; \forall t \in \{0, 1, 2, \ldots\}
-%		\end{equation*}
-%	}
-%
-%	\onslide<8->{
-%	\textbf{States}: assets past returns and current allocation
-%		\begin{equation*}
-%			S_t = \{X, X_t, X_{t-1}, \ldots, X_{t-P}, \tilde{a}_t\}
-%		\end{equation*}
-%	}
-%	
-%	\onslide<3|handout:0>{
-%		\begin{tikzpicture}[overlay]
-%				\node[draw=SteelBlue, circle, line width=3pt, minimum size=2cm] at (t1) {};
-%		\end{tikzpicture}
-%	}
-%	
-%	\onslide<4|handout:0>{
-%		\begin{tikzpicture}[overlay]
-%				\node[draw=SteelBlue, circle, line width=3pt, minimum size=2cm] at (t2) {};
-%		\end{tikzpicture}
-%	}
-%		
-%	\onslide<5|handout:0>{
-%		\begin{tikzpicture}[overlay]
-%				\node[draw=SteelBlue, circle, line width=3pt, minimum size=2cm] at (t3) {};
-%		\end{tikzpicture}
-%	}
-%			
-%	\onslide<6|handout:0>{
-%		\begin{tikzpicture}[overlay]
-%				\node[draw=SteelBlue, circle, line width=3pt, minimum size=2cm] at (t4) (g) {};
-%		\end{tikzpicture}
-%	}
-%\end{frame}
-%
-%\begin{frame}[c]{Synthetic Asset: Convergence}
-%\begin{figure}[t!]
-%	\centering
-%	\includegraphics[height=5cm,width=0.8\textwidth]{Images/6_0_single_synthetic_neutral_convergence}
-%\end{figure}
-%\end{frame}
-%
-%
-%\begin{frame}[c]{Synthetic Asset: Backtest Performance}
-%\begin{figure}[t]
-%	\centering
-%	\includegraphics[height=6cm,width=0.8\textwidth]{Images/6_1_single_synthetic_neutral_performance}
-%\end{figure}
-%\end{frame}
-%
-%\begin{frame}[c]{Synthetic Asset: Impact of Transaction Costs}
-%\begin{figure}[t!]
-%	\centering
-%	\includegraphics[height=3cm,width=0.8\textwidth]{Images/6_2_impact_transaction_costs}
-%\end{figure}
-%\begin{figure}[t!]
-%	\centering
-%	\includegraphics[height=3cm,width=0.8\textwidth]{Images/6_3_impact_short_selling_fees}
-%\end{figure}
-%\end{frame}
-%
-%\begin{frame}{Not So Fast}
-%
-%	\onslide<1->{
-%	\begin{columns}
-%	\begin{column}{0.6\textwidth}
-%	   \begin{alertblock}{Insuccess on Historical Data}
-%	   Successfully applying these RL algorithms to historical data is much more challenging
-%	   \begin{enumerate}
-%	   		\item<+(1)-|alert@+(1)> Fail to converge
-%	   		\item<+(1)-|alert@+(1)> The strategies learned are not profitable
-%	   \end{enumerate}
-%	   \end{alertblock}
-%	\end{column}
-%	\begin{column}{0.4\textwidth}
-%	    \begin{center}
-%	     \includegraphics[width=1\textwidth]{Images/8_9_single_hist_neutral_performance}
-%	     \end{center}
-%	\end{column}
-%	\end{columns}
-%	}
-%	
-%	\onslide<2->{	
-%	\begin{block}{Possible Explanations}
-%		\begin{enumerate}
-%			\item<+(1)-|alert@+(1)><2-> \textbf{Low signal-to-noise ratio}: extremely difficult to find tradable patterns in markets
-%			\item<+(1)-|alert@+(1)><3-> \textbf{Quality of data}: unlikely to find patterns in daily prices of liquid stocks
-%			\item<+(1)-|alert@+(1)><4-> \textbf{Weak features}: parametric policy must be powerful enough to capture the signal
-%			\item<+(1)-|alert@+(1)><5-> \textbf{Non-stationarity of financial time-series}: a signal needs to be persistent
-%		\end{enumerate}
-%	\end{block}
-%	}
-
